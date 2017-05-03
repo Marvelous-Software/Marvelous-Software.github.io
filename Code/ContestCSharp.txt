@@ -1,0 +1,31 @@
+    private void CodePuzzle() 
+
+    {
+        const string code = "m[n-Msr0Xn*ca8qiGelL\"7`&;,_*EV{M;[{2bEmg8u!^s*+O37!692{-Y4IS";
+
+        int r;
+        int x;
+        char c;
+        String Answer = string.Empty;
+
+
+        x = (int)Microsoft.VisualBasic.VBMath.Rnd(-7);
+
+        for (r = 0; r < code.Length; r++)
+        {
+
+            x = (int)(Microsoft.VisualBasic.VBMath.Rnd() * 96);
+            c = char.Parse((code.Substring(r, 1)));
+            c = (char)((int)c + x);
+            if (c >= 126)
+            {
+                c = (char)((int)c - 126 + 32);
+            }
+
+            Answer = Answer + c;
+
+        }
+
+        MessageBox.Show(Answer);
+
+    }

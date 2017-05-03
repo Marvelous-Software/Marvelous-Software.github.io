@@ -1,0 +1,36 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('#customer a').click(function(){
+			//alert("3 " + $(this).text());
+			switch ($(this).text()) {
+				case 'Screening':
+					$('#contentParent').load('Graphics/Intuitive/CustomModsScreening.png');
+					break;
+				case '':
+					$('#contentParent').load('Intuitive/CustomMods.html');
+					break;
+			}
+			$('#ERP').load('Intuitive/CustomModsCustomer.html');
+			CustomModsCertificate.html
+			return false;
+		});
+		
+	});
+//--></script>
+
+<div>
+	<div id='customer' class='content'>
+		<br>
+		<a href='Graphics/ERP/Customer1.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/Customer1.png'></a>
+		<p>The modifications I made to the customer card were minor.  Notes were added where users
+		can add anything they needed to.  Customers also required to be <a href='#'>Screened</a> so a task for
+		this was added.  Both tasks can be accomplished by clicking the link on the left or at the bottom
+		of the screen.  If a customer's screening was never done or out of date a red button would appear
+		both informing them of the situation and allowing them to correct it.  The customer is read only if
+		a screening need to be done.  There is also a notes button that appears when a note was entered that
+		brings the user to the notes form.</p>
+		<br>
+		<br>
+	</div>
+</div>

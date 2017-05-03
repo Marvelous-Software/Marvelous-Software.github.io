@@ -1,0 +1,31 @@
+customer - 			notes
+				screening
+				no quote
+vendor - 			notes
+				screening
+item subdomains -		supplemental
+				use class
+purchase order -		added setup and tooling charges
+				required quantity for production or stack
+				ensure the vendor has been screened
+				incorporated phrases
+purchase order recipt -		writes out information to a file that a vb3 app will use to print labels
+sales order subdomains -	export data
+				notes
+				screening
+sales order -			numerous fields were added.  I added an FMS flag and material type.
+				ensure the customer has been screened
+				Only allow certain changes if no export license has been submitted.
+				check item use class
+				incorporated phrases
+				require a certificate selection which none is a valid choice
+				retrive price from quote as a default
+				automatic emials -	Send an e-mail if any key fields have changed for an export order UNLESS a defense article or dual use item was added.  These are handled below.
+							Send an e-mail if a defense article has been added to an export order.
+							Send an e-mail if a dual use item has been added to an export order.
+							Send an e-mail if we have a new Sales Order with Defense article(s).
+							Send an e-mail if we have a new Sales Order with Dual Use item(s).
+Shipment -			end user and customer need to have been screened
+				certificates are printed at the tiome of shipment
+
+Change tracking - History

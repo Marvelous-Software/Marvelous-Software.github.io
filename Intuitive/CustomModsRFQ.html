@@ -1,0 +1,25 @@
+<div>
+	<div class='content'>
+		<br>
+		<a href='Graphics/ERP/RFQERD.png' target='_blank'><img class='imageWrapRight' height=80 width=120 src='Graphics/ERP/RFQERD.png'></a>
+		<p>The existing RFQ card did not meet the business requirements so a custom version was created in Access
+		along with a custom table structure in SQL Server.  Basically its a RFQ header table linked to a RFQ Items table which is linked to
+		both a RFQ ItemQuantity table and a RFQ Vendor table.  The Access form was replaced by a .Net form.  The reports remained in Access
+		until they can be converted to the new Aptean-DevXpress reporting structure.</p>
+		<br>
+		<a href='Graphics/ERP/RFQ.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/RFQ.png'></a>
+		<p>Basic RFQ information gets entered at the top.  The 'Clauses' are the phrases and the double chevron on the left will bring up 
+		the dialog.  The DevXpress grid allows the combining of tables and their children so the RFQ items, item quantities
+		and vendors can all reside in the same grid.  Note the addition of use class and Ex Lic (Export License).</p>
+		<br>
+		<p>The formal tab is used for outward-facing documents as opposed to the worksheet (in the task list on the left).  When I was
+		with the users observing how they used the Access form to see if I can make any improvements I was amazed.  They would print
+		a RFQ then take it to the scanner, scan it to a pdf then attach the pdf to an e-mail to send to the vendor!  I can improve this.
+		I found some VBA code online that would turn an Access report to a pdf.  All the drivers that do this require a file name.
+		The users don't care about this step, and I wanted it to be seamless.  I then created a basic e-mail form with the minimum (sender, subject, body 
+		and attachments) which I would send using SMS.  I could even pull some of the vendors e-mail from the vendor table.  So in the best case all the users 
+		had to do was click "send as e-mail" on the RFQ card, enter any special instructions in the body then click "send."
+		I was proud of that ROI.</p>
+		<br>
+	</div>
+</div>

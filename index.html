@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Marvelous Software</title>
+	<link rel = 'stylesheet' type = 'text/css' href = 'CSS/main.css' />
+	<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('#menu ul li a').click(function(){
+			$('#menu').css('margin-top', '0px');
+			//alert("FROM " + $(this).text());
+			
+			switch ($(this).text()) {
+				case 'About':
+					$('#contentParent').load('About.html');
+					break;
+				case 'Intuitive ERP':
+					$('#contentParent').load('IntuitiveERP.html');
+					break;
+				case 'Software':
+					$('#contentParent').load('Software.html');
+					break;
+				case 'Events':
+					$('#contentParent').load('Events.html');
+					break;
+				case 'Awards':
+					$('#contentParent').load('Awards.html');
+					break;
+			}
+			return false;
+		});
+		
+	});
+//--></script>
+		
+<body>
+<div id='main'>
+	<div id='header'>
+		<div id='logoCompany'>
+			<img class='headerGraphics' src='Graphics\logo smaller.jpg'><img class='headerGraphics' src='Graphics\Marvelous Header3 small.png'>
+		</div>
+	</div>
+	<div id='background' class='floatClear'>
+		<div id='menu' class='first'>
+			<ul>
+				<li id='menuItem'><a id='menuItemLink' href="#">About</a></li>
+				<li id='menuItem'><a id='menuItemLink' href="#">Intuitive ERP</a></li>
+				<li id='menuItem'><a id='menuItemLink' href="#">Software</a></li>
+				<li id='menuItem'><a id='menuItemLink' href="#">Events</a></li>
+				<li id='menuItem'><a id='menuItemLink' href="#">Awards</a></li>
+			</ul>
+		</div>
+		<div id='contentParent' class='floatClear'>
+			<div id='content' style = "text-align: center;">
+				<div id='leftPane'>
+
+				</div>	
+				<div id='rightPane'>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id='footer'>
+		Check me out on <a id='linkedInLink' href="www.linkedin.com/in/programmerjohnmaher">LinkedIn</a>		
+	</div>
+</div>
+</body>
+</html>

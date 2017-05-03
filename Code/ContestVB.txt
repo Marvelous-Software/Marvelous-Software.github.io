@@ -1,0 +1,31 @@
+Option Explicit
+
+Private Sub Main()
+
+    Dim sAnswer As String
+
+    sAnswer = CodePuzzle("m[n-Msr0Xn*ca8qiGeIL""7'&;,_*EV{M;[{2bEmg8u!^s*+O37!692{-Y4IS")
+
+End Sub
+
+Private Function CodePuzzle(sList As String) As String
+
+    Dim r As Integer
+    Dim x As Integer
+    Dim c As Integer
+
+
+    x = Int(Rnd(-7))
+
+    For r = 1 To Len(sList)
+
+        x = Int(Rnd() * 96)
+        c = Asc(Mid(sList, r, 1))
+        c = c + x
+        If c >= 126 Then c = c - 126 + 32
+
+    CodePuzzle = CodePuzzle & Chr$(c)
+
+    Next
+
+End Function

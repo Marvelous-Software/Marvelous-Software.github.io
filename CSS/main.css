@@ -1,0 +1,110 @@
+* {
+	margin: 0px;
+}
+p {
+	text-indent: 50px;
+	/*display: inline-block;*/
+	/*margin: 1em 0em 0em 1em;*/
+}
+.floatClear {
+	clear: both;
+}
+.content {
+	color: white;
+	border: 10px solid #023489;
+	background: #023489;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+.headerGraphics {
+	display: inline;
+}
+.hilite {
+	color: yellow;
+}
+a.link:link {
+	color: Turquoise;
+}
+a.link:visited  {
+	color: lightblue;
+}
+a.link:hover {
+	color: cyan;
+}
+.imageWrapRight {
+	border: 10px solid #023489;
+	float: right;
+}
+.imageWrapLeft {
+	border: 10px solid #023489;
+	float: left;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 103px;
+	background: #023489;
+	text-align: center;
+}
+#logoCompany {
+	display: inline;
+}
+#linkedInLink {
+	color: white;
+}
+#menu {
+	margin: 0 auto;
+	padding: 20px 0 0 20px;
+	height: 100px;
+	margin-top: 200px;
+	width: 760px;
+}
+#menuItem {
+	display: inline;
+	margin: 10px 5px 5px 10px;
+}
+#menuItemLink {
+	background-color: darkblue;
+	color: white;
+	padding: 15px 20px 20px 15px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#background {
+	position: fixed;
+	height: calc(100% - 143px);
+	width: 100%;
+	overflow-Y: auto;
+	margin: 103px 0;
+	background: url('../Graphics/background.jpg') center center no-repeat;
+	background-position: fixed;
+	background-size: cover;
+}
+#leftPane { 
+	float: left;
+	height: 50%;
+	margin: 100px 0 0 10%;
+	opacity: .5;
+	width: 40%; 
+}
+#rightPane { 
+	float: right;
+	margin: 100px 10% 0 0;
+	opacity: .5;
+	width: 40%; 
+}
+#footer {
+	color: white;
+	/*background: #084B8A;*/
+	background: linear-gradient(to right, #0B2161, #045FB4);
+	font-weight: bold;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}	

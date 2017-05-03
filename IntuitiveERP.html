@@ -1,0 +1,107 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('#ERP ul li a').click(function(){
+			//alert("2 " + $(this).text());
+			switch ($(this).text()) {
+				case 'Certificate':
+					$('#contentParent').load('Intuitive/CustomModsCertificate.html');
+					break;
+				case 'Customer Card':
+					$('#contentParent').load('Intuitive/CustomModsCustomer.html');
+					break;
+				case 'Email':
+					$('#contentParent').load('Intuitive/CustomModsEmail.html');
+					break;
+				case 'Item Card':
+					$('#contentParent').load('Intuitive/CustomModsItem.html');
+					break;
+				case 'Notes':
+					$('#contentParent').load('Intuitive/CustomModsNotes.html');
+					break;
+				case 'Phrases':
+					$('#contentParent').load('Intuitive/CustomModsPhrases.html');
+					break;
+				case 'Purchase Order':
+					$('#contentParent').load('Intuitive/CustomModsPurchaseOrder.html');
+					break;
+				case 'Purchase Order Receipt':
+					$('#contentParent').load('Intuitive/CustomModsPurchaseOrderReceipt.html');
+					break;
+				case 'RFQ Card':
+					$('#contentParent').load('Intuitive/CustomModsRFQ.html');
+					break;
+				case 'Sales Order':
+					$('#contentParent').load('Intuitive/CustomModsSalesOrder.html');
+					break;
+				case 'Screening':
+					$('#contentParent').load('Intuitive/CustomModsScreening.html');
+					break;
+				case 'Shipment':
+					$('#contentParent').load('Intuitive/CustomModsShipment.html');
+					break;
+				case '':
+					$('#contentParent').load('Intuitive/CustomMods.html');
+					break;
+				case '':
+					$('#contentParent').load('Intuitive/CustomMods.html');
+					break;
+				case '':
+					$('#contentParent').load('Intuitive/CustomMods.html');
+					break;
+				case '':
+					$('#contentParent').load('Intuitive/CustomMods.html');
+					break;
+			}
+			$('#ERP').load('Intuitive/CustomModsCustomer.html');
+			CustomModsCertificate.html
+			return false;
+		});
+		
+	});
+//--></script>
+		
+<div>
+	<div id='ERP' class='content'>
+		<br>
+		<p>Intuitive ERP is a software package that was developed by Intuitive.  It was then sold 
+		to Corsona who then sold it to <a class='link' href='http://www.aptean.com/products/intuitive-erp' target='_blank'>Aptean</a> which is the current owner.</p>
+		<p>I used this software for a company that made helicopter parts.  An interesting concept about this software is most all the business objects and forms are inheritable.  So
+		if you have a business requirement not addressed with the system all you need to do is inherit the
+		appropriate object and add your changes.  Not all functions are designed to be overridden though and if you
+		replace a function you run the risk of not getting updates when a hot fix (patch) is released.</p>
+		<br>
+		<p>I created a <a class='link' href='http://intuitive.myfreeforum.org/' target='_blank'>forum</a> to try to get any developers working on this 
+		software together to share code although I didn't get a large response.</p>
+		<br>
+		Some of the Intuitive forms that I have modified.
+		<ul>
+			<li><a class='link' href='#'>Customer Card</a>
+			<li><a class='link' href='#'>Item Card</a>
+			<li><a class='link' href='#'>Purchase Order</a>
+			<li><a class='link' href='#'>Purchase Order Receipt</a>
+			<li><a class='link' href='#'>Sales Order</a>
+			<li><a class='link' href='#'>Shipment</a>
+			<li><a class='link' href='#'>Shop Data Maintenance</a>
+			<li><a class='link' href='#'>Vendor Card</a>
+		</ul>
+		<br>
+		These forms I converted from Access forms.
+		<ul>
+			<li><a class='link' href='#'>Email</a>
+			<li><a class='link' href='#'>Phrases</a>
+			<li><a class='link' href='#'>RFQ Card</a>
+			<li><a class='link' href='#'>Screening</a>
+			<li><a class='link' href='#'>Stock Reports</a>
+		</ul>
+		<br>
+		Custom forms that I created myself.
+		<ul>
+			<li><a class='link' href='#'>Certificate</a>
+			<li><a class='link' href='#'>Notes</a>
+			<li><a class='link' href='#'>RFQ Index / Viewing</a>
+			<li><a class='link' href='#'>Supplier / Manufacturer</a>
+		</ul>
+		<br>
+	</div>
+</div>
