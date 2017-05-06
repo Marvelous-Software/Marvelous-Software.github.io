@@ -55,11 +55,17 @@ a.link:hover {
 #linkedInLink {
 	color: white;
 }
+#spacer {
+/*	border: 5px solid red;
+	display: none;*/
+	height: 200px;
+	width: 100%;
+}
 #menu {
 	margin: 0 auto;
 	padding: 20px 0 0 20px;
 	height: 100px;
-	margin-top: 200px;
+	/*margin-top: 200px;*/
 	width: 760px;
 }
 #menuItem {

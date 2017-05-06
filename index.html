@@ -10,7 +10,8 @@
 	$(document).ready(function(){
 				
 		$('#menu ul li a').click(function(){
-			$('#menu').css('margin-top', '0px');
+			//$('#menu').css('margin-top', '0px');
+			$('#spacer').slideUp('slow');
 			//alert("FROM " + $(this).text());
 			
 			switch ($(this).text()) {
@@ -44,6 +45,9 @@
 		</div>
 	</div>
 	<div id='background' class='floatClear'>
+		<div id='spacer'>
+		test
+		</div>
 		<div id='menu' class='first'>
 			<ul>
 				<li id='menuItem'><a id='menuItemLink' href="#">About</a></li>
