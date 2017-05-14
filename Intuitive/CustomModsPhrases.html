@@ -1,5 +1,17 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('.back').click(function(){
+			$('#contentParent').load('IntuitiveERP.html');
+			return false;
+		});
+		
+	});
+//--></script>
+
 <div>
 	<div class='content'>
+		<img class='back' src='Graphics/Back.png'>
 		<br>
 		<a href='Graphics/ERP/POLines and phrases.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/POLines and phrases.png'></a>
 		<p>The phaases are just some commonly entered text which can be shared between the Purchase Order, Quote, RFQ and Sales Order.

@@ -1,5 +1,17 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('.back').click(function(){
+			$('#contentParent').load('IntuitiveERP.html');
+			return false;
+		});
+		
+	});
+//--></script>
+
 <div id='main'>
 	<div class='content'>
+		<img class='back' src='Graphics/Back.png'>
 		<br>
 		<a href='Graphics/ERP/CertificatePreview.png' target='_blank'><img class='imageWrapLeft' height=150 width=105 src='Graphics/ERP/CertificatePreview.png'></a>
 		<p>Some customers required certificates for the parts we made.  This was an Access report that needed to be moved to .Net

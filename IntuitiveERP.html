@@ -1,6 +1,11 @@
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
 				
+		$('.back').click(function(){
+			ResetToHome();
+			return false;
+		});
+				
 		$('#ERP ul li a').click(function(){
 			//alert("2 " + $(this).text());
 			switch ($(this).text()) {
@@ -53,8 +58,6 @@
 					$('#contentParent').load('Intuitive/CustomMods.html');
 					break;
 			}
-			$('#ERP').load('Intuitive/CustomModsCustomer.html');
-			CustomModsCertificate.html
 			return false;
 		});
 		
@@ -63,6 +66,7 @@
 		
 <div>
 	<div id='ERP' class='content'>
+		<img class='back' src='Graphics/Back.png'>
 		<br>
 		<p>Intuitive ERP is a software package that was developed by Intuitive.  It was then sold 
 		to Corsona who then sold it to <a class='link' href='http://www.aptean.com/products/intuitive-erp' target='_blank'>Aptean</a> which is the current owner.</p>

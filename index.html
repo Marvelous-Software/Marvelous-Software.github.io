@@ -2,15 +2,18 @@
 <html>
 <head>
 	<title>Marvelous Software</title>
-	<link rel = 'stylesheet' type = 'text/css' href = 'CSS/main.css' />
-	<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel='stylesheet' type='text/css' href='CSS/main.css'/>
+	<script type="text/javascript" charset="utf-8" src='https://code.jquery.com/jquery-latest.min.js'></script>
+	<script type="text/javascript" src='js/common.js'></script>
+</script>
+
 </head>
 
 <script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
 				
 		$('#menu ul li a').click(function(){
-			$('#menu').css('margin-top', '0px');
+			$('#spacer').slideUp('slow');
 			//alert("FROM " + $(this).text());
 			
 			switch ($(this).text()) {
@@ -44,6 +47,8 @@
 		</div>
 	</div>
 	<div id='background' class='floatClear'>
+		<div id='spacer'>
+		</div>
 		<div id='menu' class='first'>
 			<ul>
 				<li id='menuItem'><a id='menuItemLink' href="#">About</a></li>
@@ -65,7 +70,7 @@
 		</div>
 	</div>
 	<div id='footer'>
-		Check me out on <a id='linkedInLink' href="www.linkedin.com/in/programmerjohnmaher">LinkedIn</a>		
+		Check me out on <a id='linkedInLink' href='https://www.linkedin.com/in/programmerjohnmaher'>LinkedIn</a>		
 	</div>
 </div>
 </body>

@@ -1,5 +1,17 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('.back').click(function(){
+			$('#contentParent').load('IntuitiveERP.html');
+			return false;
+		});
+		
+	});
+//--></script>
+
 <div>
 	<div class='content'>
+		<img class='back' src='Graphics/Back.png'>
 		<br>
 		<a href='Graphics/ERP/POReciept.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/POReciept.png'></a>
 		<p>This was a very simple mod to the form.  We just needed to add a counted by field. Behind the scenes there is a label printing function.

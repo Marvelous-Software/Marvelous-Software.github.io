@@ -1,5 +1,17 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('.back').click(function(){
+			$('#contentParent').load('IntuitiveERP.html');
+			return false;
+		});
+		
+	});
+//--></script>
+
 <div>
 	<div class='content'>
+		<img class='back' src='Graphics/Back.png'>
 		<br>
 		<a href='Graphics/ERP/Item.png' target='_blank'><img class='imageWrapRight' height=80 width=120 src='Graphics/ERP/Item.png'></a>
 		<p>The item card had extra fields added from a supplemental Item table.  It also had the use class information which
