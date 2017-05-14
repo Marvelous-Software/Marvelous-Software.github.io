@@ -13,16 +13,19 @@
 	<div id='customer' class='content'>
 		<img class='back' src='Graphics/Back.png'>
 		<br>
-		<a href='Graphics/ERP/Customer1.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/Customer1.png'></a>
-		<p>The modifications I made to the customer card were minor.  Notes were added where users
-		can add anything they needed to.  Customers also required to be so a task for
-		<!--can add anything they needed to.  Customers also required to be <a href='#'>Screened</a> so a task for-->
+		<a href='Graphics/ERP/Vendor.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/Vendor.png'></a>
+		<p>The modifications I made to the vendor card were minor.  Notes were added where users
+		can add anything they needed to.  Customers also required to be screened so a task for
 		this was added.  Both tasks can be accomplished by clicking the link on the left or at the bottom
-		of the screen.  If a customer's screening was never done or out of date a red button would appear
-		both informing them of the situation and allowing them to correct it.  The customer is read only if
-		a screening need to be done.  There is also a notes button that appears when a note was entered that
+		of the screen.  If a vendor's screening was never done or out of date a red button would appear
+		both informing the user of the situation and allowing them to correct it.  The customer is read only if
+		a screening needs to be done.  There is also a notes button that appears when a note was entered that
 		brings the user to the notes form.</p>
 		<br>
+		<p>Interesting fact is that the vendor and customer both used different bining objects in 8.5.  When I updated the 
+		customer card it used the imsAppObjectComponent.  This made it impossible to use the same code in the vendor card,
+		which used the newer imsAOBinder due to a different event structure.  The good news is the customer card has been updated 
+		with the new binder in 8.6.
 		<br>
 	</div>
 </div>
