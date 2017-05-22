@@ -1,0 +1,27 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('.back').click(function(){
+			$('#contentParent').load('IntuitiveERP.html');
+			return false;
+		});
+		
+	});
+//--></script>
+
+<div>
+	<div class='content'>
+		<img class='back' src='Graphics/Back.png'>
+		<br>
+		<a href='Graphics/ERP/ShopDataMaint.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/ShopDataMaint.png'></a>
+		<p>A simple, yet significant change was needed for the shop data maintenance.  Since the U.S. Army is a customer, their
+		regulations require periodic inspections.  During one such inspection they became concerned when an employee enters their
+		hours for a work order.  Since the computers in the shop are shared, different employees can use the same ERP login.  This
+		gave the possibility of an employee entering hours for someone else.  We never had that problem, however the army wished
+		to eliminate the possibility of that happening to ensurre accountability.  So a password field was added to the employee
+		card and when the user selects an employee to log hours for (always themselves) a password dialog appears and will not
+		let the user procede until they enter their password.</p>
+		<br>
+		<br>
+	</div>
+</div>
