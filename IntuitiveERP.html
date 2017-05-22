@@ -48,6 +48,12 @@
 				case 'Shop Data Maintenance':
 					$('#contentParent').load('Intuitive/CustomModsShopdataMaintenance.html');
 					break;
+				case 'Stock Reports':
+					$('#contentParent').load('Intuitive/CustomModsStockReports.html.html');
+					break;
+				case '':
+					$('#contentParent').load('Intuitive/CustomMods.html');
+					break;
 				case '':
 					$('#contentParent').load('Intuitive/CustomMods.html');
 					break;
@@ -55,7 +61,6 @@
 					$('#contentParent').load('Intuitive/CustomMods.html');
 					break;
 				case 'Vendor Card':
-					alert("V");
 					$('#contentParent').load('Intuitive/CustomModsVendor.html');
 					break;
 			}
@@ -67,10 +72,10 @@
 		
 <div>
 	<div id='ERP' class='content'>
-		<img class='back' src='Graphics/Back.png'>
+		<img class='back' src='Graphics/Back.png'> by Intuitive.  It was then sold 
+		to Corsona who then sold it 
 		<br>
-		<p>Intuitive ERP is a software package that was developed by Intuitive.  It was then sold 
-		to Corsona who then sold it to <a class='link' href='http://www.aptean.com/products/intuitive-erp' target='_blank'>Aptean</a> which is the current owner.</p>
+		<p>Intuitive ERP is a software package that was developedto <a class='link' href='http://www.aptean.com/products/intuitive-erp' target='_blank'>Aptean</a> which is the current owner.</p>
 		<p>I used this software for a company that made helicopter parts.  An interesting concept about this software is most all the business objects and forms are inheritable.  So
 		if you have a business requirement not addressed with the system all you need to do is inherit the
 		appropriate object and add your changes.  Not all functions are designed to be overridden though and if you

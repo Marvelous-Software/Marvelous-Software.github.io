@@ -1,0 +1,23 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('.back').click(function(){
+			$('#contentParent').load('IntuitiveERP.html');
+			return false;
+		});
+		
+	});
+//--></script>
+
+<div>
+	<div id='customer' class='content'>
+		<img class='back' src='Graphics/Back.png'>
+		<br>		
+		<a href='Graphics/ERP/StockToExcel.png' target='_blank'><img class='imageWrapRight' height=80 width=120 src='Graphics/ERP/StockToExcel.png'></a>
+		<p>These were all Access reports.  Some of them were very complex.  There was a query a couple of dozen lines long.
+		Another one would execute a query, loop through it and issue other queries.   All of them populated a table which the reports
+		pulled from.  I never figured out what they were doing but was able to convert them to stored procedures.  I could then
+		put the results in a grid with the capability to export to an Excel file.  Once the data was confirmed correct I was done.</p>
+		<br>
+	</div>
+</div>
