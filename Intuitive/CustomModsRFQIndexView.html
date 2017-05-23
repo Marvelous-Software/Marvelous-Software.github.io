@@ -1,0 +1,39 @@
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+				
+		$('.back').click(function(){
+			$('#contentParent').load('IntuitiveERP.html');
+			return false;
+		});
+		
+	});
+//--></script>
+
+<div>
+	<div class='content'>
+		<img class='back' src='Graphics/Back.png'>
+		<br>
+		<p>We had a stand-alone VB app that we could use to manage (index and view) RFQs received from the vendor.
+		When I was asked to convert it to .Net I decided to incorporate it into the ERP application.  This avoided referencing
+		the same tables and fields in two different applications.  In the ERP system I created constants for any database table
+		or field I needed to reference.  This means I can rename a field or table in the database and only one place needs
+		to be changed in the code.  Also putting thius functionality in the ERP application means I can use their data manager
+		so some SQL I would not have to write.</p>
+		<br>
+		<a href='Graphics/ERP/RFQIndex.png' target='_blank'><img class='imageWrapLeft' height=80 width=120 src='Graphics/ERP/RFQIndex.png'></a>
+		<p>What they would do is scan in the vendor replies.  Often times they would print out e-mail responses from the vendors so they
+		can scan them in.  They wanted to keep a hard copy for their records.  I wanted to keep it digital but old habits die hard.
+		So, keeping with their current system, after they would scan in the replies to a staging directory I could display the files in a grid.
+		When a grid line was selected I would display the image.  Then the user can go through the tedious process of manually entering
+		the information and save (Accept).  There are better ways to do it IMHO.</p>
+		<br class='floatClear'>
+		<br>
+		<br class='floatClear'>
+		<a href='Graphics/ERP/RFQView.png' target='_blank'><img class='imageWrapRight' height=80 width=120 src='Graphics/ERP/RFQView.png'></a>
+		<p>Viewing the replies was much more straight forward.  A filter existed to look them up by Item, RFQ, Vendor or date range.
+		Once the desired filters are applied the user can look through the results uin a grid.  Selecting an item in the grid displays it on 
+		the screen.  An option was added to allow printing.</p>
+		<br class='floatClear'>
+		<br>
+	</div>
+</div>
