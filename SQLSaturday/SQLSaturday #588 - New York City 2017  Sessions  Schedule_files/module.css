@@ -1,0 +1,147 @@
+.form-horizontal {
+	list-style: none; padding-left: 0px; margin-left: 0px;
+}
+.form-control-static {
+	margin-top: 0px;
+}
+.form-group p {
+	line-height: inherit;
+}
+.btn-download {
+	background: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.pass-session-scheduler {
+	margin: 20px 0px;
+}
+.session-schedule {
+	margin: 15px 0px; table-layout: fixed;
+}
+.session-schedule td {
+	padding: 10px; font-size: 12px; vertical-align: top;
+}
+.session-schedule-cell {
+	width: 130px; text-align: left; -ms-word-wrap: break-word;
+}
+.session-schedule-cell-info > a {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.session-schedule-cell-info > a:hover {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.session-schedule .nosession {
+	background: url("http://sqlpass.org/resources/shared/images/tx_diag.png") rgb(219, 217, 218);
+}
+.session-schedule-edit td {
+	text-align: center;
+}
+.session-schedule-heading {
+	margin-top: 50px;
+}
+table.asp-radio-list {
+	margin: 7px 0px;
+}
+.date-picker-icon {
+	top: 8px; right: 24px; position: absolute;
+}
+.form-control-inline {
+	width: auto !important; display: inline !important;
+}
+.asp-radio-list input + label {
+	margin-left: 5px;
+}
+@media screen and (max-width:767px)
+{
+.pass-session-scheduler .btn {
+	margin-top: 5px; margin-bottom: 10px;
+}
+.pass-session-scheduler [class*='col-xs-'] .btn {
+	margin-top: 0px;
+}
+}
+@media screen and (min-width:992px)
+{
+.container-onpage {
+	width: 992px;
+}
+}
+.table-responsive {
+	-ms-overflow-x: auto; min-height: 0.01%;
+}
+@media screen and (max-width:767px)
+{
+.table-responsive {
+	border: 1px solid rgb(221, 221, 221); border-image: none; width: 100%; margin-bottom: 15px; -ms-overflow-y: hidden; -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.table-responsive > .table {
+	margin-bottom: 0px;
+}
+.table-responsive > .table > thead > tr > th {
+	white-space: nowrap;
+}
+.table-responsive > .table > tbody > tr > th {
+	white-space: nowrap;
+}
+.table-responsive > .table > tfoot > tr > th {
+	white-space: nowrap;
+}
+.table-responsive > .table > thead > tr > td {
+	white-space: nowrap;
+}
+.table-responsive > .table > tbody > tr > td {
+	white-space: nowrap;
+}
+.table-responsive > .table > tfoot > tr > td {
+	white-space: nowrap;
+}
+.table-responsive > .table-bordered {
+	border: 0px currentColor; border-image: none;
+}
+.table-responsive > .table-bordered > thead > tr > th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.table-responsive > .table-bordered > tbody > tr > th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.table-responsive > .table-bordered > tfoot > tr > th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.table-responsive > .table-bordered > thead > tr > td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.table-responsive > .table-bordered > tbody > tr > td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.table-responsive > .table-bordered > tfoot > tr > td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.table-responsive > .table-bordered > thead > tr > th:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.table-responsive > .table-bordered > tbody > tr > th:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.table-responsive > .table-bordered > tfoot > tr > th:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.table-responsive > .table-bordered > thead > tr > td:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.table-responsive > .table-bordered > tbody > tr > td:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.table-responsive > .table-bordered > tfoot > tr > td:last-child {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.table-responsive > .table-bordered > tbody > tr:last-child > th {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.table-responsive > .table-bordered > tfoot > tr:last-child > th {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.table-responsive > .table-bordered > tbody > tr:last-child > td {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.table-responsive > .table-bordered > tfoot > tr:last-child > td {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+}

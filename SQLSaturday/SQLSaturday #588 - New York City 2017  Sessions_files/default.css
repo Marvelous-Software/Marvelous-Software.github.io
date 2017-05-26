@@ -1,0 +1,2565 @@
+html {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+body {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+div {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+span {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+applet {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+object {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+iframe {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h1 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h2 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h3 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h4 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h5 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+h6 {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+p {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+blockquote {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+pre {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+a {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+abbr {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+acronym {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+address {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+big {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+cite {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+code {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+del {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dfn {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+em {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+img {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ins {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+kbd {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+q {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+s {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+samp {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+small {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+strike {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+strong {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+sub {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+sup {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+tt {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+var {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+b {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+u {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+i {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+center {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dl {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dt {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+dd {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ol {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ul {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+li {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+fieldset {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+form {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+label {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+legend {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+caption {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+article {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+aside {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+canvas {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+details {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+embed {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+figure {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+figcaption {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+footer {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+header {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+hgroup {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+menu {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+nav {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+output {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+ruby {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+section {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+summary {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+time {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+mark {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+audio {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+video {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; vertical-align: baseline; font-size-adjust: inherit; font-stretch: inherit;
+}
+article {
+	display: block;
+}
+aside {
+	display: block;
+}
+details {
+	display: block;
+}
+figcaption {
+	display: block;
+}
+figure {
+	display: block;
+}
+footer {
+	display: block;
+}
+header {
+	display: block;
+}
+hgroup {
+	display: block;
+}
+menu {
+	display: block;
+}
+nav {
+	display: block;
+}
+section {
+	display: block;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+q {
+	quotes: none;
+}
+blockquote::before {
+	content: none;
+}
+blockquote::after {
+	content: none;
+}
+q::before {
+	content: none;
+}
+q::after {
+	content: none;
+}
+html {
+	color: rgb(34, 34, 34);
+}
+button {
+	color: rgb(34, 34, 34);
+}
+input {
+	color: rgb(34, 34, 34);
+}
+select {
+	color: rgb(34, 34, 34);
+}
+textarea {
+	color: rgb(34, 34, 34);
+}
+::selection {
+	background: rgba(2, 139, 255, 1); color: rgb(255, 255, 255); text-shadow: none;
+}
+pre {
+	white-space: pre-wrap; -ms-word-wrap: break-word;
+}
+sub {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+body {
+	color: rgb(68, 68, 68); line-height: 18px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
+}
+h1 {
+	color: rgb(51, 51, 51); font-weight: bold; display: block;
+}
+h2 {
+	color: rgb(51, 51, 51); font-weight: bold; display: block;
+}
+h3 {
+	color: rgb(51, 51, 51); font-weight: bold; display: block;
+}
+h4 {
+	color: rgb(51, 51, 51); font-weight: bold; display: block;
+}
+h5 {
+	color: rgb(51, 51, 51); font-weight: bold; display: block;
+}
+h6 {
+	color: rgb(51, 51, 51); font-weight: bold; display: block;
+}
+h1 a {
+	font-weight: inherit;
+}
+h2 a {
+	font-weight: inherit;
+}
+h3 a {
+	font-weight: inherit;
+}
+h4 a {
+	font-weight: inherit;
+}
+h5 a {
+	font-weight: inherit;
+}
+h6 a {
+	font-weight: inherit;
+}
+h1 {
+	line-height: 54px; letter-spacing: normal; font-size: 38px; margin-top: 8px; margin-bottom: 10px;
+}
+h2 {
+	line-height: 36px; letter-spacing: normal; font-size: 32px; margin-top: 8px; margin-bottom: 10px;
+}
+h3 {
+	line-height: 36px; letter-spacing: normal; font-size: 28px; margin-top: 8px; margin-bottom: 10px;
+}
+h4 {
+	line-height: 36px; letter-spacing: normal; font-size: 22px;
+}
+h5 {
+	line-height: 18px; letter-spacing: normal; font-size: 16px;
+}
+h6 {
+	line-height: 18px; letter-spacing: normal; font-size: 14px;
+}
+.Head {
+	margin-bottom: 6px; display: inline-block;
+}
+td.Head {
+	margin-bottom: 0px; display: table-cell;
+}
+td.SubHead {
+	margin-bottom: 0px; display: table-cell;
+}
+td.SubSubHead {
+	margin-bottom: 0px; display: table-cell;
+}
+input[type='image'] + span.Head {
+	display: inline;
+}
+input[type='image'] + span.SubHead {
+	display: inline;
+}
+p {
+	margin: 0px 0px 18px;
+}
+p img {
+	margin: 0px;
+}
+em {
+	font-style: italic;
+}
+i {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+b {
+	font-weight: bold;
+}
+small {
+	font-size: 80%;
+}
+.Normal {
+	color: rgb(68, 68, 68); font-weight: normal;
+}
+.NormalDisabled {
+	color: rgb(68, 68, 68); font-weight: normal;
+}
+.NormalDeleted {
+	color: rgb(68, 68, 68); font-weight: normal;
+}
+.NormalDisabled {
+	color: rgb(153, 153, 153);
+}
+.NormalDeleted {
+	color: rgb(153, 153, 153);
+}
+.Help {
+	padding: 2px; border: 1px solid rgb(0, 0, 0); border-image: none; color: rgb(0, 0, 0); font-size: 11px; font-weight: normal; background-color: rgb(255, 255, 153);
+}
+.NormalBold {
+	color: rgb(34, 34, 34); font-weight: bold;
+}
+.NormalRed {
+	color: red; font-weight: bold;
+}
+.NormalDeleted {
+	text-decoration: line-through;
+}
+blockquote {
+	color: rgb(119, 119, 119); line-height: 24px; font-size: 17px; font-style: italic;
+}
+blockquote p {
+	color: rgb(119, 119, 119); line-height: 24px; font-size: 17px; font-style: italic;
+}
+blockquote {
+	margin: 0px 0px 20px; padding: 9px 20px 0px 19px; border-left-color: rgb(221, 221, 221); border-left-width: 1px; border-left-style: solid;
+}
+blockquote cite {
+	color: rgb(85, 85, 85); font-size: 12px; display: block;
+}
+blockquote cite::before {
+	content: "\2014 \0020";
+}
+blockquote cite a {
+	color: rgb(85, 85, 85);
+}
+blockquote cite a:visited {
+	color: rgb(85, 85, 85);
+}
+blockquote cite a:visited {
+	color: rgb(85, 85, 85);
+}
+hr {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(221, 221, 221); margin: 17px 0px; border-image: none; height: 0px; clear: both;
+}
+p a {
+	line-height: inherit;
+}
+p a:visited {
+	line-height: inherit;
+}
+img.dnn-scale-img {
+	height: auto; max-width: 100%;
+}
+img {
+	border: 0px currentColor; border-image: none; vertical-align: middle; -ms-interpolation-mode: bicubic;
+}
+#dnn_dnnLOGO_imgLogo {
+	border: 0px currentColor; border-image: none;
+}
+ul {
+	margin-bottom: 18px; margin-left: 18px;
+}
+ol {
+	margin-bottom: 18px; margin-left: 18px;
+}
+ul {
+	list-style: square;
+}
+ol {
+	list-style: decimal;
+}
+ul ul {
+	margin-bottom: 0px; margin-left: 18px;
+}
+ul ol {
+	margin-bottom: 0px; margin-left: 18px;
+}
+ol ol {
+	margin-bottom: 0px; margin-left: 18px;
+}
+ol ul {
+	margin-bottom: 0px; margin-left: 18px;
+}
+ol ol {
+	list-style: lower-roman;
+}
+li p {
+	line-height: 18px;
+}
+.dnnFormMessage {
+	background: rgba(2, 139, 255, 0.15); padding: 17px 18px; border-radius: 3px; border: 1px solid rgba(2, 139, 255, 0.2); border-image: none; margin-bottom: 18px; display: block; max-width: 980px; -webkit-border-radius: 3px;
+}
+.dnnFormError.dnnFormMessage {
+	border-color: rgba(255, 0, 0, 0.2); background-color: rgba(255, 0, 0, 0.15);
+}
+.dnnFormValidationSummary.dnnFormMessage {
+	border-color: rgba(255, 0, 0, 0.2); background-color: rgba(255, 0, 0, 0.15);
+}
+.dnnFormWarning.dnnFormMessage {
+	border-color: rgb(205, 178, 31); background-color: rgba(255, 255, 0, 0.15);
+}
+.dnnFormSuccess.dnnFormMessage {
+	border-color: rgba(0, 255, 0, 0.5); background-color: rgba(0, 255, 0, 0.15);
+}
+.dnnTableHeader {
+	background: 0px 0px rgb(227, 227, 229); padding: 15px; display: block;
+}
+.dnnTableHeader a {
+	margin: 0px;
+}
+.dnnTableHeader input {
+	margin: 0px;
+}
+.dnnTableHeader select {
+	margin: 0px;
+}
+.dnnTableDisplay {
+	border-width: 1px 1px 0px 0px; border-style: solid solid none none; border-color: rgb(209, 209, 209) rgb(209, 209, 209) currentColor currentColor; border-image: none; margin-bottom: 18px;
+}
+.dnnTableDisplay td {
+	padding: 5px 9px; border-bottom-color: rgb(209, 209, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dnnTableDisplay th {
+	padding: 5px 9px; border-bottom-color: rgb(209, 209, 209); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dnnTableDisplay th {
+	padding: 0px; border-left-color: rgb(209, 209, 209); border-left-width: 1px; border-left-style: solid; box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.9); -webkit-box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.9);
+}
+.dnnTableDisplay th > span {
+	padding: 5px 9px; display: block;
+}
+.dnnTableDisplay th > a {
+	padding: 5px 9px; display: block;
+}
+.dnnTableDisplay td:first-child {
+	border-left-color: rgb(207, 207, 207); border-left-width: 1px; border-left-style: solid;
+}
+.dnnTableDisplay label {
+	padding-left: 5px; display: inline;
+}
+.dnnTableDisplay caption {
+	display: none;
+}
+.dnnTableDisplay th {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); text-align: left; color: rgb(51, 51, 51); text-shadow: 1px 1px 0px rgba(255,255,255,0.8);
+}
+.dnnTableDisplay th a {
+	color: rgb(51, 51, 51); font-weight: normal; text-decoration: none;
+}
+.dnnTableDisplay th label {
+	color: rgb(51, 51, 51); font-weight: normal; text-decoration: none;
+}
+.dnnTableDisplay th a {
+	padding: 8px 9px;
+}
+.dnnTableDisplay th a:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(51, 51, 51);
+}
+.dnnTableDisplay th a:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 2px 3px 0px rgba(0,0,0,0.3); -webkit-box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.dnnTableDisplay tr:nth-child(2n) td {
+	background: rgba(0, 0, 0, 0.04);
+}
+.dnnTableDisplay tr:hover td {
+	background: rgba(2, 139, 255, 0.15);
+}
+.dnnTableDisplay tfoot tr:hover td {
+	background: none;
+}
+.dnnTableFilter {
+	background: rgba(0, 0, 0, 0.04); margin-bottom: 18px;
+}
+.dnnTableFilter .dnnTableDisplay {
+	margin-bottom: 0px;
+}
+.dnnFilterSet {
+	padding: 18px;
+}
+.dnnFilterSet label {
+	display: inline-block;
+}
+.dnnFilterSet input {
+	margin: 0px 5px; display: inline-block;
+}
+.dnnFilterSet select {
+	margin: 0px 5px; display: inline-block;
+}
+.verticalFilter .dnnFilterSet {
+	padding: 2% 18px; width: 20%; float: left;
+}
+.verticalFilter .dnnTableDisplay {
+	width: 75%; float: right;
+}
+.verticalFilter input[type=search] {
+	margin: 0px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.verticalFilter select {
+	margin: 0px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.verticalFilter input[type=text] {
+	margin: 0px; width: 100%; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.dnnResults {
+	margin-bottom: 0px; float: left;
+}
+.dnnPagination {
+	margin: 0px; padding: 0px; float: right;
+}
+.dnnPagination li {
+	list-style: none; float: left;
+}
+.dnnPagination li a {
+	padding: 0px 5px; color: rgb(51, 51, 51); text-decoration: none; display: inline-block;
+}
+.dnnPagination li span {
+	padding: 0px 5px; color: rgb(51, 51, 51); text-decoration: none; display: inline-block;
+}
+.dnnPagination li a:hover {
+	color: rgb(34, 34, 34); text-decoration: underline;
+}
+.dnnPagination li span {
+	color: rgb(34, 34, 34); text-decoration: underline;
+}
+.dnnFormItem input[type='text'] {
+	background: rgb(255, 255, 255); padding: 8px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(51, 51, 51); font-size: 12px; margin-bottom: 18px; box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.1); -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8), inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.dnnFormItem select {
+	background: rgb(255, 255, 255); padding: 8px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(51, 51, 51); font-size: 12px; margin-bottom: 18px; box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.1); -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8), inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.dnnFormItem textarea {
+	background: rgb(255, 255, 255); padding: 8px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(51, 51, 51); font-size: 12px; margin-bottom: 18px; box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.1); -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8), inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.dnnFormItem input[type='email'] {
+	background: rgb(255, 255, 255); padding: 8px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(51, 51, 51); font-size: 12px; margin-bottom: 18px; box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.1); -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8), inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.dnnFormItem input[type='search'] {
+	background: rgb(255, 255, 255); padding: 8px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(51, 51, 51); font-size: 12px; margin-bottom: 18px; box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.1); -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8), inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.dnnFormItem input[type='password'] {
+	background: rgb(255, 255, 255); padding: 8px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(51, 51, 51); font-size: 12px; margin-bottom: 18px; box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.1); -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8), inset 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.dnnFormItem input.aspNetDisabled {
+	background: rgb(235, 235, 235); border-width: 1px; border-color: rgb(167, 167, 167); box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.dnnFormItem textarea.aspNetDisabled {
+	background: rgb(235, 235, 235); border-width: 1px; border-color: rgb(167, 167, 167); box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.aspNetDisabled {
+	color: rgb(204, 204, 204); text-decoration: none; cursor: not-allowed;
+}
+a.aspNetDisabled {
+	color: rgb(204, 204, 204); text-decoration: none; cursor: not-allowed;
+}
+.dnnDisabled {
+	color: rgb(204, 204, 204); text-decoration: none; cursor: not-allowed;
+}
+a.dnnDisabled {
+	color: rgb(204, 204, 204); text-decoration: none; cursor: not-allowed;
+}
+.dnnFormItem input[type='text']:active {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem input[type='text']:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem input[type='password']:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem input[type='password']:active {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem input[type='email']:active {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem input[type='email']:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem select:active {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem select:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem textarea:active {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem textarea:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem input[type='search']:active {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.dnnFormItem input[type='search']:focus {
+	background: rgb(255, 255, 255); border: 1px solid rgba(2, 139, 255, 0.5); border-image: none; color: rgb(51, 51, 51); box-shadow: 0px 0px 3px 0px rgba(2,139,255,0.4); -webkit-box-shadow: 0px 0px 3px 0px rgba(2, 139, 255, 0.4);
+}
+.required label::after {
+	background: rgba(0, 0, 0, 0.03); padding: 1px 9px; border-radius: 3px; border: 1px solid rgba(0, 0, 0, 0.1); border-image: none; color: rgb(119, 119, 119); font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 11px; font-style: italic; font-weight: normal; margin-top: -2px; margin-left: 9px; display: inline-block; content: "Required"; -webkit-border-radius: 3px;
+}
+legend.required::after {
+	background: rgba(0, 0, 0, 0.03); padding: 1px 9px; border-radius: 3px; border: 1px solid rgba(0, 0, 0, 0.1); border-image: none; color: rgb(119, 119, 119); font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 11px; font-style: italic; font-weight: normal; margin-top: -2px; margin-left: 9px; display: inline-block; content: "Required"; -webkit-border-radius: 3px;
+}
+.error label {
+	color: rgba(255, 0, 0, 0.9);
+}
+legend.error {
+	color: rgba(255, 0, 0, 0.9);
+}
+.error input[type='text'] {
+	border: 1px solid rgba(255, 0, 0, 0.6); border-image: none; color: rgba(255, 0, 0, 0.7);
+}
+.error select {
+	border: 1px solid rgba(255, 0, 0, 0.6); border-image: none; color: rgba(255, 0, 0, 0.7);
+}
+.error textarea {
+	border: 1px solid rgba(255, 0, 0, 0.6); border-image: none; color: rgba(255, 0, 0, 0.7);
+}
+.error input[type='email'] {
+	border: 1px solid rgba(255, 0, 0, 0.6); border-image: none; color: rgba(255, 0, 0, 0.7);
+}
+.error input[type='search'] {
+	border: 1px solid rgba(255, 0, 0, 0.6); border-image: none; color: rgba(255, 0, 0, 0.7);
+}
+.dnnFormItem button {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnFormItem input[type='button'] {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnFormItem input[type='reset'] {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnFormItem input[type='submit'] {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnPrimaryAction {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnSecondaryAction {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnTertiaryAction {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+ul.dnnAdminTabNav li a {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnLogin .LoginTabGroup span {
+	background: rgb(234, 234, 234); padding: 9px; border-radius: 3px; border: 1px solid rgb(194, 194, 194); border-image: none; text-align: center; color: rgb(51, 51, 51); font-weight: bold; text-decoration: none; margin-bottom: 9px; display: inline-block; cursor: pointer; min-width: 75px; -webkit-border-radius: 3px;
+}
+.dnnFormItem button {
+	padding: 6px;
+}
+.dnnFormItem input[type='button'] {
+	padding: 6px;
+}
+.dnnFormItem input[type='reset'] {
+	padding: 6px;
+}
+.dnnFormItem input[type='submit'] {
+	padding: 6px;
+}
+.dnnPrimaryAction {
+	padding: 6px;
+}
+.dnnSecondaryAction {
+	padding: 6px;
+}
+.dnnTertiaryAction {
+	padding: 6px;
+}
+.dnnPrimaryAction {
+	background: rgb(55, 146, 237); border-color: rgb(13, 86, 158); color: rgb(239, 239, 239); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.6), inset 0px 1px 0px 0px rgba(255,255,255,0.4); text-shadow: 0px -1px 0px #185b93; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+}
+.dnnFormItem input[type='submit'] {
+	background: rgb(55, 146, 237); border-color: rgb(13, 86, 158); color: rgb(239, 239, 239); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.6), inset 0px 1px 0px 0px rgba(255,255,255,0.4); text-shadow: 0px -1px 0px #185b93; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+}
+a.dnnPrimaryAction {
+	background: rgb(55, 146, 237); border-color: rgb(13, 86, 158); color: rgb(239, 239, 239); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.6), inset 0px 1px 0px 0px rgba(255,255,255,0.4); text-shadow: 0px -1px 0px #185b93; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+}
+.dnnPrimaryAction:hover {
+	background: rgb(108, 182, 243); border-color: rgb(13, 86, 158); color: rgb(255, 255, 255);
+}
+.dnnFormItem input[type='submit']:hover {
+	background: rgb(108, 182, 243); border-color: rgb(13, 86, 158); color: rgb(255, 255, 255);
+}
+a.dnnPrimaryAction:hover {
+	background: rgb(108, 182, 243); border-color: rgb(13, 86, 158); color: rgb(255, 255, 255);
+}
+.dnnPrimaryAction:active {
+	background: rgb(31, 102, 190); border-color: rgb(13, 86, 158); color: rgb(255, 255, 255); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.dnnFormItem input[type='submit']:active {
+	background: rgb(31, 102, 190); border-color: rgb(13, 86, 158); color: rgb(255, 255, 255); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+a.dnnPrimaryAction:active {
+	background: rgb(31, 102, 190); border-color: rgb(13, 86, 158); color: rgb(255, 255, 255); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+[disabled].dnnPrimaryAction {
+	background: rgb(204, 204, 204) !important; border: currentColor !important; border-image: none !important; color: rgb(170, 170, 170) !important; box-shadow: none !important; text-shadow: none; -webkit-box-shadow: none;
+}
+[disabled].dnnPrimaryAction:hover {
+	background: rgb(204, 204, 204) !important; border: currentColor !important; border-image: none !important; color: rgb(170, 170, 170) !important; box-shadow: none !important; text-shadow: none; -webkit-box-shadow: none;
+}
+[disabled].dnnPrimaryAction:active {
+	background: rgb(204, 204, 204) !important; border: currentColor !important; border-image: none !important; color: rgb(170, 170, 170) !important; box-shadow: none !important; text-shadow: none; -webkit-box-shadow: none;
+}
+.dnnFormItem button {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4), inset 0px 1px 0px 0px rgba(255,255,255,1); text-shadow: 0px 1px 0px #ffffff; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+.dnnFormItem input[type='button'] {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4), inset 0px 1px 0px 0px rgba(255,255,255,1); text-shadow: 0px 1px 0px #ffffff; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+.dnnFormItem input[type='reset'] {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4), inset 0px 1px 0px 0px rgba(255,255,255,1); text-shadow: 0px 1px 0px #ffffff; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+.dnnSecondaryAction {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4), inset 0px 1px 0px 0px rgba(255,255,255,1); text-shadow: 0px 1px 0px #ffffff; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+a.dnnSecondaryAction {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4), inset 0px 1px 0px 0px rgba(255,255,255,1); text-shadow: 0px 1px 0px #ffffff; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+ul.dnnAdminTabNav li a {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4), inset 0px 1px 0px 0px rgba(255,255,255,1); text-shadow: 0px 1px 0px #ffffff; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+.dnnLogin .LoginTabGroup span {
+	background: -ms-linear-gradient(rgb(245, 245, 245) 0%, rgb(223, 223, 223) 100%); color: rgb(51, 51, 51); box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.4), inset 0px 1px 0px 0px rgba(255,255,255,1); text-shadow: 0px 1px 0px #ffffff; -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+.dnnFormItem button:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(85, 85, 85);
+}
+.dnnFormItem input[type='button']:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(85, 85, 85);
+}
+.dnnFormItem input[type='reset']:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(85, 85, 85);
+}
+.dnnSecondaryAction:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(85, 85, 85);
+}
+a.dnnSecondaryAction:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(85, 85, 85);
+}
+ul.dnnAdminTabNav li a:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(85, 85, 85);
+}
+.dnnLogin .LoginTabGroup span:hover {
+	background: -ms-linear-gradient(rgb(254, 254, 254) 0%, rgb(232, 232, 232) 100%); color: rgb(85, 85, 85);
+}
+.dnnFormItem button:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.dnnFormItem input[type='button']:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.dnnFormItem input[type='reset']:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.dnnFormItem input[type='reset']:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+.dnnSecondaryAction:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+a.dnnSecondaryAction:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+ul.dnnAdminTabNav li a:active {
+	background: -ms-linear-gradient(rgb(198, 198, 198) 0%, rgb(243, 243, 243) 100%); border-color: rgb(153, 153, 153); box-shadow: inset 0px 1px 5px 0px rgba(0,0,0,0.4); -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+span.dnnPrimaryAction > input[type='image'] {
+	display: none;
+}
+span.dnnSecondaryAction > input[type='image'] {
+	display: none;
+}
+span.dnnPrimaryAction > a.dnnPrimaryAction {
+	background: none; border: currentColor; border-image: none; display: inline; box-shadow: none; -webkit-box-shadow: none;
+}
+span.dnnSecondaryAction > a.dnnSecondaryAction {
+	background: none; border: currentColor; border-image: none; display: inline; box-shadow: none; -webkit-box-shadow: none;
+}
+.dnnTertiaryAction {
+	background: rgb(234, 234, 234); padding: 10px; border: currentColor; border-image: none; color: rgb(51, 51, 51);
+}
+a.dnnTertiaryAction {
+	background: rgb(234, 234, 234); padding: 10px; border: currentColor; border-image: none; color: rgb(51, 51, 51);
+}
+.dnnTertiaryAction:hover {
+	background: rgb(242, 242, 242);
+}
+a.dnnTertiaryAction:hover {
+	background: rgb(242, 242, 242);
+}
+.dnnTertiaryAction:active {
+	background: rgb(216, 216, 216);
+}
+a.dnnTertiaryAction:active {
+	background: rgb(216, 216, 216);
+}
+.dnnFormItem input[type='text'] + a.dnnPrimaryAction {
+	margin-left: 5px;
+}
+.dnnFormItem input[type='text'] + a.dnnSecondaryAction {
+	margin-left: 5px;
+}
+.dnnFormItem input[type='text'] + a.dnnTerriaryAction {
+	margin-left: 5px;
+}
+.dnnFormItem input[type='checkbox'] + span {
+	margin: 5px;
+}
+.dnnFormItem input[type='radio'] + span {
+	margin: 5px;
+}
+.StandardButton {
+	border: 1px solid blue; border-image: none;
+}
+.dnnFormItem button[disabled] {
+	cursor: default; opacity: 0.5;
+}
+.dnnFormItem input[disabled] {
+	cursor: default; opacity: 0.5;
+}
+.dnnFormItem input[type='checkbox'] {
+	padding: 0px; box-sizing: border-box;
+}
+.dnnFormItem input[type='radio'] {
+	padding: 0px; box-sizing: border-box;
+}
+.dnnFormItem input[type='search'] {
+	box-sizing: content-box; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; -webkit-appearance: textfield;
+}
+.dnnFormItem textarea {
+	overflow: auto; vertical-align: top; resize: vertical;
+}
+.dnnFormItem input:valid {
+	
+}
+.dnnFormItem textarea:valid {
+	
+}
+.dnnFormItem input:invalid {
+	background-color: rgb(240, 221, 221);
+}
+.dnnFormItem textarea:invalid {
+	background-color: rgb(240, 221, 221);
+}
+.horizontal ul.categories {
+	list-style: none;
+}
+.horizontal ul.tags {
+	list-style: none;
+}
+.horizontal ul.categories {
+	
+}
+.horizontal ul.tags {
+	
+}
+.horizontal ul.categories li {
+	
+}
+.horizontal ul.tags li {
+	
+}
+.horizontal ul.tags li.add-tags {
+	
+}
+.horizontal ul.tags li.add-tags img {
+	
+}
+.vertical ul.categories {
+	list-style: none;
+}
+.vertical ul.tags {
+	list-style: none;
+}
+.vertical ul.categories li {
+	
+}
+.vertical ul.tags li {
+	
+}
+.vertical ul.categories li {
+	
+}
+.vertical ul.tags li {
+	
+}
+.vertical ul.tags li.add-tags {
+	
+}
+.vertical ul.tags li.add-tags img {
+	
+}
+ul.dnnAdminTabNav {
+	width: 100%; height: 37px; margin-top: 5px; margin-left: 0px; border-bottom-color: rgb(194, 194, 194); border-bottom-width: 1px; border-bottom-style: solid; display: inline-block;
+}
+ul.dnnAdminTabNav li {
+	list-style: none; margin-right: 4px; float: left;
+}
+ul.dnnAdminTabNav li a {
+	border-radius: 3px 3px 0px 0px; margin-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; box-shadow: none; -webkit-border-radius: 3px 3px 0px 0px; webkit-box-shadow: none;
+}
+ul.dnnAdminTabNav li.ui-tabs-active a {
+	background: rgb(255, 255, 255); padding: 12px 9px 10px; margin-top: -3px;
+}
+.ui-tabs .ui-tabs-panel {
+	display: block; position: relative;
+}
+.ui-tabs .ui-tabs-hide {
+	display: none;
+}
+.dnnLogin .LoginTabGroup {
+	width: 100%; height: 37px; margin-top: 5px; margin-left: 0px; border-bottom-color: rgb(194, 194, 194); border-bottom-width: 1px; border-bottom-style: solid; display: inline-block;
+}
+.dnnLogin .LoginTabGroup span {
+	border-radius: 3px 3px 0px 0px; margin-right: 4px; margin-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; box-shadow: none;
+}
+.dnnLogin .LoginTabGroup span.LoginTabSelected {
+	background: 0px 0px rgb(255, 255, 255); padding: 12px 9px 10px; margin-top: -3px;
+}
+.dnnForm .ui-resizable {
+	position: relative;
+}
+.dnnForm .ui-resizable-handle {
+	font-size: 0.1px; display: block; position: absolute; z-index: 99999;
+}
+.dnnForm .ui-resizable-disabled .ui-resizable-handle {
+	display: none;
+}
+.dnnForm .ui-resizable-autohide .ui-resizable-handle {
+	display: none;
+}
+.dnnForm .ui-resizable-n {
+	left: 0px; top: -5px; width: 100%; height: 7px; cursor: n-resize;
+}
+.dnnForm .ui-resizable-s {
+	left: 0px; width: 100%; height: 7px; bottom: -5px; cursor: s-resize;
+}
+.dnnForm .ui-resizable-e {
+	top: 0px; width: 7px; height: 100%; right: -5px; cursor: e-resize;
+}
+.dnnForm .ui-resizable-w {
+	left: -5px; top: 0px; width: 7px; height: 100%; cursor: w-resize;
+}
+.dnnForm .ui-resizable-se {
+	width: 12px; height: 12px; right: 1px; bottom: 1px; cursor: se-resize;
+}
+.dnnForm .ui-resizable-sw {
+	left: -5px; width: 9px; height: 9px; bottom: -5px; cursor: sw-resize;
+}
+.dnnForm .ui-resizable-nw {
+	left: -5px; top: -5px; width: 9px; height: 9px; cursor: nw-resize;
+}
+.dnnForm .ui-resizable-ne {
+	top: -5px; width: 9px; height: 9px; right: -5px; cursor: ne-resize;
+}
+.dnnForm {
+	width: 100%;
+}
+.dnnForm fieldset {
+	text-align: left; clear: none; margin-bottom: 18px; position: relative;
+}
+.dnnForm fieldset fieldset {
+	width: 100%;
+}
+.dnnForm .dnnFormItem {
+	width: 100%; text-align: left; clear: both; display: block; position: relative;
+}
+.dnnTooltip {
+	width: 32.07%; margin-right: 18px; display: block; position: relative;
+}
+.dnnHelperTip {
+	display: block; position: relative;
+}
+.dnnDragdropTip {
+	background: url("../../images/pin-icn.png") no-repeat 7px 12px rgba(0, 0, 0, 0.75); padding: 10px 10px 10px 30px; border-radius: 3px; width: auto !important; height: auto !important; text-align: left; color: rgb(221, 221, 221); font-size: 11px; position: absolute; z-index: 10000;
+}
+span.dnnFormRequired::after {
+	margin: 0px 0px 0px 5px; color: red; line-height: 1em; font-size: 16px; font-weight: bold; display: inline-block; content: "*";
+}
+div.dnnFormRequired.dnnFormItem > div.dnnLabel span::after {
+	margin: 0px 0px 0px 5px; color: red; line-height: 1em; font-size: 16px; font-weight: bold; display: inline-block; content: "*";
+}
+.dnnFormItem input[type='checkbox'] + span {
+	margin: 6px 5px; width: auto; display: inline-block;
+}
+.dnnFormItem input[type='radio'] + span {
+	margin: 6px 5px; width: auto; display: inline-block;
+}
+a.dnnFormHelp {
+	color: rgb(51, 51, 51); font-weight: bold; text-decoration: none;
+}
+.dnnForm .dnnFormItem a.dnnFormHelp {
+	color: rgb(51, 51, 51); font-weight: bold; text-decoration: none;
+}
+.dnnTooltip label a.dnnFormHelp {
+	color: rgb(51, 51, 51); font-weight: bold; text-decoration: none;
+}
+a.dnnFormHelp {
+	background: url("../../images/helpI-icn-grey.png") no-repeat left 2px; margin: 0px !important; padding: 0px !important; top: 2px; width: 14px; height: 15px; right: 0px; display: inline-block; position: absolute;
+}
+.dnnLabel {
+	width: 32.07%; text-align: right; overflow: visible; padding-right: 20px; margin-right: 18px; float: left; display: inline-block; position: relative;
+}
+.dnnFormItem > .dnnLabel {
+	margin-top: 5px;
+}
+.dnnLabel > span {
+	text-align: right;
+}
+.dnnForm .dnnFormItem a.dnnFormHelp span {
+	position: relative;
+}
+.dnnForm .dnnFormItem a.dnnFormHelp img {
+	display: block;
+}
+.dnnLabel + span {
+	margin-top: 6px; margin-bottom: 6px; display: inline-block; white-space: pre-line;
+}
+td > .dnnLabel {
+	width: 220px;
+}
+.dnnTooltip .dnnFormHelpContent {
+	background: rgba(0, 0, 0, 0.75); padding: 10px 10px 10px 30px; border-radius: 3px; width: 200px; text-align: left; color: rgb(221, 221, 221); font-size: 11px; visibility: hidden; position: absolute; z-index: 10;
+}
+.dnnHelperTip .dnnFormHelpContent {
+	background: rgba(0, 0, 0, 0.75); padding: 10px 10px 10px 30px; border-radius: 3px; width: 200px; text-align: left; color: rgb(221, 221, 221); font-size: 11px; visibility: hidden; position: absolute; z-index: 10;
+}
+.dnnFormHelpContent span {
+	display: block; -ms-word-wrap: break-word;
+}
+.dnnTooltip .dnnFormHelpContent .dnnHelpText {
+	-ms-word-wrap: break-word;
+}
+.bottomArrow::after {
+	left: 15px; width: 0px; height: 0px; bottom: -7px; border-top-color: rgb(0, 0, 0); border-right-color: transparent; border-left-color: transparent; border-top-width: 7px; border-right-width: 7px; border-left-width: 7px; border-top-style: solid; border-right-style: solid; border-left-style: solid; position: absolute; content: ""; opacity: 0.75;
+}
+.topArrow::before {
+	left: 15px; top: -7px; width: 0px; height: 0px; border-right-color: transparent; border-bottom-color: rgb(0, 0, 0); border-left-color: transparent; border-right-width: 7px; border-bottom-width: 7px; border-left-width: 7px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; position: absolute; content: ""; opacity: 0.75;
+}
+a.pinHelp {
+	background: url("../../images/pin-icn.png") no-repeat 0px 0px; left: 7px; top: 12px; width: 15px; height: 15px; display: block; position: absolute; opacity: 0.5;
+}
+.ui-draggable a.pinHelp {
+	opacity: 1;
+}
+a.pinHelp:hover {
+	opacity: 1;
+}
+.dnnFormItem span.dnnFormError.dnnFormMessage {
+	background: rgba(255, 0, 0, 0.75); padding: 10px; border-radius: 3px; border: currentColor; border-image: none; width: 200px; text-align: left; right: 12%; bottom: 95%; color: rgb(255, 255, 255); overflow: visible; font-size: 12px; margin-bottom: 0px; display: block; position: absolute;
+}
+.dnnFormItem span.dnnFormError.dnnFormMessage::after {
+	left: 15px; width: 0px; height: 0px; bottom: -7px; border-top-color: red; border-right-color: transparent; border-left-color: transparent; border-top-width: 7px; border-right-width: 7px; border-left-width: 7px; border-top-style: solid; border-right-style: solid; border-left-style: solid; position: absolute; content: ""; opacity: 0.75;
+}
+.dnnFormItem input[type='text'] {
+	width: 45%; max-width: 445px;
+}
+.dnnFormItem input[type='password'] {
+	width: 45%; max-width: 445px;
+}
+.dnnFormItem input[type='email'] {
+	width: 45%; max-width: 445px;
+}
+.dnnFormItem input[type='tel'] {
+	width: 45%; max-width: 445px;
+}
+.dnnFormItem select {
+	width: 45%; max-width: 445px;
+}
+.dnnFormItem textarea {
+	width: 45%; max-width: 445px;
+}
+.dnnFormItem select {
+	width: 47%;
+}
+.dnnFormItem select option {
+	color: rgb(51, 51, 51);
+}
+.dnnFormItem table {
+	background: none;
+}
+.dnnCheckbox {
+	display: inline-block; cursor: pointer;
+}
+.dnnCheckbox .mark {
+	display: inline-block;
+}
+.dnnCheckbox img {
+	width: 20px; height: 18px; vertical-align: middle; display: inline-block; min-width: 20px;
+}
+.dnnCheckbox img {
+	background: url("../../images/checkbox.png") no-repeat;
+}
+.dnnCheckbox img {
+	background-position: 0px 0px;
+}
+.dnnCheckbox-hover img {
+	background-position: 0px 0px;
+}
+.dnnCheckbox-checked img {
+	background-position: -51px 0px;
+}
+.dnnCheckbox-disabled img {
+	opacity: 0.5;
+}
+.dnnCheckbox-checked-error img {
+	background-position: -150px 0px;
+}
+.dnnCheckbox-error img {
+	background-position: -100px 0px;
+}
+.dnnCheckbox-focus {
+	background-color: rgb(227, 227, 229);
+}
+.dnnBoxLabel {
+	display: inline-block;
+}
+.dnnFormItem input[type='checkbox'].normalCheckBox {
+	margin: 8px 0px 4px; display: inline-block;
+}
+.dnnRadiobutton {
+	display: inline-block; cursor: pointer;
+}
+.dnnRadiobutton .mark {
+	display: inline-block;
+}
+.dnnRadiobutton img {
+	width: 20px; height: 18px; vertical-align: middle; min-width: 20px;
+}
+.dnnRadiobutton img {
+	background: url("../../images/radiobutton.png") no-repeat;
+}
+.dnnRadiobutton img {
+	background-position: 0px 0px;
+}
+.dnnRadiobutton-hover img {
+	background-position: 0px 0px;
+}
+.dnnRadiobutton-checked img {
+	background-position: -50px 0px;
+}
+.dnnRadiobutton-disabled img {
+	opacity: 0.5;
+}
+.dnnRadiobutton-checked-error img {
+	background-position: -150px 0px;
+}
+.dnnRadiobutton-error img {
+	background-position: -100px 0px;
+}
+.dnnRadiobutton-focus {
+	background-color: rgb(227, 227, 229);
+}
+div.dnnFormRadioButtons {
+	padding: 10px; margin-bottom: 5px; display: inline-block; background-color: rgb(240, 240, 240);
+}
+div.dnnHSRadioButtons {
+	padding: 10px; margin-bottom: 5px; display: inline-block; background-color: rgb(240, 240, 240);
+}
+span.dnnFormRadioButtons {
+	padding: 10px; margin-bottom: 5px; display: inline-block; background-color: rgb(240, 240, 240);
+}
+span.dnnHSRadioButtons {
+	padding: 10px; margin-bottom: 5px; display: inline-block; background-color: rgb(240, 240, 240);
+}
+table.dnnFormRadioButtons {
+	margin-bottom: 5px; background-color: rgb(240, 240, 240);
+}
+.RadComboBox_Default .rcbInput {
+	width: 100% !important;
+}
+div.dnnFormGroup {
+	padding: 10px; width: 65%; margin-bottom: 5px; display: inline-block; background-color: rgb(240, 240, 240);
+}
+.dnnSpinner {
+	background: rgb(255, 255, 255); padding: 6px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; width: 150px; color: rgb(51, 51, 51); text-decoration: none; display: inline-block; position: relative; box-shadow: 0px 1px 0px 0px #bbb; -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px #bbb;
+}
+.dnnFormItem .dnnSpinner {
+	width: 45%; margin-bottom: 18px;
+}
+.dnnSpinnerDisplay {
+	background: none; margin: 0px 25px 0px 8px; color: rgb(153, 153, 153);
+}
+.dnnFormItem .dnnSpinnerDisplay > input[type='text'] {
+	background: none; margin: 0px; padding: 0px; border: currentColor; border-image: none; box-shadow: none;
+}
+.dnnFormItem .dnnSpinnerDisplay > input[type='text']:focus {
+	background: none; margin: 0px; padding: 0px; border: currentColor; border-image: none; box-shadow: none;
+}
+.dnnSpinnerCtrl {
+	top: 0px; width: 25px; right: 0px; border-left-color: rgb(201, 201, 201); border-left-width: 1px; border-left-style: solid; position: absolute; background-color: transparent;
+}
+.dnnSpinnerCtrl > a.dnnSpinnerTopButton {
+	background: url("../../images/dnnSpinnerUpArrow.png") no-repeat center; width: 25px; height: 16px; display: block; cursor: pointer;
+}
+.dnnSpinnerCtrl > a.dnnSpinnerBotButton {
+	background: url("../../images/dnnSpinnerDownArrow.png") no-repeat center; width: 25px; height: 16px; display: block; cursor: pointer;
+}
+div.dnnTagsInput {
+	background: rgb(255, 255, 255); margin: 0px; padding: 5px 0px 0px 5px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; display: inline-block; box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.8), inset 0px 1px 2px 0px rgba(0,0,0,0.3); -webkit-border-radius: 3px; -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.8), inset 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+.dnnFormItem .dnnTagsInput {
+	width: 45%;
+}
+div.dnnTagsInput span.tag {
+	padding: 2px 6px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; color: rgb(136, 136, 136); font-size: 12px; text-decoration: none; margin-right: 5px; margin-bottom: 5px; float: left; display: block; cursor: pointer; background-color: rgb(238, 238, 238); -webkit-border-radius: 3px;
+}
+div.dnnTagsInput span.tag:hover {
+	color: rgb(68, 68, 68); background-color: rgb(232, 241, 250);
+}
+div.dnnTagsInput span.tag a {
+	background: url("../../images/dnnTagClose.png") no-repeat center; margin: 6px 0px 0px; width: 8px; height: 8px; display: inline-block;
+}
+div.dnnTagsInput > div > input {
+	background: none; padding: 3px 0px 3px 3px; border: currentColor; border-image: none; height: 19px; font-family: helvetica; font-size: 12px; font-weight: normal; margin-bottom: 5px; vertical-align: top; display: inline-block;
+}
+div.dnnTagsInput > div > input:focus {
+	background: none; padding: 3px 0px 3px 3px; border: currentColor; border-image: none; height: 19px; font-family: helvetica; font-size: 12px; font-weight: normal; margin-bottom: 5px; vertical-align: top; display: inline-block;
+}
+div.dnnTagsInput > div > input::-ms-clear {
+	display: none;
+}
+div.dnnTagsInput div {
+	float: left; display: block;
+}
+div.dnnTagsInput div.dnnTags_filter {
+	margin: 0px 0px 5px 5px; float: right; position: relative;
+}
+div.dnnTagsInput div.dnnTags_filter > .dnnTags_filter_label {
+	background: url("../../../images/dnnSpinnerDownArrow.png") no-repeat right; padding: 3px 15px 0px 10px; height: 22px; color: rgb(153, 153, 153); margin-right: 3px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; display: inline-block; cursor: pointer;
+}
+div.dnnTagsInput div.dnnTags_filter > .dnnExpanded.dnnTags_filter_label {
+	background: url("../../../images/dnnSpinnerUpArrow.png") no-repeat right; color: rgb(102, 102, 102);
+}
+div.dnnTagsInput div.dnnTags_filter > ul.dnnTags_filter_dropdownUl {
+	background: rgb(255, 255, 255); margin: 0px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; top: 28px; right: 22px; display: none; list-style-type: none; position: absolute; z-index: 15; box-shadow: 0px 2px 0px 0px #bbb; -webkit-border-radius: 3px; -webkit-box-shadow: 0px 2px 0px 0px #bbb;
+}
+.dnnTagsInput div.dnnTags_filter > ul.dnnTags_filter_dropdownUl > li {
+	list-style: none; padding: 6px 12px 6px 8px; color: rgb(102, 102, 102); border-top-color: rgb(201, 201, 201); border-top-width: 1px; border-top-style: solid; white-space: nowrap; min-width: 150px;
+}
+.dnnTagsInput div.dnnTags_filter > ul.dnnTags_filter_dropdownUl > li:first-child {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.dnnTagsInput div.dnnTags_filter > ul.dnnTags_filter_dropdownUl > li:hover {
+	color: rgb(51, 51, 51); background-color: rgb(232, 241, 250);
+}
+.dnnTagsInput div.dnnTags_filter > ul.dnnTags_filter_dropdownUl > li > input {
+	margin-right: 10px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.dnnTagsInput div.dnnTags_filter > ul.dnnTags_filter_dropdownUl > li > span.dnnCheckbox {
+	margin-right: 8px;
+}
+.dnnTagsInput div.dnnTags_filter > ul.dnnTags_filter_dropdownUl > li > label {
+	vertical-align: top; display: inline-block; cursor: pointer;
+}
+div.dnnTagsInput div.dnnTags_filter a.dnnSearchButton {
+	background-position: center; margin: 4px 5px 0px 4px; width: 18px; height: 18px; vertical-align: top; display: inline-block; cursor: pointer; background-image: url("../../../images/search/searchButton.png"); background-repeat: no-repeat;
+}
+.dnnTagsClear {
+	width: 100%; height: 0px; clear: both;
+}
+div.dnnTagsInput > div > input.dnnTagsInvalid {
+	background: rgb(251, 216, 219); border-radius: 3px; border: currentColor; border-image: none; color: rgb(144, 17, 26) !important; font-size: 12px; text-decoration: none; margin-right: 5px; float: left; display: block; cursor: pointer; -webkit-border-radius: 3px;
+}
+.dnn_acResults {
+	padding: 0px; border: 1px solid rgb(201, 201, 201); border-image: none; overflow: hidden; z-index: 900001; min-width: 150px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: 0px 2px 0px 0px #bbb; background-color: rgb(255, 255, 255); -webkit-box-shadow: 0px 2px 0px 0px #bbb; -webkit-border-bottom-left-radius: 3px; -webkit-border-bottom-right-radius: 3px;
+}
+.dnn_acResults ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.dnn_acResults ul li {
+	margin: 0px; padding: 6px 22px; color: rgb(51, 51, 51); overflow: hidden; border-top-color: rgb(201, 201, 201); border-top-width: 1px; border-top-style: solid; display: block; cursor: pointer;
+}
+.dnn_acResults ul li:first-child {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.dnn_acLoading {
+	
+}
+.dnn_acSelect {
+	color: rgb(51, 51, 51); background-color: rgb(232, 241, 250);
+}
+.dnnFormMessage .dnnLabel {
+	width: 90%; text-align: left; float: none;
+}
+.dnnFormSectionHead span {
+	color: rgb(34, 34, 34); font-size: 18px;
+}
+.dnnProgressbar {
+	background: rgb(255, 255, 255); padding: 18px 10px 0px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; height: 25px !important; box-shadow: inset 0px 1px 3px 0px rgba(0,0,0,0.25), 0px 1px 0px 0px #fff; -webkit-border-radius: 3px; -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.25), 0px 1px 0px 0px #fff;
+}
+.ui-progressbar {
+	height: 10px !important; text-align: left; overflow: hidden; box-shadow: inset 0px 1px 0px 0px #bbb; background-color: rgb(204, 204, 204); -webkit-box-shadow: inset 0px 1px 0px 0px #bbb;
+}
+.ui-progressbar .ui-progressbar-value {
+	margin: 0px; height: 100%; background-color: rgb(26, 130, 247);
+}
+.dnnDropdownSettings {
+	height: 30px !important; position: relative;
+}
+.dnnButtonDropdown {
+	background: rgb(255, 255, 255); border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; width: 50px; height: 30px !important; cursor: pointer; box-shadow: 0px 1px 0px 0px #bbb; -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px #bbb;
+}
+.dnnButtonIcon {
+	height: 30px !important; display: inline-block;
+}
+.dnnButtonArrow {
+	height: 30px !important; display: inline-block;
+}
+.dnnButtonIcon {
+	width: 32px;
+}
+.dnnButtonArrow {
+	background: url("../../images/dnnSpinnerDownArrow.png") no-repeat center; width: 10px;
+}
+.dnnButtonDropdown-clicked {
+	background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(201, 201, 201) rgb(201, 201, 201) rgb(255, 255, 255); border-image: none; width: 50px; height: 30px !important; position: absolute; z-index: 100; border-top-left-radius: 3px; border-top-right-radius: 3px; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px;
+}
+.dnnButtonDropdown-ul {
+	background: rgb(255, 255, 255); border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; left: 0px; top: 29px; width: 200px; margin-left: 0px; display: none; list-style-type: none; position: absolute; z-index: 99; box-shadow: 0px 2px 0px 0px #bbb; -webkit-border-radius: 3px; -webkit-box-shadow: 0px 2px 0px 0px #bbb;
+}
+.dnnButtonDropdown-ul > li {
+	list-style: none; margin: 0px; padding: 8px; color: rgb(51, 51, 51); vertical-align: middle; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; border-bottom-style: solid; cursor: pointer;
+}
+.dnnButtonDropdown-ul > ul > li {
+	list-style: none; margin: 0px; padding: 8px; color: rgb(51, 51, 51); vertical-align: middle; border-bottom-color: rgb(201, 201, 201); border-bottom-width: 1px; border-bottom-style: solid; cursor: pointer;
+}
+.dnnButtonDropdown-ul > ul {
+	margin: 0px;
+}
+.dnnButtonDropdown-ul > ul > li {
+	padding-left: 16px;
+}
+.dnnButtonDropdown-ul > li:last-child {
+	border-bottom-color: currentColor !important; border-bottom-width: medium !important; border-bottom-style: none !important;
+}
+.dnnButtonDropdown-ul > li:hover {
+	color: rgb(0, 0, 0); background-color: rgb(232, 241, 250);
+}
+ul.dnnButtonGroup {
+	background: rgb(255, 255, 255); list-style: none; margin: 0px; padding: 0px; border-radius: 3px; border: 1px solid rgb(201, 201, 201); border-image: none; display: inline-block; cursor: pointer; box-shadow: 0px 1px 0px 0px #bbb; -webkit-border-radius: 3px; -webkit-box-shadow: 0px 1px 0px 0px #bbb;
+}
+ul.dnnButtonGroup > li {
+	margin: 0px; border-left-color: rgb(201, 201, 201); border-left-width: 1px; border-left-style: solid; float: left; display: block;
+}
+ul.dnnButtonGroup > li:hover {
+	background-color: rgb(232, 241, 250);
+}
+ul.dnnButtonGroup > li.dnnButtonGroup-first {
+	display: none;
+}
+ul.dnnButtonGroup > li.dnnButtonGroup-first + li {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+ul.dnnButtonGroup > li > a {
+	padding: 7px 7px 6px; color: rgb(51, 51, 51); text-decoration: none; display: inline-block;
+}
+ul.dnnButtonGroup span {
+	color: rgb(51, 51, 51);
+}
+.dnnFormItem .dnnInputGroup {
+	background: rgba(0, 0, 0, 0.05); padding: 5px; width: 32.07%; margin-bottom: 18px; float: left; display: block;
+}
+.dnnFormItem .dnnInputGroup .dnnLeft {
+	width: 100%;
+}
+.dnnFormItem .dnnInputGroup span {
+	width: 33%; text-align: right; display: inline-block;
+}
+.dnnFormError label a span {
+	color: red;
+}
+.dnnFormError input[type='text'] {
+	border: 1px solid red; border-image: none;
+}
+.dnnFormError input[type='password'] {
+	border: 1px solid red; border-image: none;
+}
+.dnnFormError input[type='email'] {
+	border: 1px solid red; border-image: none;
+}
+.dnnFormError input[type='tel'] {
+	border: 1px solid red; border-image: none;
+}
+.dnnFormError select {
+	border: 1px solid red; border-image: none;
+}
+.dnnFormError textarea {
+	border: 1px solid red; border-image: none;
+}
+.dnnFormItem input[type='text'] + .dnnTertiaryAction {
+	display: inline-block; max-width: 60px;
+}
+.dnnFormItem input[type='password'] + .dnnTertiaryAction {
+	display: inline-block; max-width: 60px;
+}
+.dnnFormItem input[type='email'] + .dnnTertiaryAction {
+	display: inline-block; max-width: 60px;
+}
+.dnnFormItem input[type='tel'] + .dnnTertiaryAction {
+	display: inline-block; max-width: 60px;
+}
+.dnnFormItem select + .dnnTertiaryAction {
+	display: inline-block; max-width: 60px;
+}
+.dnnForm fieldset.dnnFormInformation {
+	background: rgba(0, 0, 0, 0.05); padding: 18px 0px; width: 32.07%; margin-left: 16px; float: left;
+}
+.dnnFormItem textarea {
+	min-height: 80px;
+}
+.dnnAddress input[type='checkbox'] {
+	margin: 0px 5px;
+}
+.dnnFormRadioButtons {
+	width: auto; float: left; display: block;
+}
+.dnnFormRadioButtons input[type=radio] {
+	float: none;
+}
+.dnnFormRadioButtons label {
+	margin: 0px 10px 0px 0px; width: auto; text-align: left; padding-right: 0px; font-weight: normal; float: none; display: inline;
+}
+.dnnFormItem input[type=radio] + label {
+	margin: 0px 10px 0px 0px; width: auto; text-align: left; padding-right: 0px; font-weight: normal; float: none; display: inline;
+}
+.dnnTextEditor {
+	margin-bottom: 18px;
+}
+.dnnActions {
+	margin: 0px; text-align: left; padding-top: 18px; clear: both; float: none; display: block;
+}
+.dnnActions li {
+	list-style: none; margin-right: 5px; float: left;
+}
+.dnnLoginActions {
+	display: inline-block;
+}
+.dnnShortForm.dnnForm .dnnFormItem label {
+	width: 100%; text-align: left; margin-bottom: 0.25em; float: none;
+}
+.dnnShortForm.dnnForm .dnnFormItem input {
+	text-align: left; float: none;
+}
+.dnnShortForm.dnnForm .dnnFormItem select {
+	text-align: left; float: none;
+}
+.dnnShortForm.dnnForm .dnnFormItem textarea {
+	text-align: left; float: none;
+}
+.dnnShortForm.dnnForm .dnnFormItem a.dnnFormHelp {
+	background-position: left; padding-left: 22px;
+}
+.dnnForm .ui-helper-hidden {
+	display: none;
+}
+.dnnForm .ui-helper-hidden-accessible {
+	position: absolute !important; clip: rect(1px, 1px, 1px, 1px);
+}
+.dnnForm .ui-state-highlight {
+	background: rgb(255, 228, 92); border: 1px solid rgb(254, 210, 47); border-image: none; color: rgb(54, 54, 54);
+}
+.dnnForm .ui-widget-content .ui-state-highlight {
+	background: rgb(255, 228, 92); border: 1px solid rgb(254, 210, 47); border-image: none; color: rgb(54, 54, 54);
+}
+.dnnForm .ui-widget-header .ui-state-highlight {
+	background: rgb(255, 228, 92); border: 1px solid rgb(254, 210, 47); border-image: none; color: rgb(54, 54, 54);
+}
+.dnnForm .ui-state-highlight a {
+	color: rgb(54, 54, 54);
+}
+.dnnForm .ui-widget-content .ui-state-highlight a {
+	color: rgb(54, 54, 54);
+}
+.ui-widget-header .ui-state-highlight a {
+	color: rgb(54, 54, 54);
+}
+.dnnForm .ui-state-error {
+	background: rgb(184, 25, 0); border: 1px solid rgb(205, 10, 10); border-image: none; color: rgb(255, 255, 255);
+}
+.dnnForm .ui-widget-content .ui-state-error {
+	background: rgb(184, 25, 0); border: 1px solid rgb(205, 10, 10); border-image: none; color: rgb(255, 255, 255);
+}
+.dnnForm .ui-widget-header .ui-state-error {
+	background: rgb(184, 25, 0); border: 1px solid rgb(205, 10, 10); border-image: none; color: rgb(255, 255, 255);
+}
+.dnnForm .ui-state-error a {
+	color: rgb(255, 255, 255);
+}
+.dnnForm .ui-widget-content .ui-state-error a {
+	color: rgb(255, 255, 255);
+}
+.dnnForm .ui-widget-header .ui-state-error a {
+	color: rgb(255, 255, 255);
+}
+.dnnForm .ui-state-error-text {
+	color: rgb(255, 255, 255);
+}
+.dnnForm .ui-widget-content .ui-state-error-text {
+	color: rgb(255, 255, 255);
+}
+.dnnForm .ui-widget-header .ui-state-error-text {
+	color: rgb(255, 255, 255);
+}
+.dnnForm .ui-priority-primary {
+	font-weight: bold;
+}
+.dnnForm .ui-widget-content .ui-priority-primary {
+	font-weight: bold;
+}
+.dnnForm .ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.dnnForm .ui-priority-secondary {
+	font-weight: normal; opacity: 0.7;
+}
+.dnnForm .ui-widget-content .ui-priority-secondary {
+	font-weight: normal; opacity: 0.7;
+}
+.ui-widget-header .ui-priority-secondary {
+	font-weight: normal; opacity: 0.7;
+}
+.dnnForm .ui-state-disabled {
+	opacity: 0.35; background-image: none;
+}
+.dnnForm .ui-widget-content .ui-state-disabled {
+	opacity: 0.35; background-image: none;
+}
+.dnnForm .ui-widget-header .ui-state-disabled {
+	opacity: 0.35; background-image: none;
+}
+.dnnForm .ui-draggable {
+	cursor: move;
+}
+.dnnForm .ui-corner-all {
+	border-radius: 4px;
+}
+.dnnForm .ui-corner-top {
+	border-radius: 4px;
+}
+.dnnForm .ui-corner-left {
+	border-radius: 4px;
+}
+.dnnForm .ui-corner-tl {
+	border-radius: 4px;
+}
+.dnnForm .ui-corner-all {
+	border-radius: 4px;
+}
+.dnnForm .ui-corner-top {
+	border-radius: 4px;
+}
+.dnnForm .ui-corner-right {
+	border-radius: 4px;
+}
+.dnnForm .ui-corner-tr {
+	border-radius: 4px;
+}
+.ModuleTitle_MenuContainer {
+	border: 1px solid blue; border-image: none;
+}
+.ModuleTitle_MenuBar {
+	
+}
+.ModuleTitle_MenuItem {
+	
+}
+.ModuleTitle_MenuIcon {
+	
+}
+.ModuleTitle_SubMenu {
+	
+}
+.ModuleTitle_MenuBreak {
+	
+}
+.ModuleTitle_MenuItemSel {
+	
+}
+.ModuleTitle_MenuArrow {
+	
+}
+.ModuleTitle_RootMenuArrow {
+	
+}
+.MainMenu_MenuContainer {
+	border: 1px solid green; border-image: none;
+}
+.MainMenu_MenuBar {
+	
+}
+.MainMenu_MenuItem {
+	
+}
+.MainMenu_MenuIcon {
+	
+}
+.MainMenu_SubMenu {
+	
+}
+.MainMenu_MenuBreak {
+	
+}
+.MainMenu_MenuItemSel {
+	
+}
+.MainMenu_MenuArrow {
+	
+}
+.MainMenu_RootMenuArrow {
+	
+}
+.ui-widget-overlay {
+	background: rgba(0, 0, 0, 0.65); left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 9999;
+}
+.dnnFormPopup {
+	background: rgb(255, 255, 255); padding: 18px; position: absolute; z-index: 100000; box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75); -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.75);
+}
+.dnnFormPopup .ui-dialog-titlebar {
+	padding: 0px 0px 18px; font-size: 18px; font-weight: bold; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; position: relative; cursor: move;
+}
+.dnnFormPopup .dnnModalCtrl {
+	border-radius: 10px; top: -30px; width: 69px; height: 26px; right: -30px; display: block; position: absolute; box-shadow: 0px 0px 5px #666; background-color: rgb(255, 255, 255); -webkit-border-radius: 10px;
+}
+.dnnFormPopup .dnnModalCtrl .ui-dialog-titlebar-close {
+	background: url("../../images/closeBtn.png") no-repeat 8px 4px rgb(88, 88, 88); margin: 4px 4px 0px 1px; border: currentColor; border-image: none; width: 30px; height: 18px; text-indent: -9999em; overflow: hidden; float: right; display: block; min-width: 0px !important; border-top-right-radius: 8px; border-bottom-right-radius: 8px; -webkit-border-bottom-right-radius: 8px; -webkit-border-top-right-radius: 8px;
+}
+.dnnFormPopup .dnnModalCtrl .ui-dialog-titlebar-close:hover {
+	background: url("../../images/closeBtn.png") no-repeat 8px 4px rgb(53, 142, 234); cursor: pointer;
+}
+.dnnFormPopup .dnnModalCtrl a.dnnToggleMax {
+	background: url("../../images/resizeBtn.png") no-repeat 10px 2px rgb(88, 88, 88); margin: 4px 0px 0px 4px; width: 30px; height: 18px; text-indent: -9999em; overflow: hidden; float: left; display: block; border-top-left-radius: 8px; border-bottom-left-radius: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-top-left-radius: 8px;
+}
+.dnnFormPopup .dnnModalCtrl a.dnnToggleMax:hover {
+	background: url("../../images/resizeBtn.png") no-repeat 10px 2px rgb(53, 142, 234);
+}
+div.ui-dialog-titlebar > .ui-dialog-titlebar-close {
+	background: url("../../images/closeBtn.png") no-repeat 4px 4px rgb(88, 88, 88); margin: 0px; padding: 0px; border-radius: 12px; border: 3px solid rgb(255, 255, 255); border-image: none; top: -30px; width: 24px; height: 24px; right: -30px; text-indent: -9999em; overflow: hidden; display: block; position: absolute; min-width: 0px !important; -webkit-border-radius: 12px;
+}
+.dnnFormPopup #iPopUp {
+	width: 100% !important; padding-top: 10px;
+}
+.dnnFormPopup .ui-dialog-content {
+	background: rgb(255, 255, 255); padding: 0px; border: 0px currentColor; border-image: none; overflow: auto; position: relative; -ms-zoom: 1;
+}
+#iPopUp .ui-dialog-content {
+	background: rgb(255, 255, 255); padding: 0px; border: 0px currentColor; border-image: none; overflow: auto; position: relative; -ms-zoom: 1;
+}
+.dnnFormPopup .ui-dialog-buttonpane {
+	border-width: 1px 0px 0px; margin: 0.5em 0px 0px; padding: 0.3em 1em 0em 0em; text-align: left; overflow: hidden; border-top-color: rgb(221, 221, 221); border-top-style: solid; background-image: none;
+}
+.dnnFormPopup .ui-dialog-buttonpane button {
+	margin: 0.5em 0.4em 0.5em 0em; padding: 0.5em 1em; border: currentColor; border-image: none; cursor: pointer;
+}
+.dnnFormPopup .ui-resizable-se {
+	background: url("../../images/modal-resize-icn.png") no-repeat bottom; width: 24px; height: 24px; float: right;
+}
+.dnnFormPopup .dnnDialog {
+	padding: 10px;
+}
+.dnnLoading {
+	background: url("../../images/loading.gif") no-repeat center rgb(255, 255, 255); position: absolute; z-index: 9999;
+}
+.urlControl label {
+	width: auto; font-weight: normal; margin-top: 0px;
+}
+.urlControlLinkType {
+	width: auto;
+}
+.urlControlLinkType span {
+	width: auto; text-align: left; float: none; display: block;
+}
+.dnnFormItem .urlControlLinkType span {
+	width: auto; text-align: left; float: none; display: block;
+}
+.dnnFormItem .ucLinkTypeRadioButtons label {
+	width: 260px; text-align: left; padding-right: 0px; font-weight: normal; margin-top: 0px; display: inline-block;
+}
+.urlControlLinkType span input {
+	min-width: 3%;
+}
+.dnnModuleSettings.dnnForm .dnnFormItem .urlControlLinkType span label {
+	text-align: left;
+}
+.urlControlFileRow {
+	clear: both;
+}
+.urlControlFileRow span.dnnFormLabel {
+	width: auto; text-align: right;
+}
+.urlControlFileRow select {
+	clear: both;
+}
+.urlControlFileRow input[type=file] {
+	clear: both;
+}
+.urlControlImagesRow {
+	overflow: hidden; clear: both;
+}
+.urlControlImagesRow span.dnnFormLabel {
+	width: auto; text-align: right;
+}
+.urlControlImagesRow select {
+	clear: both;
+}
+.ui-tabs.dnnWizardTab {
+	padding: 0px; position: relative;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav {
+	background: url("../../images/InstallWizardBG.png") repeat-x; margin: 0px; padding: 0px; height: 46px; display: block;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li {
+	list-style: none; margin: 0px; padding: 0px; border-bottom-color: currentColor !important; border-bottom-width: 0px !important; border-bottom-style: none !important; float: left; white-space: nowrap; position: relative;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li.ui-tabs-active {
+	margin-bottom: 0px;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li.ui-tabs-active a {
+	cursor: text;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a {
+	cursor: text;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+	cursor: text;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li a {
+	cursor: pointer;
+}
+.ui-tabs-collapsible.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	cursor: pointer;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-panel {
+	background: none; border-width: 0px; padding: 3em 1em 1.4em; clear: both; display: block;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-hide {
+	display: none !important;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li a {
+	display: block;
+}
+.dnnWizardStep > span {
+	float: left; display: block;
+}
+.dnnWizardStep {
+	background: url("../../images/InstallWizardBG.png") repeat-x 0px 0px; padding: 0px 0px 0px 20px; height: 46px; cursor: pointer;
+}
+.ui-tabs .ui-tabs-nav li:first-child .dnnWizardStep {
+	padding-left: 30px;
+}
+.dnnWizardStepNumber {
+	margin: 10px 10px 0px 0px; padding: 3px 8px; border-radius: 18px; color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(153, 153, 153); -webkit-border-radius: 18px;
+}
+.dnnWizardStepTitle {
+	margin: 13px 20px 0px 0px; color: rgb(153, 153, 153); font-weight: bold; text-decoration: none;
+}
+.dnnWizardStepArrow {
+	background: url("../../images/InstallWizardBG.png") no-repeat 0px -401px; width: 25px; height: 46px;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li.ui-tabs-active .dnnWizardStep {
+	background-position: 0px -100px; height: 46px;
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li.ui-tabs-active .dnnWizardStepNumber {
+	background-color: rgb(51, 51, 51);
+}
+.ui-tabs.dnnWizardTab .ui-tabs-nav li.ui-tabs-active .dnnWizardStepTitle {
+	color: rgb(51, 51, 51);
+}
+.dnnFormExpandContent {
+	margin: 10px 0px;
+}
+.dnnFormExpandContent > a {
+	color: rgb(51, 51, 51); font-size: 13px; font-weight: bold;
+}
+table.dnnPermissionsGrid {
+	border: 1px solid rgb(201, 201, 201); border-image: none; margin-bottom: 20px;
+}
+table.dnnGrid {
+	border: 1px solid rgb(201, 201, 201); border-image: none; margin-bottom: 20px;
+}
+table.dnnASPGrid {
+	border: 1px solid rgb(201, 201, 201); border-image: none; margin-bottom: 20px;
+}
+table.dnnPermissionsGrid {
+	color: rgb(119, 119, 119);
+}
+table.dnnPermissionsGrid tr.dnnGridHeader td {
+	padding: 4px; text-align: center; line-height: 120%; vertical-align: middle;
+}
+table.dnnPermissionsGrid tr.dnnGridItem td {
+	padding: 5px 4px; width: 70px; text-align: center; border-top-color: rgb(201, 201, 201); border-bottom-color: rgb(201, 201, 201); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.dnnPermissionsGrid tr.dnnGridAltItem td {
+	padding: 5px 4px; width: 70px; text-align: center; border-top-color: rgb(201, 201, 201); border-bottom-color: rgb(201, 201, 201); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+table.dnnPermissionsGrid tr.dnnGridItem td.permissionHeader {
+	width: 150px; text-align: left; padding-left: 10px; border-right-color: rgb(201, 201, 201); border-right-width: 1px; border-right-style: solid;
+}
+table.dnnPermissionsGrid tr.dnnGridAltItem td.permissionHeader {
+	width: 150px; text-align: left; padding-left: 10px; border-right-color: rgb(201, 201, 201); border-right-width: 1px; border-right-style: solid;
+}
+table.dnnPermissionsGrid tr.dnnGridHeader td.permissionHeader {
+	text-align: left; padding-left: 10px;
+}
+.dnnPermissionsGrid > .dnnFormItem label {
+	color: rgb(119, 119, 119); margin-right: 8px;
+}
+.dnnPermissionsGrid > .dnnFormItem select {
+	margin: 0px 5px 5px 0px; width: 25%; color: rgb(119, 119, 119); min-width: 180px;
+}
+.dnnPermissionsGrid > .dnnFormItem input {
+	width: 25%; height: 17px; color: rgb(119, 119, 119); margin-bottom: 0px;
+}
+.dnnPermissionsGrid > .dnnFormItem ul.token-input-list-facebook {
+	vertical-align: top; display: inline-block;
+}
+.dnnPermissionsGrid > .dnnFormItem > .leftGroup {
+	margin-right: 35px; float: left;
+}
+.dnnPermissionsGrid > .dnnFormItem > .rightGroup {
+	float: left;
+}
+.dnnPermissionsGrid > .dnnFormItem > .rightGroup > .dnnSecondaryAction {
+	position: absolute;
+}
+.dnnPermissionsGrid > .dnnFormItem {
+	overflow: auto; margin-bottom: 18px;
+}
+.dnnGridHeader td {
+	background: rgb(240, 242, 241); padding: 6px 12px; border-right-color: rgb(201, 201, 201); border-bottom-color: rgb(201, 201, 201); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+thead.dnnGridHeader th {
+	background: rgb(240, 242, 241); padding: 6px 12px; border-right-color: rgb(201, 201, 201); border-bottom-color: rgb(201, 201, 201); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+tr.dnnGridHeader th {
+	background: rgb(240, 242, 241); padding: 6px 12px; border-right-color: rgb(201, 201, 201); border-bottom-color: rgb(201, 201, 201); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid;
+}
+.dnnGridItem td {
+	padding: 6px; border-right-color: rgb(201, 201, 201); border-right-width: 1px; border-right-style: solid;
+}
+.dnnGridAltItem td {
+	padding: 6px; border-right-color: rgb(201, 201, 201); border-right-width: 1px; border-right-style: solid;
+}
+.dnnGridItem td input {
+	
+}
+.dnnGridAltItem td input {
+	
+}
+.dnnGridAltItem {
+	background: rgb(242, 242, 242);
+}
+.dnnGridItem:hover {
+	background-color: rgb(232, 241, 250);
+}
+.dnnGridAltItem:hover {
+	background-color: rgb(232, 241, 250);
+}
+.urlControl {
+	padding: 15px; margin-bottom: 10px; float: left; display: block; background-color: rgb(240, 240, 240);
+}
+.urlControl select {
+	width: 180px; margin-bottom: 10px;
+}
+.urlControl input {
+	width: 180px; margin-bottom: 10px;
+}
+.urlControl dnnFormItem > a.dnnSecondaryAction {
+	margin: 10px 10px 0px 0px; float: left;
+}
+.urlControl .urlControlLinkType {
+	width: 100%; float: left;
+}
+.urlControl .urlControlLinkType .dnnFormLabel {
+	width: auto; margin-right: 5px; float: left;
+}
+.urlControl .urlControlLinkType input[type='radio'] {
+	width: auto; margin-right: 5px;
+}
+span[id$='FileControl'] {
+	float: left; display: block;
+}
+.dnnFilePicker {
+	padding: 0px 15px; width: 450px; margin-right: 10px; margin-bottom: 10px; float: left; display: block; background-color: rgb(240, 240, 240);
+}
+.dnnFilePicker .dnnLeft {
+	margin: -30px 0px 0px; padding: 0px;
+}
+.dnnFilePicker dnnFormItem {
+	margin: -10px 0px 0px; padding: 0px; position: static;
+}
+.dnnFilePicker .dnnLeft img {
+	max-height: 100px; max-width: 135px;
+}
+.dnnFilePicker .dnnLeft .dnnFilePickerImageHolder {
+	margin: 20px 15px; width: 135px; height: 100px; background-color: rgb(204, 204, 204);
+}
+.dnnFilePicker .dnnFormItem span {
+	width: 40px; text-align: left; padding-left: 5px; margin-top: 8px; float: left; display: block;
+}
+.dnnFilePicker select {
+	margin: 0px 10px 0px 0px; width: 200px; float: none;
+}
+.dnnFilePicker input {
+	margin: 0px 10px 0px 0px; width: 200px; float: none;
+}
+.dnnFilePicker .dnnLeft a.dnnSecondaryAction {
+	margin: 10px 10px 0px 0px; display: inline-block;
+}
+.dnnFilePicker .dnnLeft img {
+	margin: 20px 15px; display: block;
+}
+span.dnnInputFileWrapper > input[type='file'] {
+	margin: 0px; top: 0px; height: 100%; right: 0px; font-size: 200px; position: absolute; cursor: pointer; direction: ltr; opacity: 0;
+}
+span.dnnInputFileWrapper {
+	margin: 0px 4px 0px 0px; width: auto !important; overflow: hidden !important; float: left !important; display: block !important; position: relative;
+}
+span.dnnInputFileWrapper > span.dnnSecondaryAction {
+	width: auto; float: none; display: inline-block;
+}
+.dnnFileUploadScope {
+	padding: 0px; width: 500px; margin-right: 10px; margin-bottom: 10px; float: left; display: block; background-color: rgb(240, 240, 240);
+}
+.dnnFileUploadScope .dnnLeft {
+	margin: 0px; padding: 15px 10px;
+}
+.dnnFileUploadScope .dnnLeft .dnnFormItem {
+	margin-bottom: 10px;
+}
+.dnnFileUploadScope .dnnFormItem span {
+	width: 40px; text-align: left; padding-left: 5px; margin-top: 8px; float: left; display: block;
+}
+.urlControlTab .dnnFormItem > span {
+	width: 40px; text-align: left; padding-left: 5px; margin-top: 8px; float: left; display: block;
+}
+.dnnFileUploadScope .dnnFormItem .dnnDropDownList span {
+	margin: 0px; width: auto;
+}
+.dnnFileUploadScope .dnnFormItem .RadComboBox_Default {
+	margin: 0px; width: 180px; float: none;
+}
+.dnnFileUploadScope .dnnFormItem .dnnDropDownList {
+	margin: 0px; width: 180px; float: none;
+}
+.dnnFileUploadScope .dnnLeft .dnnFileUploadDropZone {
+	background: rgb(217, 238, 255); margin: 0px; border-radius: 3px; border: 1px dashed rgb(187, 187, 187); border-image: none; width: 180px; height: 150px; color: rgb(69, 119, 162); position: relative; box-shadow: 0px 1px 0px #fff; -webkit-border-radius: 3px;
+}
+.dnnFileUploadScope .dnnLeft .dnnFileUploadDropZone span {
+	background: rgba(0, 0, 0, 0.5); padding: 5px 7px; border-radius: 3px; transition:500ms ease-in-out; left: 38px; top: 60px; color: rgb(255, 255, 255); font-size: 12px; display: block; position: absolute; cursor: default; opacity: 0.5; box-shadow: 0px 1px 0px #fff, inset 1px 1px 0px #555; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out;
+}
+.dnnFileUploadScope .dnnLeft .dnnFileUploadDropZone:hover span {
+	opacity: 1;
+}
+input.dnnFixedSizeComboBox {
+	width: 200px !important; margin-right: 10px; float: left;
+}
+div.dnnFixedSizeComboBox {
+	width: 218px !important; margin-right: 15px; float: left;
+}
+.dnnFixedSizeComboBox + a.dnnSecondaryAction {
+	margin-right: 10px; float: left;
+}
+input.dnnSmallSizeComboBox {
+	width: 100px !important; margin-right: 10px; float: left;
+}
+div.dnnSmallSizeComboBox {
+	width: 118px !important; margin-right: 15px; float: left;
+}
+.dnnSmallSizeComboBox + a.dnnSecondaryAction {
+	margin-right: 10px; float: left;
+}
+td.dnnGridHeaderTD-NoBorder {
+	border-right-color: currentColor !important; border-right-width: medium !important; border-right-style: none !important;
+}
+tr.dnnGridItem td {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+tr.dnnGridAltItem td {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: none;
+}
+tr.dnnGridItem td input {
+	margin-bottom: 0px;
+}
+h2.dnnFormSectionHead {
+	line-height: 36px; letter-spacing: -0.03em; font-size: 32px; margin-top: 8px; margin-bottom: 18px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h2.dnnFormSectionHead a {
+	background: url("../../images/down-icn.png") no-repeat right 50%; color: rgb(51, 51, 51); letter-spacing: normal; padding-left: 3px; font-size: 18px; font-weight: normal; text-decoration: none; display: block;
+}
+h2.dnnFormSectionHead a:hover {
+	background: url("../../images/down-icn.png") no-repeat right 50% rgba(2, 139, 255, 0.05); color: rgb(34, 34, 34);
+}
+h2.dnnFormSectionHead a.dnnSectionExpanded {
+	background: url("../../images/up-icn.png") no-repeat right 50%; color: rgb(34, 34, 34);
+}
+h2.dnnFormSectionHead a.dnnSectionExpanded:hover {
+	background: url("../../images/up-icn.png") no-repeat right 50% rgba(2, 139, 255, 0.05); color: rgb(34, 34, 34);
+}
+.dnnVerticalTabs {
+	margin-left: 0px;
+}
+.dnnVerticalTabs li {
+	list-style: none;
+}
+.dnnVerticalTabs li a {
+	background: rgba(0, 0, 0, 0.04); padding: 15px; color: rgb(153, 153, 153); text-decoration: none; border-right-color: rgb(221, 221, 221); border-bottom-color: rgb(221, 221, 221); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; display: block;
+}
+.dnnVerticalTabs li a:hover {
+	background: rgba(0, 0, 0, 0.06); color: rgb(51, 51, 51);
+}
+.dnnVerticalTabs li.active a {
+	background: none; color: rgb(51, 51, 51); border-right-color: transparent; border-right-width: 1px; border-right-style: solid;
+}
+.tabBody {
+	display: none;
+}
+.jspContainer {
+	overflow: hidden; position: relative;
+}
+.jspPane {
+	position: absolute;
+}
+.jspVerticalBar {
+	background: rgb(204, 204, 204); top: 0px; width: 11px; height: 100%; right: 0px; position: absolute;
+}
+.jspHorizontalBar {
+	background: rgb(204, 204, 204); left: 0px; width: 100%; height: 11px; bottom: 0px; position: absolute;
+}
+.jspVerticalBar * {
+	margin: 0px; padding: 0px;
+}
+.jspHorizontalBar * {
+	margin: 0px; padding: 0px;
+}
+.jspCap {
+	display: none;
+}
+.jspHorizontalBar .jspCap {
+	float: left;
+}
+.jspTrack {
+	background: none; position: relative;
+}
+.jspVerticalBar .jspTrack {
+	margin: 0px 0px 0px 3px; width: 10px;
+}
+.jspHorizontalBar .jspTrack {
+	margin: 3px 0px; height: 5px;
+}
+.jspVerticalBar .jspCap {
+	width: 11px; height: 3px; display: block;
+}
+.jspHorizontalBar .jspCap {
+	width: 3px; height: 11px; display: block;
+}
+.jspDrag {
+	background: rgb(0, 0, 0); border-radius: 3px; left: 0px; top: 0px; position: relative; cursor: pointer; opacity: 0.75; -webkit-border-radius: 3px 3px 3px 3px;
+}
+.jspHorizontalBar .jspTrack {
+	height: 5px; float: left;
+}
+.jspHorizontalBar .jspDrag {
+	height: 5px; float: left;
+}
+div.ModDNNAnnouncementsC table.ucLinkTypeRadioButtons label {
+	display: inline !important;
+}
+div.ModDNNAnnouncementsC table.ucLinkTypeRadioButtons span.dnnRadiobutton {
+	display: inline !important;
+}
+div.ModDNNAnnouncementsC .urlControl label {
+	display: inline !important;
+}
+div.ModDNNLinksC .urlControl label {
+	display: inline !important;
+}
+div.ModDNNFAQsC .Normal {
+	width: auto !important;
+}
+div.ModDNNFeedbackC .dnnFormItem > label {
+	width: 33%; text-align: right; display: inline-block;
+}
+div.ModDNNUserDefinedTableC div.RadEditor {
+	height: auto !important;
+}
+div.ModDNNUserDefinedTableC ul.dnnActions {
+	display: block;
+}
+div.ModDNNIFrameC .urlControl span.dnnRadiobutton {
+	display: inline !important;
+}
+div.ModDNNIFrameC table.Normal td .dnnLabel {
+	width: 100px;
+}
+div.ModDNNIFrameC table.Normal td span.dnnRadiobutton {
+	margin: 5px 0px 0px 30px;
+}
+div.ModDNNLinksC .urlControl span.dnnRadiobutton {
+	display: inline !important;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.dnnLeft {
+	float: left;
+}
+.dnnRight {
+	float: right;
+}
+.dnnClear {
+	clear: both;
+}
+.dnnClear::after {
+	height: 0px; clear: both; font-size: 0px; display: block; visibility: hidden; content: ".";
+}
+* + html .dnnClear {
+	min-height: 1%;
+}
+.DNNAlignleft {
+	text-align: left;
+}
+.DNNAlignright {
+	text-align: right;
+}
+.DNNAligncenter {
+	text-align: center;
+}
+.DNNEmptyPane {
+	width: 0px;
+}
+.Hidden {
+	display: none;
+}
+.wordwrap {
+	white-space: pre-wrap; -ms-word-wrap: break-word;
+}
+.eipbackimg {
+	background: url("../../images/eip_toolbar.png") repeat-x; height: 32px; margin-top: -32px; white-space: nowrap; position: absolute; z-index: 1;
+}
+.editMode.eipbackimg {
+	background: linear-gradient(rgb(48, 48, 48) 0%, rgb(25, 25, 25) 100%) !important; border: 1px solid rgb(119, 119, 119) !important; border-image: none !important; opacity: 0.8;
+}
+.containerTitle.eipbackimg {
+	margin-top: -8px;
+}
+.editMode.containerTitle.eipbackimg {
+	background: none !important; border: currentColor !important; border-image: none !important; left: auto; right: 0px; margin-top: 2px;
+}
+.eipbuttonbackimg {
+	background: url("../../images/eip_toolbar.png") no-repeat; width: 32px; height: 32px; float: left; cursor: pointer;
+}
+.editMode.eipbackimg .eipbuttonbackimg {
+	border-right-color: rgb(57, 57, 57); border-left-color: rgb(31, 31, 31); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; opacity: 0.5;
+}
+.containerTitle.editMode.eipbackimg .eipbuttonbackimg {
+	border: currentColor; border-image: none; opacity: 1;
+}
+.eipbutton_cancel.eipbuttonbackimg {
+	background-position: -32px 0px;
+}
+.eipbutton_bold.eipbuttonbackimg {
+	background-position: -64px 0px;
+}
+.eipbutton_italic.eipbuttonbackimg {
+	background-position: -96px 0px;
+}
+.eipbutton_underline.eipbuttonbackimg {
+	background-position: -128px 0px;
+}
+.eipbutton_justifyleft.eipbuttonbackimg {
+	background-position: -160px 0px;
+}
+.eipbutton_justifycenter.eipbuttonbackimg {
+	background-position: -192px 0px;
+}
+.eipbutton_justifyright.eipbuttonbackimg {
+	background-position: -224px 0px;
+}
+.eipbutton_orderedlist.eipbuttonbackimg {
+	background-position: -256px 0px;
+}
+.eipbutton_unorderedlist.eipbuttonbackimg {
+	background-position: -288px 0px;
+}
+.eipbutton_outdent.eipbuttonbackimg {
+	background-position: -320px 0px;
+}
+.eipbutton_indent.eipbuttonbackimg {
+	background-position: -352px 0px;
+}
+.eipbutton_createlink.eipbuttonbackimg {
+	background-position: -384px 0px;
+}
+.containerTitle.eipbackimg .eipbutton_cancel {
+	background: url("../../images/eip_title_cancel.png") no-repeat center;
+}
+.eipbutton_edit {
+	background: url("../../images/eip_edit.png") no-repeat 100%; float: left;
+}
+.eipbutton_save {
+	background: url("../../images/eip_save.png") no-repeat 100%; float: left;
+}
+.containerTitle.eipbackimg .eipbutton_save {
+	background-image: url("../../images/eip_title_save.png");
+}
+.editMode.eipbackimg .eipborderhover {
+	opacity: 1; background-color: rgb(51, 51, 51);
+}
+.containerTitle.editMode.eipbackimg .eipborderhover {
+	background-color: inherit;
+}
+div[id$=titleLabel_tb].visible ~ span {
+	margin-left: 32px;
+}
+div.errorWin p {
+	margin: 0px 0px 10px;
+}
+input[type='button'].rspCollapseBarSpacer {
+	padding: 0px; min-width: 0px;
+}
+.UserProfileControls ul li {
+	list-style-type: none;
+}
+.profile.console {
+	width: 100% !important; height: auto; background-color: rgb(72, 72, 72);
+}
+.profile.console .console-none div {
+	margin: 0px; padding: 0px; width: 100% !important; height: auto; text-align: left; float: left; cursor: pointer;
+}
+.profile.console .console-none h3 {
+	background: url("../../images/arrow-right-white.png") no-repeat 18px; margin: 0px; padding: 10px 8px 10px 40px; color: rgb(238, 238, 238); line-height: 1; font-size: 13px; font-weight: bold; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.profile.console .console-none div div {
+	display: none;
+}
+.profile.console .console-mouseon {
+	background-color: rgb(112, 177, 199);
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView {
+	margin: 0px; padding: 0px; width: 100%; height: inherit !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnFormMessage {
+	margin: 0px; padding: 10px 0px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnFormValidationSummary.dnnFormMessage {
+	padding: 10px;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .LoginPanel {
+	margin: 0px; padding: 18px 0px 0px; width: 100%; float: none; min-width: inherit !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnSendPasswordContent {
+	margin: 0px; padding: 18px 0px 0px; width: 100%; float: none; min-width: inherit !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnRegistrationForm {
+	margin: 0px; padding: 18px 0px 0px; width: 100%; float: none; min-width: inherit !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm {
+	margin: 0px; width: 100%; float: none; min-width: inherit !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnFormItem > .dnnLabel {
+	margin: 0px 0px 7px; padding: 0px; width: 100% !important; text-align: left; font-size: 14px; vertical-align: top; float: none; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnSocialRegistration {
+	display: none;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnCaptcha {
+	width: 100%;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnLeft img {
+	margin: 0px 0px 5px; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnFormItem > .dnnLabel a.dnnFormHelp {
+	margin: 0px !important; width: 0px !important; display: none !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnFormItem > .dnnLabel div.dnnTooltip {
+	margin: 0px !important; width: 0px !important; right: 0px !important; display: none !important; position: static !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnFormItem input[type='text'] {
+	border-radius: 0px; width: 100% !important; margin-bottom: 18px; display: block; min-width: 100% !important; max-width: 100% !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnFormItem > input[type='password'] {
+	border-radius: 0px; width: 100% !important; margin-bottom: 18px; display: block; min-width: 100% !important; max-width: 100% !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnFormItem > label#dnn_ctr_Login_Login_DNN_lblLogin {
+	margin: 0px; width: 0px; display: none !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnFormItem span.dnnFormError.dnnFormMessage {
+	padding: 10px; border-radius: 0px; width: auto; right: 0px; max-width: 100%; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnLoginService.dnnForm a.dnnPrimaryAction {
+	margin: 0px 5px 0px 0px; padding: 18px 0px; width: 45%; float: left; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnLoginService.dnnForm a.dnnSecondaryAction {
+	margin: 0px 5px 0px 0px; padding: 18px 0px; width: 45%; float: left; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnLoginRememberMe {
+	margin: 10px 0px 0px 5px; float: left; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnLoginActions {
+	display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnActions a.dnnSecondaryAction {
+	padding: 18px 0px; width: 100%; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnActions a.dnnPrimaryAction {
+	padding: 18px 0px; width: 100%; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnActions {
+	padding: 0px;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnForm .dnnActions li {
+	width: 45%;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnRegistrationForm .password-strength-container {
+	margin: 0px 0px 12px; padding: 8px 0px; width: 100%; display: block; max-width: inherit !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnRegistrationForm .dnnFormItem .password-strength-container input[type='password'] {
+	margin: 0px 8px; border-radius: 0px; width: calc(100% - 20px); display: block; max-width: inherit !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnRegistrationForm .dnnFormItem .password-strength-container span.min-length-text {
+	margin: 5px 0px 5px 8px; display: block;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnRegistrationForm .dnnFormItem .password-strength-container div.meter {
+	margin: 0px 0px 0px 8px; width: 90%; float: none;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnFormItem input.unmatched {
+	background: none !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnRegistrationForm .dnnFormItem .password-strength-tooltip {
+	display: none !important;
+}
+body.dnnFormPopupMobileView.dnnFormPopup.mobileView .dnnRegistrationForm .dnnFormItem .confirm-password-tooltip {
+	display: none !important;
+}
+.mobileView .dnnFormPopup .ui-dialog-content {
+	max-height: none !important;
+}
+.mobileVie #iPopUp .ui-dialog-content {
+	max-height: none !important;
+}
+.mobileView .ui-widget-overlay {
+	display: none;
+}
+.dnnFormPopupMobileView.dnnFormPopup {
+	left: 0px !important; top: 0px !important; width: auto !important; right: 0px !important; box-shadow: none !important;
+}
+.dnnFormPopupMobileView.dnnFormPopup div.ui-dialog-titlebar > .ui-dialog-titlebar-close {
+	display: none;
+}
+.dnnFormPopupMobileView.dnnFormPopup .ui-dialog-titlebar {
+	padding: 5px 0px 0px; color: rgb(0, 0, 0); font-size: 22px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; cursor: inherit;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnForm .dnnFormItem > .dnnLabel {
+	margin: 0px 0px 7px; width: auto !important; text-align: left; font-size: 14px; vertical-align: top; float: none; display: block;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnForm .dnnFormItem > input[type='text'] {
+	border-radius: 0px; width: 100% !important; display: block; max-width: inherit !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnForm .dnnFormItem > textarea {
+	border-radius: 0px; width: 100% !important; display: block; max-width: inherit !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnForm .dnnFormItem > .redactor_box {
+	border-radius: 0px; width: 100% !important; display: block; max-width: inherit !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnForm .dnnFormItem > select {
+	border-radius: 0px; width: 100% !important; max-width: inherit !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnForm .dnnFormItem > .dnnTagsInput {
+	border-radius: 0px; width: 100% !important; margin-bottom: 18px; max-width: inherit !important; box-sizing: border-box; box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: none; -moz-box-sizing: border-box;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnForm .dnnFormItem > .dnnLabel > input[type='checkbox'].normalCheckBox {
+	margin: 0px 5px 0px 12px; display: inline-block;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnFormItem span.dnnFormError.dnnFormMessage {
+	border-radius: 0px; width: auto; text-align: right; right: 0px; max-width: 100%;
+}
+.dnnFormPopupMobileView.dnnFormPopup a.dnnPrimaryAction {
+	margin: 0px; padding: 20px 0px; width: 49%; display: block;
+}
+.dnnFormPopupMobileView.dnnFormPopup .ui-dialog-buttonpane button.dnnPrimaryAction {
+	margin: 0px; padding: 20px 0px; width: 49%; display: block;
+}
+.dnnFormPopupMobileView.dnnFormPopup a.dnnSecondaryAction {
+	margin: 0px; padding: 20px 0px; width: 49%; display: block;
+}
+.dnnFormPopupMobileView.dnnFormPopup .ui-dialog-buttonpane button.dnnSecondaryAction {
+	margin: 0px; padding: 20px 0px; width: 49%; display: block;
+}
+.dnnFormPopupMobileView.dnnFormPopup a.dnnPrimaryAction {
+	float: left;
+}
+.dnnFormPopupMobileView.dnnFormPopup .ui-dialog-buttonpane button.dnnPrimaryAction {
+	float: left;
+}
+.dnnFormPopupMobileView.dnnFormPopup a.dnnSecondaryAction {
+	float: right;
+}
+.dnnFormPopupMobileView.dnnFormPopup .ui-dialog-buttonpane button.dnnSecondaryAction {
+	float: right;
+}
+.dnnFormPopupMobileView.dnnFormPopup .ui-dialog-buttonpane {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.dnnFormPopupMobileView.dnnFormPopup .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: none;
+}
+.dnnFormPopupMobileView.dnnFormPopup .four-btn-panel a.dnnPrimaryAction {
+	width: 24%; margin-right: 1%; float: none; display: inline-block;
+}
+.dnnFormPopupMobileView.dnnFormPopup .four-btn-panel a.dnnSecondaryAction {
+	width: 24%; margin-right: 1%; float: none; display: inline-block;
+}
+.dnnFormPopupMobileView.dnnFormPopup .dnnFormMessage {
+	margin: 25px 0px 15px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+html.mobileView {
+	overflow: auto !important;
+}
+.mobileView .dnnFormPopup .ui-dialog-content {
+	max-height: none !important;
+}
+.mobileView #iPopUp .ui-dialog-content {
+	max-height: none !important;
+}
+.dnnPlaceholder {
+	color: rgb(102, 102, 102);
+}
+div.dnnSliderInput {
+	margin: 15px 0px 23px; border-radius: 3px; border: 1px solid rgb(211, 211, 211); border-image: none; width: 47%; height: 10px; display: inline-block; position: relative; max-width: 445px; -ms-border-radius: 3px;
+}
+div.dnnSliderInput .ui-slider-handle {
+	border: 1px solid rgb(170, 170, 170); border-image: none; top: -2px; width: 14px; height: 14px; color: rgb(85, 85, 85); font-weight: normal; margin-left: -7px; position: absolute; z-index: 2; cursor: default; box-sizing: border-box; background-color: rgb(204, 204, 204); -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+div.dnnSliderInput .dnnTooltip {
+	top: -37px; margin-left: -22px;
+}
+div.dnnSliderInput .dnnTooltip .dnnFormHelpContent {
+	padding: 4px 10px; width: 25px; text-align: center; visibility: visible; z-index: 1;
+}

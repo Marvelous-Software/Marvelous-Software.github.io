@@ -1,0 +1,1567 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0053)http://www.sqlsaturday.com/588/Sessions/Schedule.aspx -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en-US"><HEAD id="Head"><META 
+content="IE=11.0000" http-equiv="X-UA-Compatible">
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<SCRIPT type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"45acc2e841","applicationID":"11923547","transactionName":"YQAAMBZQWkFQARALXlhKIzc0HlBXVwMRDkUYBBEUHA==","queueTime":0,"applicationTime":38456,"ttGuid":"8CD55CB78CDA7BC6","agent":""}</SCRIPT>
+
+<SCRIPT type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</SCRIPT>
+<TITLE>	SQLSaturday #588 - New York City 2017 &gt; Sessions &gt; Schedule 
+</TITLE>
+<META name="ROBOTS" id="MetaRobots" content="INDEX, FOLLOW"><LINK href="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/default.css" 
+rel="stylesheet" type="text/css" media="all"><LINK href="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/module.css" 
+rel="stylesheet" type="text/css" media="all"><LINK href="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/skin.css" 
+rel="stylesheet" type="text/css" media="all"><LINK href="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/container.css" 
+rel="stylesheet" type="text/css" media="all"><LINK href="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/style.css" 
+rel="stylesheet" type="text/css" media="all"><LINK href="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/84FEC4DB334A1FF07.css" 
+rel="stylesheet" type="text/css" media="all">
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/jquery.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/jquery-migrate.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/jquery-ui.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/enquire.min.js" type="text/javascript"></SCRIPT>
+     <!-- Required for: Ad Modules -->     
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/gpt.js" async=""></SCRIPT>
+     
+<SCRIPT>
+    //Initialize Google Tag Service
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    </SCRIPT>
+             <!-- Required for: Ad Modules -->         
+<SCRIPT type="text/javascript">
+        //Ad Module Setup
+        googletag.cmd.push(function() {
+			
+			var mapping = googletag.sizeMapping()
+                            .addSize([1140, 0], [[1140, 114]])
+                            .addSize([940, 0], [[720, 110]])
+                            .addSize([720, 0], [[720, 110]])
+                            .addSize([0, 0], [[260, 320]])
+                            .build();
+			
+			//Adslot 1 declaration
+    		googletag.defineSlot('/25893936/1140x114_sqlsat_footer', [1140, 114], 'div-gpt-ad-4834710-1').addService(googletag.pubads()).defineSizeMapping(mapping); 
+			
+            //Required for: SQLSaturday Ad Module 4-5
+            googletag.defineSlot('/25893936/pass-sqlsat-allevents-755x130', [755, 130], 'div-gpt-ad-1441413819640-1').addService(googletag.pubads()); //ad unit 4
+            googletag.defineSlot('/25893936/pass-sqlsat-allevents-175x600', [175, 600], 'div-gpt-ad-1445973926738-0').addService(googletag.pubads()); //ad unit 5
+            //Required for: SQLSaturday Ad Module 6-8
+            googletag.defineSlot('/25893936/pass-sqlsat-homepage-1058x42-1', [1058, 42], 'div-gpt-ad-1441414516016-0').addService(googletag.pubads()); //ad unit 6
+            googletag.defineSlot('/25893936/pass-sqlsat-homepage-1058x42-2', [1058, 42], 'div-gpt-ad-1441414516016-1').addService(googletag.pubads()); //ad unit 7
+            googletag.defineSlot('/25893936/pass-sqlsat-homepage-970x90', [970, 90], 'div-gpt-ad-1441414516016-2').addService(googletag.pubads()); //ad unit 8
+			googletag.defineSlot('/25893936/pass_sqlsat_260x320', [260, 320], 'div-gpt-ad-1493673615044-0').addService(googletag.pubads()); // new sqlsat ad
+
+            //general GT calls
+            googletag.pubads().enableSingleRequest();
+            /*googletag.pubads().collapseEmptyDivs();*/
+            googletag.enableServices();
+        });
+        </SCRIPT>
+    	 
+<SCRIPT type="text/javascript">
+        (function() {
+            var didInit = false;
+            function initMunchkin() {
+            if(didInit === false) {
+                didInit = true;
+                Munchkin.init('369-QUH-984');
+            }
+            }
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//munchkin.marketo.net/munchkin.js';
+            s.onreadystatechange = function() {
+            if (this.readyState == 'complete' || this.readyState == 'loaded') {
+                initMunchkin();
+            }
+            };
+            s.onload = initMunchkin;
+            document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+    </SCRIPT>
+ 
+<META name="viewport" content="width=device-width,initial-scale=1"><LINK href="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/bootstrap-dnn-admin.css" 
+rel="stylesheet" type="text/css" media="screen">
+<META name="GENERATOR" content="MSHTML 11.00.9600.18666"></HEAD> 
+<BODY class="L0_Sessions L1_Schedule page Id39829 Id39854" id="Body">
+<FORM id="Form" action="/588/Sessions/Schedule.aspx" enctype="multipart/form-data" 
+method="post">
+<DIV class="aspNetHidden"><INPUT name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" type="hidden"> 
+<INPUT name="ScriptManager_TSM" id="ScriptManager_TSM" type="hidden"> 
+<INPUT name="__EVENTTARGET" id="__EVENTTARGET" type="hidden"> <INPUT name="__EVENTARGUMENT" id="__EVENTARGUMENT" type="hidden"> 
+<INPUT name="__VIEWSTATE" id="__VIEWSTATE" type="hidden" value="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"> 
+</DIV>
+<SCRIPT type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+ 
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/WebResource.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/Telerik.Web.UI.WebResource.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</SCRIPT>
+ 
+<DIV class="aspNetHidden"><INPUT name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" type="hidden" value="CA0B0334">
+	 <INPUT name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" type="hidden">
+	 <INPUT name="__EVENTVALIDATION" id="__EVENTVALIDATION" type="hidden" value="8NDIgGaXINcSIgujf1wYtzePi+Dw6Bjr/WCWlFoQZqGiiKpYDqoeQswh33s2p0U48mqJ7CQ0sK6zcMSkOU1l6HV34ycYVv4IOMELbDKo50Ze7ch279OyBKFGWh1v2JZCBS57lmnojPzgvwh9oUMYQKY9yYYT0a6Cu2nxAGFOIluYaUFb3CgQo2KUCrbYKLWOyCPllZJ6jeSF/y/VoPzjBpqMTs2qQq2RyGBApHvy5e51xD7FaccY5ZO6FlE="> 
+</DIV>
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/dnn.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/dnn.modalpopup.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/jquery.hoverIntent.min.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/dnn.servicesframework.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/dnn.jquery.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/dnncore.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/bootstrap.min.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</SCRIPT>
+                               <!--40Fingers Stylehelper Conditions Return True--> <!--40Fingers Stylehelper Conditions Return False --> <!--40Fingers Stylehelper Conditions Return False --> <!--40Fingers Stylehelper Conditions Return False --> 
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/e03b38f4af.js"></SCRIPT>
+ <!--CDF(Css|/Portals/_default/Skins/SQLSaturday-2014/fonts/style.css?cdv=223)--> <!--CDF(Css|https://cloud.typography.com/7758934/7848352/css/fonts.css?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/bootstrap.min.js?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/enquire.min.js?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/jquery.sticky.js?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/main.js?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/jquery.matchHeight-min.js?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/skin.js?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/nav.js?cdv=223)--> <!--CDF(Javascript|/Portals/_default/Skins/SQLSaturday-2014/js/nav-footer.js?cdv=223)--> <!-- Site favicon --> 
+<LINK href="/Portals/_default/Skins/SQLSaturday-2014/images/favicon.ico" rel="icon" 
+type="image/x-icon"> <!-- Everybody else --> <LINK href="/Portals/_default/Skins/SQLSaturday-2014/images/favicon.ico" 
+rel="shortcut icon" type="image/x-icon"> <!-- IE6-10 -->		 
+<DIV id="stickyheader">
+<DIV class="hidden-xs hidden-sm hidden-md" id="utility">
+<DIV class="container">
+<DIV class="row">
+<DIV class="col-sm-12 text-right">
+<DIV class="utility-belt"><A class="utility-link btn-shell" href="http://www.sqlsaturday.com/" 
+target="_blank">SQLSaturday Home</A> <A class="utility-link" id="dnn_dnnLogin_loginLink" 
+onclick="this.disabled=true;" href="http://www.sqlsaturday.com/588/UserLogin/tabid/39828/Default.aspx?returnurl=%2f588%2fSessions%2fSchedule.aspx" 
+rel="nofollow">Sign In</A>  
+<DIV class="SqlSatRegNow" id="dnn_dnn_regNow_SqlSatIDNumber"><A class="btn btn-primary btn-sign-up text-uppercase" 
+id="sign-up-button" 
+href="http://www.sqlsaturday.com/588/RegisterNow.aspx">Register Now</A> 
+</DIV></DIV></DIV></DIV></DIV></DIV><HEADER id="header">
+<DIV class="container-fluid">
+<DIV class="row">
+<DIV class="col-xs-8 col-lg-3 logo">
+<DIV class="SqlSatEventLogo" id="dnn_dnnLogo_LogoImage"><A href="http://www.sqlsaturday.com/588"><IMG 
+alt="SQLSaturday #588 - New York City 2017" src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/sqlsat588_header.png">
+<DIV class="sqlsat-location-date text-uppercase text-primary"><SPAN class="sqlsat-location"></SPAN><SPAN 
+class="sqlsat-date"></SPAN></DIV></A> </DIV></DIV>
+<DIV class="touch-nav text-right col-xs-4 hidden-lg"><SPAN class="nav-trigger-wrapper"><SPAN 
+class="nav-trigger"><SPAN class="icon-menu"></SPAN></SPAN></SPAN> </DIV>
+<DIV class="col-xs-12 col-lg-9" id="nav-container"><NAV id="nav" role="navigation">
+<UL class="parent-nav">
+  <LI class="nav-item sub-nav bc-selected"><SPAN class="page-disabled">Sessions 
+  <SPAN class="icon-caret"></SPAN></SPAN>
+  <UL class="child-nav">
+    <LI class="nav-item bc-selected selected"><A href="http://www.sqlsaturday.com/588/Sessions/Schedule.aspx">Schedule</A></LI>
+    <LI class="nav-item"><A href="http://www.sqlsaturday.com/588/Sessions/SubmittedSessions.aspx">Submitted 
+    Sessions</A></LI>
+    <LI class="nav-item"><A href="http://www.sqlsaturday.com/588/Sessions/BuildSchedule.aspx">Build 
+    Schedule</A></LI></UL></LI>
+  <LI class="nav-item"><A href="http://www.sqlsaturday.com/588/Speakers/Submission.aspx">Speakers</A></LI>
+  <LI class="nav-item sub-nav"><A href="http://www.sqlsaturday.com/588/Sponsors.aspx">Sponsors 
+  <SPAN class="icon-caret"></SPAN></A>
+  <UL class="child-nav">
+    <LI class="nav-item"><A href="https://www.sqlsaturday.com/588/Sponsors/SponsorSignup.aspx">Sponsor 
+    Signup</A></LI>
+    <LI class="nav-item"><A href="http://www.sqlsaturday.com/588/Sponsors/SponsorPlan.aspx">Sponsor 
+    Plan</A></LI></UL></LI></UL></NAV>
+<DIV class="sign-up-cta text-center hidden-lg">
+<DIV class="SqlSatRegNow" id="dnn_dnn_regNow2_SqlSatIDNumber"><A class="btn btn-primary btn-sign-up text-uppercase" 
+id="sign-up-button" 
+href="http://www.sqlsaturday.com/588/RegisterNow.aspx">Register Now</A> </DIV><A 
+class="btn btn-link text-white text-uppercase" href="http://www.sqlsaturday.com/Login.aspx">Sign 
+In</A>                         </DIV></DIV></DIV></DIV></HEADER></DIV>
+<DIV class="body-content"><SECTION class="hero" style='background-image: url("/Portals/_default/Skins/SQLSaturday-2014/images/bg/hero.jpg") !important;'>
+<DIV class="hero-wrapper">
+<DIV class="container">
+<DIV class="row">
+<DIV class="col-sm-12 col-lg-10 col-lg-offset-1 text-center sc-element">
+<H1>Schedule</H1>
+<P></P></DIV></DIV></DIV></DIV></SECTION><main class="bg-white">
+<DIV class="container">
+<DIV class="row">
+<DIV class="col-xs-12">
+<DIV class="DNNEmptyPane" id="dnn_HeroPane"></DIV>
+<DIV class="DNNEmptyPane" id="dnn_TopContentPane"></DIV></DIV></DIV>
+<DIV class="row">
+<DIV class="col-xs-12">
+<DIV class="DNNEmptyPane" id="dnn_HighlightPanePrimary"></DIV></DIV></DIV>
+<DIV class="row">
+<DIV class="col-xs-12">
+<DIV id="dnn_ContentPane">
+<DIV class="DnnModule DnnModule-DNN_HTML DnnModule-60020"><A name="60020"></A>
+<DIV id="dnn_ctr60020_ContentPane"><!-- Start_Module_60020 -->
+<DIV class="DNNModuleContent ModDNNHTMLC" id="dnn_ctr60020_ModuleContent">	 
+<DIV class="Normal" id="dnn_ctr60020_HtmlModule_lblContent">
+<H1>Schedule</H1>
+<HR>
+
+<P> Here is our schedule for the upcoming event. We've done our best to provide 
+a good mix of topics and skill levels, we hope you'll find something of interest 
+throughout the day. Our thanks to the speakers listed below for volunteering 
+their time, we couldn't do it without them. If there are schedule changes we 
+will make them here as they happen. We encourage you to check back a few days 
+before the event just in case we have had to move one of your favorite 
+sessions.</P></DIV></DIV><!-- End_Module_60020 --></DIV></DIV>
+<DIV class="DnnModule DnnModule-OratorSessionScheduler DnnModule-60021"><A name="60021"></A>
+<DIV id="dnn_ctr60021_ContentPane"><!-- Start_Module_60021 -->
+<DIV class="DNNModuleContent ModOratorSessionSchedulerC" id="dnn_ctr60021_ModuleContent">
+	         
+<DIV class="pass-session-scheduler pass-session-scheduler-view">
+<DIV id="dnn_ctr60021_ViewSchedule_ctlSchedule_panelContent">
+<TABLE class="session-schedule table-bordered">
+  <TBODY>
+  <TR>
+    <TD style="background-color: rgb(146, 208, 80);">
+      <DIV class="session-schedule-cell text-center">                    
+      Advanced Analysis Techniques                 </DIV></TD>
+    <TD style="background-color: rgb(156, 194, 229);">
+      <DIV class="session-schedule-cell text-center">                    
+      Analytics and Visualization                 </DIV></TD>
+    <TD style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell text-center">                    
+      Application &amp; Database Development                 </DIV></TD>
+    <TD style="background-color: rgb(204, 153, 255);">
+      <DIV class="session-schedule-cell text-center">                    BI 
+      Information Delivery                 </DIV></TD>
+    <TD style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell text-center">                    BI 
+      Platform Architecture, Development &amp; Administration                 
+      </DIV></TD>
+    <TD style="background-color: rgb(197, 224, 179);">
+      <DIV class="session-schedule-cell text-center">                    Cloud 
+      Application Development &amp; Deployment                 </DIV></TD>
+    <TD style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell text-center">                    
+      Enterprise Database Administration &amp; Deployment                 
+    </DIV></TD>
+    <TD style="background-color: rgb(204, 204, 255);">
+      <DIV class="session-schedule-cell text-center">                    
+      Information Delivery                 </DIV></TD>
+    <TD style="background-color: rgb(252, 174, 232);">
+      <DIV class="session-schedule-cell text-center">                    
+      Professional Development                 </DIV></TD>
+    <TD style="background-color: rgb(255, 255, 255);">
+      <DIV class="session-schedule-cell text-center">                    
+      Strategy and Architecture                 </DIV></TD></TR></TBODY></TABLE>
+<P>Schedule is subject to change.</P>
+<H2 class="session-schedule-heading">Saturday, May 20, 2017 Conference 
+Schedule</H2>
+<TABLE class="session-schedule table-bordered">
+  <TBODY>
+  <TR>
+    <TD>Room</TD>
+    <TD class="centered">Music Box (5-46)</TD>
+    <TD class="centered">Winter Garden (5-46)</TD>
+    <TD class="centered">Broadway (5-30)</TD>
+    <TD class="centered">Majestic (5-18)</TD>
+    <TD class="centered">Marquis (5-18)</TD>
+    <TD class="centered">Brooks Atkinson (5-16)</TD>
+    <TD class="centered">Jacobs (6-16)</TD>
+    <TD class="centered">Central Park West (6-200)</TD>
+    <TD class="centered">Central Park East (6-80)</TD>
+    <TD class="centered">Radio City (6-48)</TD>
+    <TD class="centered">Belasco (6-20)</TD>
+    <TD class="centered">Ambassador (6-18)</TD>
+    <TD class="centered">Carnegie (6-18)</TD></TR>
+  <TR>
+    <TD class="text-nowrap">08:30 AM  - 09:00 AM</TD>
+    <TD colspan="13">Kickoff / Keynote - Central Park East &amp; West</TD></TR>
+  <TR>
+    <TD class="text-nowrap">09:15 AM  - 10:25 AM</TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_0" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_0" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=65052">SQL 
+      Server Administration on Linux</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1105">David 
+      Klee</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_0">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_pnlDownload_0"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_rptSessionUploads_0_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17351" 
+        target="blank">SQL_Server_Administration_on_Linux.pdf</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_1" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_1" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57649">Real 
+      world SQL 2016 In-Memory OLTP</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4807">Ned 
+      Otter</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_1">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_pnlDownload_1"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_rptSessionUploads_1_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17361" 
+        target="blank">RealWorldInMemory.pdf</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_2" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_2" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=56536">Advanced 
+      SSIS Techniques</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=29">David 
+      Dye</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_2">Level: 
+      Advanced</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_3" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_3" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=56940">Do 
+      Awesome Things with PowerShell in 5 minutes or Less</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=12">Aaron 
+      Nelson</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_3">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_4" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_4" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=56250">Digging 
+      Deeper: BI Methodologies and Best Practices</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=2053">Chris 
+      Seferlis</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_4">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_pnlDownload_4"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_rptSessionUploads_4_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17368" 
+        target="blank">Digging_Deeper_-_BI_Methodologies_and_Best_Practices.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_5" 
+    style="background-color: rgb(204, 153, 255);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_5" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=58166">Power 
+      Query - Don't be afraid of the advanced editor</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=943">Erik 
+      Svensen</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_5">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_pnlDownload_5"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_rptSessionUploads_5_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17330" 
+        target="blank">NewYork588.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_6" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_6" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=56315">SQL 
+      Server Transactional Replication: A Deep Dive</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4296">Drew 
+      Furgiuele</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_6">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_pnlDownload_6"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_rptSessionUploads_6_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17332" 
+        target="blank">SQL_Server_Xaction_Replication_Deeper_Dive.pdf</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_7" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_7" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57769">New 
+      Features in SSIS 2016</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1550">Paul 
+      Rizza</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_7">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_8" 
+    style="background-color: rgb(156, 194, 229);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_8" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54969">Power 
+      BI:  Customer Stories from the Frontline</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=46">Patrick 
+      LeBlanc</A>, <A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=544">Adam 
+      Saxton</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_8">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_9" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_9" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=61694">A 
+      Closer Look at Distributed Availability Groups</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=147">Allan 
+      Hirt</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_9">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_10" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_10" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57293">Crash 
+      Course on Better SQL Development</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4231">Vladimir 
+      Oselsky</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_10">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_pnlDownload_10"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_rptSessionUploads_10_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17299" 
+        target="blank">CrashCourse.pptx</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_rptSessionUploads_10_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17300" 
+        target="blank">Demos.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_11" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_11" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57285">Stop 
+      Ignoring the SQL Server Resource Governor</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1774">Denis 
+      McDowell</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_11">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_tdSessionCell_12" 
+    style="background-color: rgb(252, 174, 232);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_lnkTitle_12" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54868">Whip 
+      Away Stress at Home &amp; Work to Create a Better You</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4367">Karlyn 
+      LeBlanc</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_2_plcLevel_12">Level: 
+      Beginner</P></DIV></TD></TR>
+  <TR>
+    <TD class="text-nowrap">10:35 AM  - 11:45 AM</TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_0" 
+    style="background-color: rgb(255, 255, 255);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_0" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62600">SQL 
+      Server Infrastructure – Cloud and On-Prem Options</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1105">David 
+      Klee</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_0">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_0"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_0_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17352" 
+        target="blank">SQL_Server_Infra_-_Cloud_&amp;_On-Prem_-_Klee.pdf</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_1" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_1" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=61530">Welcome 
+      To the 2016 Query Store!</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=53">Janis 
+      Griffin</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_1">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_1"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_1_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17296" 
+        target="blank">SS_Welcome_To_The_2016_Query_Store.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_2" 
+    style="background-color: rgb(197, 224, 179);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_2" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62455">Azure 
+      Analysis Services - An introduction</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1498">Timothy 
+      McAliley</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_2">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_2"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_2_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17329" 
+        target="blank">SQL_SAT_NYC_McAliley_-_Azure_Analysis_Services.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_3" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_3" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54862">Connection 
+      to SQL Server. Problems. Troubleshooting. Solutions.</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=3371">Slava 
+      Murygin</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_3">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_3"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_3_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17287" 
+        target="blank">Connect_to_SQLServer.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_4" 
+    style="background-color: rgb(156, 194, 229);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_4" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=56224">R-ternatives 
+      in Power BI</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4929">Ryan 
+      Wade</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_4">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_5" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_5" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=58088">SSAS 
+      Tabular in 60 mins: Developing Business-Driven Self-Service BI</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=5062">Wylie 
+      Blanchard</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_5">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_5"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_5_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17374" 
+        target="blank">Presentation_SSAS-Tabular-in-60-mins-Developing-Business-Driven-Self-Service-BI_2017_Wylie-Blanchard_Great-Tech-Pros[1].pdf</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_6" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_6" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62614">SQL 
+      Licensing &amp; True-up</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=5595">Robert 
+      Pearl</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_6">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_7" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_7" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62760">Inside 
+      SQL Server In-Memory OLTP</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=473">Bob 
+      Ward</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_7">Level: 
+      Advanced</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_7"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_7_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17360" 
+        target="blank">Inside_SQL_Server_In-Memory_OLTP_SQL_Sat_NYC_2017.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_8" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_8" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57998">Using 
+      Biml as an SSIS Design Patterns Engine</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=195">Andy 
+      Leonard</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_8">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_9" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_9" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57745">HOW 
+      TO TROUBLESHOOT DATABASE PERFORMANCE ISSUES</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=2282">Jean 
+      Joseph</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_9">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_10" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_10" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54851">Outsourcing 
+      database administration to your users.</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=5105">Stephen 
+      Mokszycki</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_10">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_10"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_10_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17346" 
+        target="blank">SQL_HelpDesk.pptx</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_10_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17348" 
+        target="blank">SQLHelpDesk.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_11" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_11" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62481">Accelerating 
+      DevOps and TDM Using Data Virtualization</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4277">Tim 
+      Gorman</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_11">Level: 
+      Advanced</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_11"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_11_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17285" 
+        target="blank">TGorman_SQLSat588_DevOpsTDM_20170520.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_tdSessionCell_12" 
+    style="background-color: rgb(252, 174, 232);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_lnkTitle_12" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62804">Why 
+      candidates fail the job interview in the first minute</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=115">Thomas 
+      Grohser</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_plcLevel_12">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_pnlDownload_12"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_3_rptSessionUploads_12_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17342" 
+        target="blank">Hire.pptx</A></LI></UL></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="text-nowrap">12:00 PM  - 01:00 PM</TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_0">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_1">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_2">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_3">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_4">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_5">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_6">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_7">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_8" 
+    style="background-color: rgb(255, 255, 255);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_lnkTitle_8" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=64308">No 
+      inside, No outside, No box. DellEMC software defined storage s</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=5706">Charles 
+      Chiambalero</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_plcLevel_8">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_9" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_lnkTitle_9" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=64285">SANLess 
+      clustering for physical, virtual and cloud environments</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1713">David 
+      Bermingham</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_plcLevel_9">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_10">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_11">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD>
+    <TD class="nosession" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_4_tdSessionCell_12">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"></P>
+      <P class="session-schedule-cell-info"></P>
+      <P></P></DIV></TD></TR>
+  <TR>
+    <TD class="text-nowrap">01:05 PM  - 02:15 PM</TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_0" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_0" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63008">Deadlock, 
+      Block &amp; Two Smoking Barrels: Breaking Down Blocking and 
+      Deadlocks</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1767">Amy 
+      Herold</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_0">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_1" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_1" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=61587">Troubleshoot 
+      performance problems like a Microsoft Engineer with SQLDiag, SQLNexus, 
+      PAL, and BPCheck</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=782">David 
+      Peter Hansen</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_1">Level: 
+      Advanced</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_2" 
+    style="background-color: rgb(146, 208, 80);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_2" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63593">Creating 
+      Your First Azure Machine Learning Model</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=5647">Adan 
+      Ortiz-Cordova</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_2">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_3" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_3" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=55000">Relational 
+      databases vs Non-relational databases</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=668">James 
+      Serra</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_3">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_3"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_3_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17289" 
+        target="blank">Relational_databases_vs_Non-relational_databases.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_4" 
+    style="background-color: rgb(204, 153, 255);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_4" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54853">SQL 
+      Server 2016: A dive into Data Quality Services</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=79">Steve 
+      Simon</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_4">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_4"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_4_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17283" 
+        target="blank">DQS.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_5" 
+    style="background-color: rgb(156, 194, 229);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_5" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=59793">From 
+      problem to Power BI:  A journey in data visualization</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4833">Jonathan 
+      Stewart</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_5">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_5"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_5_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17362" 
+        target="blank">From_Problem_to_Power_BI.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_6" 
+    style="background-color: rgb(156, 194, 229);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_6" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54921">R 
+      For the SQL Server Developer</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=2253">Kevin 
+      Feasel</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_6">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_6"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_6_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17088" 
+        target="blank">R.txt</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_7" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_7" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=59533">SQL 
+      Server 2016: It Just Runs Faster</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=473">Bob 
+      Ward</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_7">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_7"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_7_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17359" 
+        target="blank">SQL_Server_2016_It_Just_Runs_Faster_-_SQLSat_NYC_2017_Edition.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_8" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_8" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63307">Stop 
+      Doing That! 5 Common T-SQL Anti-Patterns</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1516">William 
+      Wolf</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_8">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_8"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_8_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17336" 
+        target="blank">StopIt.zip</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_8_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17337" 
+        target="blank">Stop_Doing_That_NYC.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_9" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_9" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63191">Writing 
+      T-SQL code like a boss</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=207">Fabiano 
+      Neves Amorim</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_9">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_9"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_9_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17335" 
+        target="blank">SQL_Saturday588_-_New_York_City.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_10" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_10" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=55118">Query 
+      Tuning without Production Data</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4287">Derik 
+      Hammer</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_10">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_10"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_10_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17294" 
+        target="blank">Query-Tuning-Without-Production-Data-20170429.zip</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_10_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17295" 
+        target="blank">Query-Tuning-Without-Production-Data-20170429.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_11" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_11" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=56278">Advanced 
+      Security: Protecting Data from the DBA</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=115">Thomas 
+      Grohser</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_11">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_pnlDownload_11"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_11_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17343" 
+        target="blank">AdvancedSecurity.pptx</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_rptSessionUploads_11_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17344" 
+        target="blank">AdvancedSecurityDemo.sql</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_tdSessionCell_12" 
+    style="background-color: rgb(252, 174, 232);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_lnkTitle_12" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63601">The 
+      Phenomenal IT Consultant</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=299">Sebastian 
+      Meine</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_5_plcLevel_12">Level: 
+      Beginner</P></DIV></TD></TR>
+  <TR>
+    <TD class="text-nowrap">02:25 PM  - 03:35 PM</TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_0" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_0" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54867">Tips 
+      that have saved my bacon</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=2826">Greg 
+      Moore</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_0">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_1" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_1" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57609">Effective 
+      Data Warehouse Storage Patterns</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=2488">John 
+      Miner</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_1">Level: 
+      Advanced</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_1"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_1_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17305" 
+        target="blank">sql-sat-588-john-miner-effective-data-warehouse-storage-patterns.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_2" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_2" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=61480">Would 
+      You Just Load Already?!  Maximizing Your SSIS Data Load</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1101">Chris 
+      Bell</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_2">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_2"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_2_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17298" 
+        target="blank">WouldYouJustLoadAlready.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_3" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_3" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57472">SQL 
+      Server XML 101</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=196">Alex 
+      Grinberg</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_3">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_3"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_3_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17282" 
+        target="blank">XML_Samples.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_4" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_4" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63501">Monitoring 
+      SQL Server using Extended Events</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=2353">Hilary 
+      Cotter</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_4">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_4"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_4_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17349" 
+        target="blank">highPerf1.zip</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_4_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17350" 
+        target="blank">ExtendedEvents.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_5" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_5" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=59481">SharePoint 
+      2016 Unbreakable with SQL Server Always On Availability Groups</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1484">Isabelle 
+      Van Campenhoudt</A>, <A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1486">serge 
+      Luca</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_5">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_5"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_5_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17358" 
+        target="blank">SQLsaturdayNY_sergeisabelle_unbreakableSharePoint.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_6" 
+    style="background-color: rgb(156, 194, 229);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_6" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63500">SQL 
+      Server R Services in SQL 2016</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=2009">Chris 
+      Hyde</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_6">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_6"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_6_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17340" 
+        target="blank">SQL_Server_R_Services_-_SQL_Saturday_#588.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_7" 
+    style="background-color: rgb(255, 255, 255);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_7" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=59728">Extending 
+      DevOps To SQL Server</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=163">Grant 
+      Fritchey</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_7">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_8" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_8" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57351">Azure 
+      SQL Database Vs. Amazon RDS</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1313">Luan 
+      Moreno Medeiros Maciel</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_8">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_9" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_9" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=64076">SQL 
+      Server High Availability in Azure IaaS</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1713">David 
+      Bermingham</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_9">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_10" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_10" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54950">Finding 
+      Islands, Gaps, and Clusters in Complex Data</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4151">Edward 
+      Pollack</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_10">Level: 
+      Advanced</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_10"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_10_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17338" 
+        target="blank">Finding_Islands_Gaps_and_Clusters_in_Complex_Data.sql</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_10_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17339" 
+        target="blank">Finding_Islands_Gaps_and_Clusters_in_Complex_Data.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_11" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_11" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62486">An 
+      Introduction to Always Encrypted</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=3415">Justin 
+      Dearing</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_11">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_tdSessionCell_12" 
+    style="background-color: rgb(252, 174, 232);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_lnkTitle_12" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63602">Network 
+      your Way to Success!</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=5622">Lisa 
+      Margerum</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_plcLevel_12">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_pnlDownload_12"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_6_rptSessionUploads_12_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17370" 
+        target="blank">Network_your_way_to_success_1.pptx</A></LI></UL></DIV></DIV></TD></TR>
+  <TR>
+    <TD class="text-nowrap">03:45 PM  - 04:55 PM</TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_0" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_0" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=61158">Execution 
+      Plans for Mere Mortals</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1721">Mike 
+      Lawell</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_0">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_pnlDownload_0"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_0_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17371" 
+        target="blank">Execution_Plans_for_Mere_Mortals.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_1" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_1" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63627">Introduction 
+      to Microsoft Analytics – Turning Data into Intelligent Action</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=597">Melody 
+      Zacharias</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_1">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_pnlDownload_1"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_1_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17356" 
+        target="blank">Intoduction_to_Analytics_NYC_.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_2" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_2" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54997">Choosing 
+      the right technologies for a big data solution</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=668">James 
+      Serra</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_2">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_pnlDownload_2"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_2_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17290" 
+        target="blank">Choosing_technologies_for_a_big_data_solution_in_the_cloud.pdf</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_3" 
+    style="background-color: rgb(244, 176, 131);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_3" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57529">Demystifying 
+      Data Compression</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4199">Andy 
+      Mallon</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_3">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_pnlDownload_3"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_3_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17341" 
+        target="blank">Data_Compression_2017.pptx</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_4" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_4" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54968">Using 
+      a gateway to leverage on-premises data in Power BI</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=544">Adam 
+      Saxton</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_4">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_5" 
+    style="background-color: rgb(204, 153, 255);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_5" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54856">SQL 
+      Server Reporting Services 2016 on Steroids!!</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=79">Steve 
+      Simon</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_5">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_pnlDownload_5"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_5_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17284" 
+        target="blank">SSRS.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_6" 
+    style="background-color: rgb(197, 224, 179);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_6" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=55028">Understanding 
+      U-SQL</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1903">Azhagappan 
+      Arunachalam</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_6">Level: 
+      Beginner</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_pnlDownload_6"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_6_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17365" 
+        target="blank">SQLSatNYC_uSQL.txt</A></LI>
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_6_lnkSessionUploads_1" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17367" 
+        target="blank">SQLSatNYC_uSQL.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_7" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_7" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=54883">Top 
+      5 Tips to Keep Always On Always Humming and Users Happy</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4776">Matt 
+      Gordon</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_7">Level: 
+      Intermediate</P>
+      <DIV class="dropdown" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_pnlDownload_7"><BUTTON 
+      class="btn btn-download btn-sm dropdown-toggle" aria-expanded="true" type="button" 
+      data-toggle="dropdown"><I class="fa fa-download"></I>&nbsp;Download        
+                                                 </BUTTON>                       
+                                    
+      <UL class="dropdown-menu" role="menu">
+        <LI role="presentation"><A tabindex="-1" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_rptSessionUploads_7_lnkSessionUploads_0" 
+        role="menuitem" href="http://www.sqlsaturday.com/SessionDownload.aspx?suid=17363" 
+        target="blank">sqlsatnyc_top5tips_2017.zip</A></LI></UL></DIV></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_8" 
+    style="background-color: rgb(255, 229, 153);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_8" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57350">DBaaS 
+      on Azure - SQL Database Best Practices</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=1313">Luan 
+      Moreno Medeiros Maciel</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_8">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_9" 
+    style="background-color: rgb(197, 224, 179);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_9" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=62431">Building 
+      Secure Applications in Azure SQL Database</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=78">Joseph 
+      D'Antoni</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_9">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_10" 
+    style="background-color: rgb(231, 230, 230);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_10" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=63620">Lockless 
+      in Seattle: Using In-Memory OLTP Transaction Processing</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=100">Mark 
+      Broadbent</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_10">Level: 
+      Intermediate</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_11" 
+    style="background-color: rgb(204, 204, 255);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_11" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=61350">Azure 
+      Data Catalog 101</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=4311">Jake 
+      Switzer</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_11">Level: 
+      Beginner</P></DIV></TD>
+    <TD class="text-centered" id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_tdSessionCell_12" 
+    style="background-color: rgb(252, 174, 232);">
+      <DIV class="session-schedule-cell">
+      <P class="session-schedule-cell-info"><A id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_lnkTitle_12" 
+      href="http://www.sqlsaturday.com/588/Sessions/Details.aspx?sid=57816">Wish 
+      you could live the glamorous consulting life?</A></P>
+      <P class="session-schedule-cell-info"><A href="http://www.sqlsaturday.com/588/Speakers/Details.aspx?spid=172">Juan 
+      Soto</A></P>
+      <P></P>
+      <P id="dnn_ctr60021_ViewSchedule_ctlSchedule_rptSchedule_rptRows_0_rptSessions_7_plcLevel_12">Level: 
+      Beginner</P></DIV></TD></TR>
+  <TR>
+    <TD colspan="14">Wrap-up / Prizes</TD></TR></TBODY></TABLE></DIV><INPUT name="dnn$ctr60021$ViewSchedule$ctlSchedule$hidOneColSpan" id="dnn_ctr60021_ViewSchedule_ctlSchedule_hidOneColSpan" type="hidden" value="14"> 
+<INPUT name="dnn$ctr60021$ViewSchedule$ctlSchedule$hidTwoColSpan" id="dnn_ctr60021_ViewSchedule_ctlSchedule_hidTwoColSpan" type="hidden" value="13"> 
+<INPUT name="dnn$ctr60021$ViewSchedule$ctlSchedule$hidRooms" id="dnn_ctr60021_ViewSchedule_ctlSchedule_hidRooms" type="hidden" value="Music Box (5-46);Winter Garden (5-46);Broadway (5-30);Majestic (5-18);Marquis (5-18);Brooks Atkinson (5-16);Jacobs (6-16);Central Park West (6-200);Central Park East (6-80);Radio City (6-48);Belasco (6-20);Ambassador (6-18);Carnegie (6-18)"> 
+<INPUT name="dnn$ctr60021$ViewSchedule$ctlSchedule$hidEventName" id="dnn_ctr60021_ViewSchedule_ctlSchedule_hidEventName" type="hidden" value="SQLSaturday #588 - New York City 2017"> 
+<P><A class="btn btn-primary" id="dnn_ctr60021_ViewSchedule_ctlSchedule_btnExport" 
+href="javascript:__doPostBack('dnn$ctr60021$ViewSchedule$ctlSchedule$btnExport','')">Export 
+To PDF</A></P><SPAN id="dnn_ctr60021_ViewSchedule_Label_ErrorMessages" style="color: red;"></SPAN> 
+        </DIV></DIV><!-- End_Module_60021 --></DIV></DIV></DIV></DIV></DIV>
+<DIV class="row">
+<DIV class="col-xs-12">
+<DIV class="DNNEmptyPane" id="dnn_HighlightPaneSeconary"></DIV></DIV></DIV>
+<DIV class="row">
+<DIV class="col-xs-12">
+<DIV class="DNNEmptyPane" 
+id="dnn_BottomContentPane"></DIV></DIV></DIV></DIV></main>
+<DIV class="banner-ad bg-gray-white"><!-- Adslot's refresh function: googletag.pubads().refresh([gptadslots[0]]) --> 
+<DIV class="text-center center-block nam-full-width" id="div-gpt-ad-4834710-1">
+<SCRIPT>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-4834710-1'); });
+  </SCRIPT>
+ </DIV></DIV>
+<DIV class="DNNEmptyPane" id="dnn_FooterPane"></DIV><FOOTER class="footer">
+<DIV class="container">
+<DIV class="row">
+<DIV class="col-lg-8 hidden-xs hidden-sm hidden-md">
+<P class="pass-copyright"><IMG src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/pass-logo-white-2017.png"> 
+<SPAN>Brought to you by your local PASS Community</SPAN></P></DIV>
+<DIV class="col-lg-4">
+<H6 class="hidden-xs hidden-sm hidden-md">Connect</H6>
+<P class="social-media"><SPAN class="circle"><A href="https://twitter.com/sqlpass" 
+target="_blank"><SPAN class="icon-twitter"></SPAN></A></SPAN> <SPAN class="circle"><A 
+href="https://www.facebook.com/PASS-37651511063/" target="_blank"><SPAN class="icon-facebook"></SPAN></A></SPAN> 
+<SPAN class="circle"><A href="https://www.linkedin.com/groups/61756" target="_blank"><SPAN 
+class="icon-linkedin2"></SPAN></A></SPAN> <SPAN class="circle"><A href="https://www.youtube.com/user/SQLPASSTV" 
+target="_blank"><SPAN 
+class="icon-youtube"></SPAN></A></SPAN></P></DIV></DIV></DIV>
+<DIV class="footer-utility">
+<DIV class="container">
+<DIV class="row">
+<DIV class="col-lg-8">
+<P class="footer-links"><SPAN>            SQLSaturday is a trademark of PASS. 
+Have a question about the site? <A 
+href="mailto:webmaster@sqlsaturday.com">Contact Us</A>             
+</SPAN></P></DIV>
+<DIV class="col-lg-3">
+<P class="footer-links">Copyright 2017 by PASS | <A href="https://pass.org/Governance/Policies/PrivacyPolicy.aspx" 
+target="_blank">Privacy Policy</A></P></DIV></DIV></DIV></DIV></FOOTER></DIV><A 
+class="cd-top" 
+href="http://www.sqlsaturday.com/588/Sessions/Schedule.aspx#0">Back to Top <SPAN 
+class="fa fa-angle-up"></SPAN></A>
+<SCRIPT>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3210692-12', 'auto');
+  ga('send', 'pageview');
+</SCRIPT>
+         <INPUT name="ScrollTop" id="ScrollTop" type="hidden">         
+<INPUT name="__dnnVariable" id="__dnnVariable" type="hidden" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/588/`,`sf_tabId`:`39854`}" autocomplete="off"> 
+        <INPUT name="__RequestVerificationToken" type="hidden" value="IgE2bBkn5VET4nn1RWfEIsxKYrpgJUf5vkl7lyN7LGUT5cOc0-DqQAfXfrF7DPDxozlbPx4RZgmARTspwsQS3v7qa6Ht8wb-TvdTkn8wXal-7X-t9frZRUFRYsU1">
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/jquery.matchHeight-min.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/main.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/jquery.sticky.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/nav-footer.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/nav.js" type="text/javascript"></SCRIPT>
+
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/skin.js" type="text/javascript"></SCRIPT>
+     
+<SCRIPT src="SQLSaturday%20%23588%20-%20New%20York%20City%202017%20%20Sessions%20%20Schedule_files/initWidgets.js" type="text/javascript"></SCRIPT>
+</FORM><!-- Google Tag Manager -->         <NOSCRIPT>&lt;iframe 
+src="//www.googletagmanager.com/ns.html?id=GTM-N2GSC2"        height="0" 
+width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</NOSCRIPT>   
+      
+<SCRIPT>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N2GSC2');</SCRIPT>
+         <!-- End Google Tag Manager -->     </BODY></HTML>

@@ -1,0 +1,72 @@
+.pass-container {
+	position: relative;
+}
+.pass-container .dnn-actionButtons {
+	text-align: right;
+}
+.pass-container .container-extras {
+	left: 0px; top: 0px; position: absolute;
+}
+.pass-container .container-actionButtons {
+	float: right;
+}
+.pass-container .container-title {
+	margin: 0px; padding: 0px;
+}
+.pass-container .container-content {
+	margin: 0px; padding: 0px;
+}
+.pass-container .container-title {
+	padding-top: 10px; padding-bottom: 10px; margin-top: 0px; margin-bottom: 0px;
+}
+.pass-container .container-content {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.banner .container-content {
+	padding: 0px;
+}
+.pass-container .container-content p:first-child {
+	margin-top: 0px;
+}
+.pass-minimal-container {
+	border: currentColor; border-image: none;
+}
+.pass-container-colored {
+	border: 1px solid currentColor; border-image: none;
+}
+.pass-blue-highlight-container {
+	border-color: rgb(78, 119, 164);
+}
+.pass-blue-highlight-container .container-title {
+	background: rgb(78, 119, 164); color: rgb(255, 255, 255); font-size: 18px; font-weight: normal;
+}
+.pass-blue-highlight-container .container-title > .Head {
+	background: rgb(78, 119, 164); color: rgb(255, 255, 255); font-size: 18px; font-weight: normal;
+}
+.pass-blue-highlight-container .container-content {
+	background: url("./images/bg_container_blue.jpg") repeat-x rgb(77, 118, 162); color: rgb(255, 255, 255);
+}
+.pass-blue-highlight-container .container-content a {
+	color: rgb(126, 198, 231);
+}
+.pass-blue-highlight-container .container-content hr {
+	color: rgb(78, 119, 164); border-top-color: rgb(78, 119, 164); border-top-width: 1px; border-top-style: solid;
+}
+.pass-blue-inner-container {
+	background: rgb(229, 235, 242); border-color: rgb(193, 207, 222); padding: 0px 0px 10px;
+}
+.pass-blue-inner-container .container-title {
+	color: rgb(74, 74, 75); font-size: 18px; font-weight: normal;
+}
+.pass-blue-inner-container .container-title > .Head {
+	color: rgb(74, 74, 75); font-size: 18px; font-weight: normal;
+}
+.pass-green-container {
+	border-color: rgb(220, 237, 187);
+}
+.pass-green-container .container-title {
+	background: rgb(220, 237, 187); color: rgb(74, 109, 6); text-transform: uppercase; font-size: 14px; font-weight: bold;
+}
+.pass-green-container .container-title > .Head {
+	background: rgb(220, 237, 187); color: rgb(74, 109, 6); text-transform: uppercase; font-size: 14px; font-weight: bold;
+}

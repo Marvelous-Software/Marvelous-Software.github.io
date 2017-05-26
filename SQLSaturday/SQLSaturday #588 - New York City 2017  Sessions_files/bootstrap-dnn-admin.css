@@ -1,0 +1,78 @@
+.dnnCheckbox .mark {
+	background: none !important;
+}
+#ControlBar {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar::before {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar::after {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar *::before {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar *::after {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar li {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar li::before {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar li::after {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar a {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar a::before {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#ControlBar a::after {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact::before {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact::after {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact *::before {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact *::after {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact li {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact li::before {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnn_mact li::after {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnnDropDownList .selected-item a {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnnDropDownList .selected-item a:link {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnnDropDownList .selected-item a:visited {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnnDropDownList .selected-item a:hover {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+.dnnDropDownList .selected-item a:active {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
+#dnnModuleDigitalAssetsSelectionToolbar {
+	box-sizing: content-box !important; -moz-box-sizing: content-box; -webkit-box-sizing: content-box;
+}
