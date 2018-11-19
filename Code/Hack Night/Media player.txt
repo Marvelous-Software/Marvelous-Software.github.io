@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	jquery mobile
+	<head>
+		<script>
+			var pb = document.getElementByID('play');
+			var sb = document.getElementByID('stop');
+			
+			pb.addEventListener('click', function() { document.getElementById('music'.play();})
+			sb.addEventListener('click', function() { document.getElementById('music'.currenttime=0;})
+		</script>
+		<title>
+			Media Player
+		</title>
+		<body>
+			<audio id='music' controls='controls'>
+				<source src='C:\Users\Public\Music\Sample Music\Kalimba.mp3'>
+			</audio>
+			<button id = 'play'>
+				Play
+			</button id = 'stop'>
+				Stop
+			<button>
+			</button>
+		</body>
+	</head>
+</html>
