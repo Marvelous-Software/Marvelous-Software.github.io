@@ -4,3 +4,6 @@
 [submodule "school/--force"]
 	path = school/--force
 	url = https://github.com/Marvelous-Software/ltp-html5-authoring.git
+[submodule "school/ltp-html5-authoring"]
+	path = school/ltp-html5-authoring
+	url = https://github.com/Marvelous-Software/ltp-html5-authoring.git
