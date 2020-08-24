@@ -1,0 +1,3 @@
+[submodule "school/ltp-html5-authoring/ltp-html5-authoring"]
+	path = school/ltp-html5-authoring/ltp-html5-authoring
+	url = https://github.com/Marvelous-Software/ltp-html5-authoring.git
