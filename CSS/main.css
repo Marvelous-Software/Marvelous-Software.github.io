@@ -6,6 +6,11 @@ p {
 	/*display: inline-block;*/
 	/*margin: 1em 0em 0em 1em;*/
 }
+.animateRight {
+	animation: lightSpeedInRight;
+	animation-duration: 4s;
+	animation-delay: 2s;
+}
 .floatClear {
 	clear: both;
 }
