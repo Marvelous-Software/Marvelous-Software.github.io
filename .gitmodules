@@ -7,3 +7,6 @@
 [submodule "school/ltp-html5-authoring"]
 	path = school/ltp-html5-authoring
 	url = https://github.com/Marvelous-Software/ltp-html5-authoring.git
+[submodule "school/--name"]
+	path = school/--name
+	url = https://github.com/Marvelous-Software/FrameworkTelevision.git
