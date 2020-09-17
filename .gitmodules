@@ -10,3 +10,6 @@
 [submodule "school/--name"]
 	path = school/--name
 	url = https://github.com/Marvelous-Software/FrameworkTelevision.git
+[submodule "Frameworktv"]
+	path = Frameworktv
+	url = https://github.com/Marvelous-Software/FrameworkTelevision.git
