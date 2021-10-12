@@ -1,3 +1,4 @@
+
 * {
 	margin: 0px;
 }
@@ -5,6 +6,11 @@ p {
 	text-indent: 50px;
 	/*display: inline-block;*/
 	/*margin: 1em 0em 0em 1em;*/
+}
+.animateRight {
+	animation: lightSpeedInRight;
+	animation-duration: 4s;
+	animation-delay: 2s;
 }
 .floatClear {
 	clear: both;
@@ -121,3 +127,4 @@ a.link:hover {
 	width: 100%;
 	text-align: center;
 }	
+

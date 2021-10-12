@@ -1,0 +1,15 @@
+[submodule "school/ltp-html5-authoring/ltp-html5-authoring"]
+	path = school/ltp-html5-authoring/ltp-html5-authoring
+	url = https://github.com/Marvelous-Software/ltp-html5-authoring.git
+[submodule "school/--force"]
+	path = school/--force
+	url = https://github.com/Marvelous-Software/ltp-html5-authoring.git
+[submodule "school/ltp-html5-authoring"]
+	path = school/ltp-html5-authoring
+	url = https://github.com/Marvelous-Software/ltp-html5-authoring.git
+[submodule "school/--name"]
+	path = school/--name
+	url = https://github.com/Marvelous-Software/FrameworkTelevision.git
+[submodule "Frameworktv"]
+	path = Frameworktv
+	url = https://github.com/Marvelous-Software/FrameworkTelevision.git
