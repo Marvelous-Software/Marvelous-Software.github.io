@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>LoadFromTransExchange</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>LoadFromTransExchange</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_ItemForecast.html'>imsAO_ItemForecast</a> Class<br>
+        <h2>Summary</h2><br>
+         
+          Forecasts are handled in batches that are all or nothing as far as updating the database.  As such, this object is
+          (1) an entry point to be called by the Trans Queue processor and (2) a controller that creates other Forecast objects and collects
+          their SQL.  The SQL is stashed in the variable mTX_R2D2 which is then passed back to the Trans Queue Processor and executed when it calls Save 
+          on this object.
+<br>
+        <h2>Remarks</h2><br>
+        
+         - A Forecast batch is defined by the document tag.   Only one batch should appear in a trans queue row.
+<br>
+
+    </body>
+
+</html>

@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>#ctor</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>#ctor</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_AR_Ledger.html'>imsAO_AR_Ledger</a> Class<br>
+        <h2>Summary</h2><br>
+         Legder rows represent physical source documents such as Invoices and Checks.  How these
+          documents affect other documents is defined via the Application rows.  This object allows
+          defining and maintaining the Ledge rows.  Once a row is written no changes are allowed
+          to it's dates or monetary fields.
+<br>
+        <h2>Remarks</h2><br>
+         There are two major input routines: Invoice Posting and A/R Application (cash receipts).
+          Invoice Posting also covers finance charge assessment and revaluation.  As Invoicing is a 
+          non-interactive process but Applications is an interactive one they have different requirements
+          as far defaults and cacasading SetValues (setting the trans currency amount automatically
+          changing the Local amount and vice-versa, for example).  For this reason, there is a 
+          SetupMode flag.  Interactive (the default) is used for Applications, NonInteractive for 
+          Invoicing (it must change the flag).
+
+          A/R Ledger rows are children of the Posting summary under which they were created.  However,
+          their applications are often children of a different Posting summary.  This causes a bit
+          of a problem when ledger transaction a queued as to which Posting summary to use.  This is solved
+          by having a ARPS_RecordID_InEffect field on the ledger record.  It is set by the inputting
+          routine and is the value that the Application rows retrieval to be connected with the 
+          'mother ship'.  This value is cleared when a Save(PreocessNow = True) occurs.
+
+          Speaking of parents...  There are four client routines (originally) that can create new ledger
+          rows: Applications, Invoicing / Finance Charges, Revaluation, and Trans Queue / EDI.
+<br>
+
+    </body>
+
+</html>

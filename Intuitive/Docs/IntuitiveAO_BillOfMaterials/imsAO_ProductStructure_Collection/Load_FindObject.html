@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Load_FindObject</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>Load_FindObject</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_ProductStructure_Collection.html'>imsAO_ProductStructure_Collection</a> Class<br>
+        <h2>Summary</h2><br>
+        
+    Called by the framework when trying to locate an existing subdomain object.  It is necessary to do more than
+    just provide alternate look-up fields as the main field, (PST_)IMA_RecordID is not normally supplied but its evil
+    sister, IMA_ItemID (played by lPST_CompItemID) is.  So we need to do an ID to GUID conversion first and then do the look up.
+ 
+    The minimum fields required to do a look up are the Item ID and the Effective Start Date.  If Route Sequeunce is provided,
+    it is used, too.  Success is defined as one and only one row matching the criteria.
+ <br>
+        <h2>Returns</h2><br>
+         Hopefully, the datarow for the intended PST row to be changed. <br>
+
+    </body>
+
+</html>

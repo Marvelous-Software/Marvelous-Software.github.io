@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>GetValue</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>GetValue</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_Invoice.html'>imsAO_Invoice</a> Class<br>
+        <h2>Summary</h2><br>
+         Returns the value for the field requested.     <br>
+        <h2>Remarks</h2><br>
+        
+     Virtually all logical fields are derived in two ways.  First, they look with the hope that the field value has already been set.  This
+     is the case if in Create From Shipment or Audit as the routines set the fields are they are available.  If the field value has
+     not been set then the routines check that the source field isn't null and, if not, retrieve the data.
+<br>
+        <h2>Returns</h2><br>
+         The value (boxed). <br>
+
+    </body>
+
+</html>

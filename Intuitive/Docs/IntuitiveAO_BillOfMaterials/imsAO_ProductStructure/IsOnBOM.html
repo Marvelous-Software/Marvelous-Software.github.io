@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>IsOnBOM</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>IsOnBOM</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_ProductStructure.html'>imsAO_ProductStructure</a> Class<br>
+        <h2>Summary</h2><br>
+         Returns Boolean based on use of item on a BOM.  
+ If UseEffDate is true will use either the date sent in EffDate 
+ or Today as a filter on the Stop date.  The Start date not 
+ filtered so future starts will return a true
+ <br>
+        <h2>Remarks</h2><br>
+         Checks the supplied value of IMA_RecordID and returns  True if it is on a BOM, or if useeffdate is true, returns  True if it is on a BOM with a current or future effectivity date  false if not on a BOM or not on a BOM with a current or future effectivity date  uses the passed value for EffDate or Today if nothing passed <br>
+        <h2>Returns</h2><br>
+        Boolean<br>
+
+    </body>
+
+</html>

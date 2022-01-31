@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title></title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'></h1>
+        </div>
+        Member resides in the <a href='..\imsApprovalServices.html'>imsApprovalServices</a> Class<br>
+        <h2>Summary</h2><br>
+        
+ Services layer for approvals.
+ <br>
+        <h2>Remarks</h2><br>
+        This class uses the strategy pattern to handle document specific approvals. 
+ The class imsApprovalDocumentType contains all of the properties/methods necessary 
+ to handle document specific logic for approvals.Mod developers that are adding a new approval document type should register
+ a custom imsApprovalDocumentType by instantiating the class with the appropriate 
+ parameters in the constructor and calling 
+ imsApprovalServices.RegisterApprovalDocumentType().<br>
+
+    </body>
+
+</html>

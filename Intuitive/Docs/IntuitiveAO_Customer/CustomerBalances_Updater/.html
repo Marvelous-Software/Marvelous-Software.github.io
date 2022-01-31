@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title></title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'></h1>
+        </div>
+        Member resides in the <a href='..\CustomerBalances_Updater.html'>CustomerBalances_Updater</a> Class<br>
+        <h2>Summary</h2><br>
+        
+ Helper object for routines that change data used to determine any of the balances in
+ the CustomerBalances table except A/R.  <br>
+        <h2>Remarks</h2><br>
+        
+ Instantiate and then call BeforeChanges to get the current balances. After the database
+ has been changed but beofre the changes are committed, call the AfterChanges to have
+ the new balances read, the differences calced and the changes posted to CustomerBalances.  
+ 
+ The before and after balances are accessible. Obviously, changing them will cause 
+ pyschological issues later on in life.   <br>
+
+    </body>
+
+</html>

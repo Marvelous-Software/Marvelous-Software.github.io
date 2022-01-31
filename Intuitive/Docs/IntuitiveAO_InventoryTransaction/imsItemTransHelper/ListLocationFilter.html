@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>ListLocationFilter</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>ListLocationFilter</h1>
+        </div>
+        Member resides in the <a href='..\imsItemTransHelper.html'>imsItemTransHelper</a> Class<br>
+        <h2>Summary</h2><br>
+        
+ Returns the filter used by the dataview that is returned from ListLocation.
+ <br>
+        <h2>Remarks</h2><br>
+        
+ Overrides this method to get change the list of locations returned by ListLocations.
+ Usually the only place this would be overriden is during Inspected Receipts or Inspection
+ type transaction where they want to only list the inspect location (WIPInspect, POInspect, RMAInspect).
+ So for example, to limit the list to just POInspect locations include this as your override
+ in the derived ItemTransHelper:
+ 
+     Public Overridable Function ListLocationFilter() As String
+         Return "(MWL_LocationName = 'POInspect')"
+     End Function
+ <br>
+        <h2>Returns</h2><br>
+        String to filter the dataview returned by ListLocation.<br>
+
+    </body>
+
+</html>

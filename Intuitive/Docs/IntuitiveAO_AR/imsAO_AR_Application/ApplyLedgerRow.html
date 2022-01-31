@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>ApplyLedgerRow</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>ApplyLedgerRow</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_AR_Application.html'>imsAO_AR_Application</a> Class<br>
+        <h2>Summary</h2><br>
+         Called from the AutoApply routine on the Ledger object to distribute
+          cash.  The caller has taken care of instantiating this object and 
+          deciding what ledger row to apply the cash to.
+<br>
+        <h2>Remarks</h2><br>
+          This is easiest to do inside the application object (instead of the ledger) because
+           we can use the internal change flag.<br>
+        <h2>Returns</h2><br>
+          Returns the amount applied.                                    <br>
+
+    </body>
+
+</html>

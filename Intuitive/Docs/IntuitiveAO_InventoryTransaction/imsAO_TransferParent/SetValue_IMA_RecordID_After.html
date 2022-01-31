@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>SetValue_IMA_RecordID_After</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>SetValue_IMA_RecordID_After</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_TransferParent.html'>imsAO_TransferParent</a> Class<br>
+        <h2>Summary</h2><br>
+        
+ Gets called after base setvalue of field IMA_RecordID
+ <br>
+        <h2>Remarks</h2><br>
+        
+ Calls (in order): 
+   ClearWhsLocLot
+   ValidateLocTrackedItem
+   SetLogicalItemFieldsFromJoin
+   SetItemTransItemIDs
+   SetChildItemsSame
+   SetLotReadOnlyRequired
+ <br>
+
+    </body>
+
+</html>

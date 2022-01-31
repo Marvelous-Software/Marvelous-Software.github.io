@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>ByDay</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>ByDay</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_Schedule.html'>imsAO_Schedule</a> Class<br>
+        <h2>Summary</h2><br>
+         Create a schedule for the case when the recurrence pattern chosen is by day. <br>
+        <h2>Remarks</h2><br>
+         The data used here is recurrence pattern 'Occurs Every X Days' from Schedule Start.  
+          Basically, the routine begins with the start date and then loops adding X days until the stop 
+          date is reached.  For each scheduled date, the times are then determined.   
+          Optimization determines a 'window' within the schedule that is meaningful for determining if 
+          the time is due and limits determing the times to within the days in that window.  If we
+          are talking a schedule that pops every minute for several years this ends up saving
+          many thousands of useless calculations.  <br>
+
+    </body>
+
+</html>

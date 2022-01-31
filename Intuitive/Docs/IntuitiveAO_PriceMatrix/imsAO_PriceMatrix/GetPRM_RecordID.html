@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>GetPRM_RecordID</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>GetPRM_RecordID</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_PriceMatrix.html'>imsAO_PriceMatrix</a> Class<br>
+        <h2>Summary</h2><br>
+        Finds the right PriceMatrix for the parameters based on the defined hierarchy.<br>
+        <h2>Remarks</h2><br>
+        Price Matrix Hierarchy Order:
+1)  CustomerID, SoldTo, ItemID, Currency
+2)  CustomerID, SoldTo, Product Family, Currency
+3)  CustomerID, SoldTo, All Items, Currency
+4)  CustomerID, All SoldTos, ItemID, Currency
+5)  CustomerID, All SoldTos, Product Family, Currency
+6)  CustomerID,  All SoldTos, All Items, Currency
+7)  Customer Type,  All SoldTos, ItemID, Currency
+8)  Customer Type,  All SoldTos, Product Family, Currency
+9)  Customer Type,  All SoldTos, All Items, Currency
+10) All Customers,  All SoldTos, ItemID, Currency
+11) All Customers,  All SoldTos, Product Family, Currency
+12) All Customers,  All SoldTos, All Items, Currency
+    If no PriceMatrix is found, and Not (Currency = DomesticCurrency) and there is
+    a PriceMatrix for the DomesticCurrency with ConvertToForeignCurrency=True,
+    then the DomesticCurrency PriceMatrix is returned.<br>
+        <h2>Returns</h2><br>
+        The PRM_RecordID of the price matrix that matches the parameters, or Guid.Empty if no match is found.<br>
+
+    </body>
+
+</html>

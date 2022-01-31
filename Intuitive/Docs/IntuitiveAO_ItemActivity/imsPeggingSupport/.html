@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title></title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'></h1>
+        </div>
+        Member resides in the <a href='..\imsPeggingSupport.html'>imsPeggingSupport</a> Class<br>
+        <h2>Summary</h2><br>
+        Class containing methods to aid in display of pegging information<br>
+        <h2>Remarks</h2><br>
+        
+The main pPegging thread linking source to use is the EIA_GuidKey to EIA_ParentGuidKey relationship within a given EIA record
+These primary relationships are supplemented by other source to use relationships in the EIA_Linkages table
+Records are written to EIA_Linkages whenever a given source has multiple uses.  Think of this table as an inverted BOM (ok, its a where-used)
+Such situations arrise when order policies such as POQ or weekly buckets or look-ahead causes MRP or CTP to generate one
+supply order that covers multiple demands.  Or, when CTP combines multiple planned purchase orders generated within a CTP
+session into a single planned PO due at the earliest due date that then covers the multiple requirements within that session.
+So... the first relationship is built into EIA, and any additional relationships that need to be tracked are in EIA_Linkages
+Tracing upwards is not a problem since we can branch upwards by exploding along the main relationship and when that
+runs out, continue exploding up the additional relationships per the EIA_Linkages table.  This works through multiple levels
+of additional relationships.
+However... exploding downward is more painful because we don't know ahead of time what items we will be hitting due to the 
+additional relationships.  I call this thread-switching when we encounter these other relationships.
+I hate to hit the database every time we reach what we think is the bottom of a pegging branch, but I don't see a way to avoid it.
+<br>
+
+    </body>
+
+</html>

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Process</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>Process</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_SalesOrderFusion.html'>imsAO_SalesOrderFusion</a> Class<br>
+        <h2>Summary</h2><br>
+         Controlling function for the work flow. <br>
+        <h2>Remarks</h2><br>
+         This routine is intended to be called by the misc. invoicing UI.  It handles all
+          processing step automatically.
+
+          The function may be called a couple of seperate times due to call outs to the UI.
+          What the next step is to be is handled via the mNextStep variable.  
+          If the UI needs to do something, that something is put into the ProcessingMessage.
+         
+          Exceptions are trapped so that processing to the point of the exception can be
+          backed out.  A processing exception is then thrown with the original exception
+          stashed in its inner exception.
+ 
+          To abort the routine, call ProcessAbort.
+     
+          Payments are handled by the UI as that is always a connect to the payment form.  If
+          process thru payment is indicated the routine returns as completed after the invoicing
+          step.
+<br>
+
+    </body>
+
+</html>

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>UpdateUnitPrice</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>UpdateUnitPrice</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_SalesOrderDelivery.html'>imsAO_SalesOrderDelivery</a> Class<br>
+        <h2>Summary</h2><br>
+        Updates SOD_UnitPrice to the price taken from the price matrix or the price passed as a parameter.<br>
+        <h2>Remarks</h2><br>
+        Do not pass the stdPrice as NewPrice, or else SalesOrder.DontAllowPricingAutomation will be ignored.
+         If you have already queried stdPrice and want to pass it to keep price matrix from being requeried, then you must check SalesOrder.DontAllowPricingAutomation yourself.<br>
+        <h2>Returns</h2><br>
+        return data<br>
+
+    </body>
+
+</html>

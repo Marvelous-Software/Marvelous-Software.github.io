@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>GetValue</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>GetValue</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_AllowableGLDateMaint.html'>imsAO_AllowableGLDateMaint</a> Class<br>
+        <h2>Summary</h2><br>
+         
+ Gets a value from the app object.  The derived class should not call the base if it determines the
+ field's value (such as with a logical field) else the base needs to be called. Refer to the AO FX Doc
+ for examples and patterns. <br>
+        <h2>Remarks</h2><br>
+        
+  Three possible sources for a value: database field, logical field, and database field via a join. <br>
+        <h2>Returns</h2><br>
+         The field value. It will be boxed typed per the DB Type cast routine. <br>
+
+    </body>
+
+</html>

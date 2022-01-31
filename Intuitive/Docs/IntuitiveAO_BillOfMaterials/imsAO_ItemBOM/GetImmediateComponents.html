@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>GetImmediateComponents</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>GetImmediateComponents</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_ItemBOM.html'>imsAO_ItemBOM</a> Class<br>
+        <h2>Summary</h2><br>
+        These routines call special UDFs that return single levels but flag the rows so we can see when to 
+explode further.<br>
+        <h2>Remarks</h2><br>
+        They are used to fill treeview nodes, level by level as the user explodes into the BOM or WU gradually
+This is far superior to loading the entire bom and not being able to show when there are lower/higher
+items.  Extra fields beyond PST are defined in the UDFs
+<br>
+        <h2>Returns</h2><br>
+        Returns a dataset containing PST records for the parent item passed in<br>
+
+    </body>
+
+</html>

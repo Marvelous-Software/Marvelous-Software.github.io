@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Prepare</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>Prepare</h1>
+        </div>
+        Member resides in the <a href='..\imsEngChExeEngine.html'>imsEngChExeEngine</a> Class<br>
+        <h2>Summary</h2><br>
+        
+ Prepares the ECD for execution.
+ <br>
+        <h2>Remarks</h2><br>
+        This method prepares the ECD for execution. It combines the ECDs into a set of
+ execution tasks that are used to save the data to the database. The tasks are sorted
+ into the execution order and are ready for execution. As long as there were no App 
+ Errors returned, execution has a high likely hood of succeeding.To elaborate, execution tasks can be a combination of multiple ECDs. For example,
+ the imsAO_EngChDoc_PST record represents a single line in a BOM. All of a BOMs lines 
+ within a ECD are consolidated into a single imsEngChExeTask_PSH_Update task in order to 
+ be saved as a whole.<br>
+        <h2>Returns</h2><br>
+        If imsReturnData.AnyAppErrs is True, the ECD cannot be executed.<br>
+
+    </body>
+
+</html>

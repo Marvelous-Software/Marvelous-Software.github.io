@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>List</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>List</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_CFHeader.html'>imsAO_CFHeader</a> Class<br>
+        <h2>Summary</h2><br>
+        
+List creation for the main table.
+<br>
+        <h2>Remarks</h2><br>
+        
+The base constructs the SQL as follows:
+             SQL = "SELECT " & FieldList & " FROM " & MainTable & " (NOLOCK) "
+                 If AdditionalCriteria <> "" Then SQL &= " WHERE " & AdditionalCriteria
+                 If OrderByField <> "" Then SQL &= " ORDER BY " & OrderByField
+<br>
+
+    </body>
+
+</html>

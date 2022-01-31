@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>SetValue_SrceAR_RecordID_After</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>SetValue_SrceAR_RecordID_After</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_AR_Application.html'>imsAO_AR_Application</a> Class<br>
+        <h2>Summary</h2><br>
+         This trips off a whole gaggle of value and schema changes. <br>
+        <h2>Remarks</h2><br>
+         This field links the application line to the Ledger Row that it applies to.
+          If that changes the source doc fields need to change and the balances of the
+          old and new Ledger rows needs to be adjusted.
+
+          For a Primary App this indicates the secondary ledger item it applies to.
+          For a Secondary this links it to the applying primary.  For the secondaries, 
+          the fields are supplied by the primary so we don't worry about them here.
+<br>
+
+    </body>
+
+</html>

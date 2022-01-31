@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>SubdomainLoadSQL</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>SubdomainLoadSQL</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_AdjustQtyReasonList.html'>imsAO_AdjustQtyReasonList</a> Class<br>
+        <h2>Summary</h2><br>
+         
+ Allows the parent to specifiy the subdomain load SQL instead of the collection class. 
+ Overriding methods should not call the base method. <br>
+        <h2>Remarks</h2><br>
+         
+ The handle of the collection class is passed in to allow the parent to identify which subdomain it is.  That
+ would normally be the subdomain name or the logical subdomain name.  So the code structure would be something like:
+
+                dim cmd as new imsCommandObject
+                Select Case collectionClass.Domain.ToLower
+                    Case "sub1"
+                         ... concoct cmd object
+                    Case "sub2"
+                         ... concoct cmd object
+                End Select
+                Return cmd
+
+<br>
+        <h2>Returns</h2><br>
+         
+ Nothing to indicate the collection class must concoct the SQL or an imsCommand object ready to go. <br>
+
+    </body>
+
+</html>

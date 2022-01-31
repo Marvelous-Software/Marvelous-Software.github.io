@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>ReverseCommissions</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>ReverseCommissions</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_Invoice.html'>imsAO_Invoice</a> Class<br>
+        <h2>Summary</h2><br>
+         Called from Save_Ancillary during the Reverse Invoice function.  <br>
+        <h2>Remarks</h2><br>
+         The routine first does a join between the invoice lines and the commission
+          transactions.  This is done to minimize database hits and needless attempts
+          to instantiate commission objects.  The data table returned from the join is
+          then used to guide the reversal process.  As the record ids are known, the
+          routine takes advantage of that fact and instantiates a minimum of commission
+          objects.
+<br>
+
+    </body>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>LoadedOK</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>LoadedOK</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_ProductStructureHeader.html'>imsAO_ProductStructureHeader</a> Class<br>
+        <h2>Summary</h2><br>
+        Preform these operations after an ao is loaded.<br>
+        <h2>Remarks</h2><br>
+        PSH_RecordID is read-only after the ao is loaded.
+ If this is the Production BOM Type, BOM Type is read-only.
+todo limit change of BOMType to allow a change only to those that are not "Static"
+>>>>>>>>>>>>>>>>>>>actually what I want to do is check this against "Static" BOM Types
+>>>>>>>>>>>>>>>>>>>and not allow a change if it is in that list.  If it is not in the 
+>>>>>>>>>>>>>>>>>>>"Static" list then it can be changed to any type that does not 
+>>>>>>>>>>>>>>>>>>>exist.
+ If this is an existing ao then PSH_BOMType is read-only.<br>
+
+    </body>
+
+</html>

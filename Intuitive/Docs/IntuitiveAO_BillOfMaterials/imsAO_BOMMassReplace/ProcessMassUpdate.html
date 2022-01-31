@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>ProcessMassUpdate</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>ProcessMassUpdate</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_BOMMassReplace.html'>imsAO_BOMMassReplace</a> Class<br>
+        <h2>Summary</h2><br>
+         Persists document and changes to the database or the transaction queue. <br>
+        <h2>Remarks</h2><br>
+         Save is a multi step process which will vary depending on setting supplied. 
+There are two fundimental save types which are: 1. no new bom rev.  2. new bom rev.
+Also there will either be a global date or each row can have it's own date
+Also the destination quantity can be specified by a global ratio or by individule qpa fields
+For both 1 and 2 - pre-processing
+ 1. delete all non-selected rows in dataset (this didn't work so I'll just process it)
+ 2. if global qpa flag is set, fill "new qpa" field in dataset with "old qpa"x"conversion ratio"
+ 3. if global date field is set, fill in convert date field in dataset with value in global date
+ 4. if global newrev field is set, set "new rev" field in dataset
+For number 1, each row in the data set is stepped through and processed as follows:
+ 1. load existing line from PST
+ 1.1 check if new item is in bom with same route seq id, if so, add line to log (log will be displayed at end)
+ 2. copy to new line 
+ 3. set qpa, set start date, set PST_IMA_RecordID, and if duplicate (see 1.1) clear route seq id
+ 4. set stop date on old record
+ 5. call save for old and new lines and move to next selected row in dataset <br>
+
+    </body>
+
+</html>

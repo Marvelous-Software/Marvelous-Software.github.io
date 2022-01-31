@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>SetValue_WLL_WarehouseName</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>SetValue_WLL_WarehouseName</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_WhsLocLotTransaction.html'>imsAO_WhsLocLotTransaction</a> Class<br>
+        <h2>Summary</h2><br>
+        
+Validates, updates the value of and fires off dependent changes for field WLL_WarehouseName.
+<br>
+        <h2>Remarks</h2><br>
+        
+ SetValue_WLL_WarehouseName tries to validate the warehouse name 
+ by trying to find an object in the InventoryTransaction's MasterWarehouse cache
+ with the same name.  
+ If it finds a matching imsAO_MasterWarehouse object in the cache then it sets the 
+ WLL_WarehouseName to the passed in FieldValue and sets WLL_MWH_ID to the the 
+ found master warehouse object's MWH_ID value.
+<br>
+
+    </body>
+
+</html>

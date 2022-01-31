@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>SynchSession_Update</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>SynchSession_Update</h1>
+        </div>
+        Member resides in the <a href='..\imsUI_ATPDisplay.html'>imsUI_ATPDisplay</a> Class<br>
+        <h2>Summary</h2><br>
+        
+Allows forms to synchronize with each other. 
+<br>
+        <h2>Remarks</h2><br>
+        To become a synch session consumer, hook up a handler to the imsSynchSession.Update 
+ event. When the event is raised, check to make sure the synch key is what you are expecting 
+ and then update the form based on the value.The most common way to get a session is for it to be passed in through the 
+ Execute args parameter. When that occurs, the form should be initialized based 
+ on the settings in the synch session.The other way to get a session is to hook up to the imsSynchSession.CommonSynchSession. 
+ This route typically involves a checkbox in the header that the user can check to 
+ synchronize the form with the session.<br>
+
+    </body>
+
+</html>

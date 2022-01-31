@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title></title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'></h1>
+        </div>
+        Member resides in the <a href='..\imsAO_ItemForecastVersion.html'>imsAO_ItemForecastVersion</a> Class<br>
+        <h2>Summary</h2><br>
+        This is a *virtual* AO.  No database table exists for this app object.  It's purpose is to allow
+ the UI to set the item ID and forecast version ID that defines a set of IFL records that 
+ represent a particular version of the forecast for an item.  Also, save and locking occur
+ at this level.<br>
+        <h2>Remarks</h2><br>
+        
+ It should not be confused with AO_ForecastVersion which aligns with ItemForecastHeader table.
+ For the record, the various AOs and their tables are:
+ AO_ItemForecastVersion >> (no table) (parent, virtual)   Domain = ItemForecastVersion
+ AO_ItemForecast >>>>>>> ItemForecastLine table  (child)  Domain = ItemForecast
+ AO_ForecastVersion >>>>> ItemForecastHeader table (join, for purpose of version name) Domain = ForecastVersion
+<br>
+
+    </body>
+
+</html>

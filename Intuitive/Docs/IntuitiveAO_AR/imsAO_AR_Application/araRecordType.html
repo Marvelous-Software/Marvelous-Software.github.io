@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>araRecordType</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>araRecordType</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_AR_Application.html'>imsAO_AR_Application</a> Class<br>
+        <h2>Summary</h2><br>
+         The Primary is the source of the application.  For example, the distribution line on
+          a check.  The Secondary is the application line under the A/R Ledger item that was 
+          applied to, for instance, an invoice being paid by that check.
+                 
+             +---- AR_Ledger ----*          +---- AR_Ledger ----*
+             | Check             |   *----->| Invoice           |
+             +-------------------*  /       +-------------------*
+                     |             /                 |
+                     |            /                  |
+             +- AR_Applications -*          +- AR_Applications -*
+             | PRIMARY           |..........| SECONDARY         |
+             |(Pitcher)          |--*       | (Catcher)         |----*
+             +-------------------*  |       +-------------------*    |
+                |   G/L Adjustment  |          |    G/L Adjustment   |
+                |    Primary        |          |      SECONDARY      |b
+                *-------------------*          *---------------------*
+<br>
+
+    </body>
+
+</html>

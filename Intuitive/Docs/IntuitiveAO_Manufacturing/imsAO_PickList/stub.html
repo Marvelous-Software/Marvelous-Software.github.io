@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>stub</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>stub</h1>
+        </div>
+        Member resides in the <a href='..\imsAO_PickList.html'>imsAO_PickList</a> Class<br>
+        <h2>Summary</h2><br>
+        
+ Aligning the Satellites
+ <br>
+        <h2>Remarks</h2><br>
+        
+ Aligning the various Item identifier satellite fields is a tricky task.  I have used the 
+ following pattern successfully in several app objects.  Most tables have a foreign key 
+ field to either IMA_ItemID or to IMA_RecordID.  Some even have both!  But, the user is 
+ forced to enter the IMA_NoRevisionItemID and IMA_RevLevel seperately in all cases
+ when item values are required.  First they pick the NoRevisionItemID and the default 
+ RevLevel is defaulted in.  Then they have the opportunity to change the RevLevel.  
+ When they change the logical RevLevel then we must go sync up the IMA_ItemID and/or IMA_RecordID.  
+ 
+ The problem is that SetValue recursively fights against you.  
+ 
+ IMA_ItemID
+ IMA_RecordID
+ IMA_NoRevisionItemID
+ IMA_RevLevel
+ 
+ <br>
+
+    </body>
+
+</html>

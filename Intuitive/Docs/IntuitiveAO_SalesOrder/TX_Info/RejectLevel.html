@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>RejectLevel</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>RejectLevel</h1>
+        </div>
+        Member resides in the <a href='..\TX_Info.html'>TX_Info</a> Class<br>
+        <h2>Summary</h2><br>
+         Level at which to reject.  While the setting is hard to understand, the definition per the legacy system has
+          be retained to confuse old and young alike:
+             ""          Reject the SO if an error occurs at any level.  
+             "line item" Skip line items and deliveries that have errors; do not reject the entire SO.
+             "delivery"  Skip the deliveries  that have errors; do not reject the entire SO.
+          Note that the value returned will be all lower case.
+<br>
+        <h2>Returns</h2><br>
+         "", "line item", "delivery"   <br>
+
+    </body>
+
+</html>

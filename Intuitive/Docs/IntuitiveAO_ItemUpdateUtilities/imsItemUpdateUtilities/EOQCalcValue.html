@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>EOQCalcValue</title>
+    <link rel='stylesheet' type='text/css' href='..\..\main.css'/>
+
+    </head>
+    <body>
+            <div id='subjectdiv'>
+            <h1 id='subject'>EOQCalcValue</h1>
+        </div>
+        Member resides in the <a href='..\imsItemUpdateUtilities.html'>imsItemUpdateUtilities</a> Class<br>
+        <h2>Summary</h2><br>
+        Calculate the EOQ here with these steps
+Top Line of Formula
+Step 1 - Multiply avg monthly usage by 24 ("AvgMonthlyUsage" in itemTable)
+Step 2 - Multiply usage by order cost
+Bottom Line of Formula
+Step 3 - Multiply Accounting value of the item by carrying cost ("IMA_AcctValAmt" in itemTable)
+         Must make sure that acctg value is NOT zero
+Step 4 - Divide step 2 results by step 3 results
+Step 5 - Take square root of step 4 results and write EOQ value to itemTable
+<br>
+        <h2>Remarks</h2><br>
+        24 is used as a constant because the APICS formula is annual demand * 2.
+So I have multiplied monthly usage times 24 to get 2 years of demand.
+<br>
+
+    </body>
+
+</html>
