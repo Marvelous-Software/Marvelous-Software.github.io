@@ -13,3 +13,6 @@
 [submodule "Frameworktv"]
 	path = Frameworktv
 	url = https://github.com/Marvelous-Software/FrameworkTelevision.git
+[submodule "FrameworkTelevision"]
+	path = FrameworkTelevision
+	url = https://github.com/Marvelous-Software/FrameworkTelevision.git
