@@ -1,82 +1,97 @@
 
-<HTML>
-<a href='practicalProgramming.co'>practicalProgramming.co</a>
-<BR>
-<BR>Updating a repository.
-<BR>---------------------------------------------------
-<BR>At the command prompt of the working folder
-<BR>1) git add .    				(adds all changed files)
-<BR>2) git commit   				(marks changed files to e updated.)
-<BR>3) git push -u origin master	(copies data to github.)
-<BR>
-<BR>
-<BR>Creating a new repository from an existing project.
-<BR>---------------------------------------------------
-<BR>At the Github site.
-<BR>1) Create repository without a read me otherwise an error will occur.
-<BR>At the command prompt
-<BR>2) git init          (one time command which creates a .git sub folder and a master branch)
-<BR>3) optional, create a read me locally.
-<BR>4) optional, create a .gitignore or copy one to your working directory.
-<BR>5) git add .         (adds all files)
-<BR>6) git commit -m "x" (x is a commit comment.)
-<BR>7) git remote add origin https://github.com/{LoginID}/{RepositoryName}.git OR git remote add origin https://github.com/Marvelous-Software/Code-Generator.git
-<BR>8) git push -u origin master
-<BR>
-<BR>
-<BR>Creating a new repository from an existing project.
-<BR>-> this method didnt work <------------------------
-<BR>At the command prompt
-<BR>1) git init     (one time command which creates a .git sub folder and a master branch)
-<BR>2) optional, create a .gitignore.
-<BR>3) git add .    (adds all files)
-<BR>4) git commit   (Local repository now exists.)
-<BR>At the Github site.
-<BR>5) Create a new repository, do not initialize with read me or an error occurs.
-<BR>At the command prompt
-<BR>6) git remote add origin https://github.com/Marvelous-Software/Code-
-<BR>7) If a readme was added, do a git pull.  (otherwise error "src refspec master does not match any.")
-<BR>8) git push -u origin master
-<BR>
-<BR>
-<BR>Deleting a repository.
-<BR>----------------------
-<BR>Select repository - Settings tab - Danger Zone - Delete
-<BR>
-<BR>
-<BR>Creating a website.
-<BR>----------------------
-<BR>Marvelous-Software.github.io
-<BR>
-<BR>
-<BR>
-<BR>git clone {url}				copes repository from web to local dir {url} = https://github.com/MarDude/Test.git
-<BR>git add					adds file contents to
-<BR>got commit -m ""	
-<BR>git push origin master			uploads
-<BR>git checkout -d "branch name"		
-<BR>git branch				displays current working copy
-<h4>to make a new branch</h4>
-<BR>git clone {url}				copes repository from web to local dir {url} = https://github.com/marvelous-software/CodeChallenge
-<BR>git checkout -b "branch name"		make and switch to new branch
-<h4>gets latest version</h4>
-<BR>git pull origin master			
-<BR>
-<BR>origin = url = https://github.com/MarDude/Test.git
-<BR>
-<BR>{loginname}.github.io
-<BR>
-<BR>
-<H1>to get a project to a repo</H1>
-<BR>git init
-<BR>git add index.html
-<BR>git commit -m "first commit"
-<BR>git remote add origin https://github.com/MarDude/.github.io.git
-<BR>git push -u origin master
-<BR> https://github.com/Marvelous-Software/.github.io
-<BR> https://github.com/Marvelous-Software.io
-<BR>
-<BR> adding a repository to "site/school" E:\site\school>git submodule add https://github.com/Marvelous-Software/FrameworkTelevision.git --name Frameworktv
-<BR> merging from the submodule to "site" E:\site>git submodule update --remote --merge
-</HTML>
+<html>
+    <body>
+
+        <a href='practicalProgramming.co'>Practical Programming</a>
+        <a href='https://www.freecodecamp.org/'>Free code camp</a>
+        <BR>
+        <h1>Updating a repository.</h1>
+        <hr>
+        <BR>At the command prompt of the working folder
+        <BR>1) git add .    				(adds all changed files)
+        <BR>2) git commit   				(marks changed files to e updated.)
+        <BR>3) git push -u origin master	(copies data to github.)
+        <BR>
+        <BR>
+        <h1>Creating a new repository from an existing project.</h1>
+        <hr>
+        <BR>At the Github site.
+        <BR>1) Create repository without a read me otherwise an error will occur.
+        <BR>At the command prompt
+        <BR>2) git init          (one time command which creates a .git sub folder and a master branch)
+        <BR>3) optional, create a read me locally.
+        <BR>4) optional, create a .gitignore or copy one to your working directory.
+        <BR>5) git add .         (adds all files)
+        <BR>6) git commit -m "x" (x is a commit comment.)
+        <BR>7) git remote add origin https://github.com/{LoginID}/{RepositoryName}.git OR git remote add origin https://github.com/Marvelous-Software/Code-Generator.git
+        <BR>8) git push -u origin master
+        <BR>
+        <BR>
+        <h1>Creating a new repository from an existing project.</h1>
+        <BR>-> this method didnt work <------------------------
+        <BR>At the command prompt
+        <BR>1) git init     (one time command which creates a .git sub folder and a master branch)
+        <BR>2) optional, create a .gitignore.
+        <BR>3) git add .    (adds all files)
+        <BR>4) git commit   (Local repository now exists.)
+        <BR>At the Github site.
+        <BR>5) Create a new repository, do not initialize with read me or an error occurs.
+        <BR>At the command prompt
+        <BR>6) git remote add origin https://github.com/Marvelous-Software/Code-
+        <BR>7) If a readme was added, do a git pull.  (otherwise error "src refspec master does not match any.")
+        <BR>8) git push -u origin master
+        <BR>
+        <BR>
+        <h1>Deleting a repository.</h1>
+        <hr>
+        <h2>From Github</h2>
+        <BR>Select repository - Settings tab - Danger Zone - Delete
+        <h2>Locally</h2>
+        <BR>Delete the folder
+        <BR>To keep the files but disconnect from the repo delete the hidden folder <i>.git</i>
+        <BR>
+        <BR>
+        <h1>Creating a website.</h1>
+        <BR>----------------------
+        <BR>Marvelous-Software.github.io
+        <BR>
+        <BR>git clone {url}				copes repository from web to local dir {url} = https://github.com/MarDude/Test.git
+        <BR>git add					adds file contents to
+        <BR>got commit -m ""	
+        <BR>git push origin master			uploads
+        <BR>git checkout -d "branch name"		
+        <BR>git branch				displays current working copy
+        <h4>to make a new branch</h4>
+        <BR>git clone {url}				copes repository from web to local dir {url} = https://github.com/marvelous-software/CodeChallenge
+        <BR>git checkout -b "branch name"		make and switch to new branch
+        <h4>gets latest version</h4>
+        <BR>git pull origin master			
+        <BR>
+        <BR>origin = url = https://github.com/MarDude/Test.git
+        <BR>
+        <BR>{loginname}.github.io
+        <BR>
+        <BR>
+        <H1>to get a project to a repo</H1>
+        <BR>git init
+        <BR>git add index.html
+        <BR>git commit -m "first commit"
+        <BR>git remote add origin https://github.com/MarDude/.github.io.git
+        <BR>git push -u origin master
+        <BR> https://github.com/Marvelous-Software/.github.io
+        <BR> https://github.com/Marvelous-Software.io
+        <BR>
+        <BR> adding a repository to "site/school" E:\site\school>git submodule add https://github.com/Marvelous-Software/FrameworkTelevision.git --name Frameworktv
+        <BR> merging from the submodule to "site" E:\site>git submodule update --remote --merge
+
+        <h1>Submodules</h1>
+        <h2>Adding a submodule</h2>
+        <br>git submodule add {url} --name {name}
+        <br>git submodule add https://github.com/Marvelous-Software/FrameworkTelevision.git --name Frameworktv
+        <br>
+        <h2>Updating a submodule</h2>
+        <br>git submodule foreach git pull
+
+    </body>    
+</html>
 
